@@ -1,0 +1,162 @@
+// Homepage
+// --------
+
+.homepage-section.homepage__header {
+  position: relative;
+  width: 100%;
+  line-height: 1.4;
+
+  @include mq($desktop) {
+    padding: 1% 4%;
+    width: 34%;
+    margin-top: 100px;
+  }
+}
+
+
+
+.homepage-section {
+  margin-top: 50px;
+}
+
+.homepage__header--deck a {
+  position: relative;
+  color: $black;
+  
+  &:after {
+    width: 102%;
+    content: "";
+    height: 8px;
+    background-color: $light-teal;
+    position: absolute;
+    bottom: 0;
+    left: -1%;
+    z-index: -1;
+    transition: 0.3s ease;
+  }
+
+  &:hover:after {
+    height: 12px;
+    bottom: -7px;
+    background-color: $teal;
+    transition: 0.3s ease;
+  }
+}
+
+.homepage__work-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.homepage__thumbnail {
+  width: 100%;
+  position: relative;
+  margin: 2%;
+  border: $border-thick;
+  padding: 1%;
+  transition: 0.3s ease !important;
+  
+  @include mq($mobile) {
+    width: 43%;
+  }
+
+  @include mq($phablet) {
+    width: 32%
+  }
+
+  @include mq($desktop) {
+    width: 26%;
+  }
+
+  &--featured {
+    width: 100%;
+
+    @include mq($phablet) {
+      width: 54%;
+    }
+
+    @include mq($desktop) {
+      width: 45%;
+    }
+  }
+
+  &--img {
+    width: 100%;
+    display: inherit;
+  }
+}
+
+.homepage__header--logo {
+  font-size: 25px;
+  color: $black;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.homepage__header--tag {
+  font-size: 16px; 
+  color: #AAA;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.2;
+  font-family: $monospace;
+}
+
+.homepage__header--deck {
+  margin-top: 15px;
+}
+
+
+.project-decription {
+  position: absolute;
+  bottom: 20px;
+  left: -10px;
+  padding: 10px;
+  border: $border-thick;
+  background-color: $white;
+  color: $black;
+  font-family: $monospace;
+  margin-right: 5px;
+  transform: rotate(0deg);
+  transition: 0.5s ease;
+
+  &--featured {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    bottom: 70px;
+    text-transform: uppercase;
+  }
+  
+  h5 {
+    font-weight: 700;
+  }
+
+  h6 {
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-size: 12px;
+  }
+}
+
+.homepage__thumbnail:hover .project-decription {
+  background-color: $black;
+  color: $white;
+  transform: rotate(-2deg);
+  transition: 0.3s ease !important;
+}
+
+.homepage__thumbnail:hover {
+  transform: rotate(2deg) !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.homepage__featured-work--hdr {
+  font-size: 20px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,192 @@
+// Header & Footer
+// ---------------
+
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  border-bottom: $border-thin;
+
+  @include mq($mobile) {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+  } 
+}
+
+.header-logo {
+  color: $black;
+  transition: 0.3s ease;
+  text-align: center;
+
+  @include mq($mobile) {
+    text-align: left;
+  } 
+
+
+  &:hover {
+    color: $white;
+    transition: 0.3s ease;
+  }
+
+  &:after {
+    width: 104%;
+    content: "";
+    height: 0;
+    background-color: $black;
+    position: absolute;
+    top: 16px;
+    left: -2%;
+    z-index: -1;
+    transition: 0.2s ease;
+  }
+
+  &:hover:after {
+    height: 30px;
+    top: 0px;
+    transition: 0.2s ease;
+  }
+}
+
+.navigation-links--header {
+  text-align: center;
+
+  @include mq($mobile) {
+    text-align: right;
+  }
+}
+
+.navigation-link {
+  display: inline-block;
+  text-align: center;
+  margin: 12px 20px;
+
+  &:after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 84%;
+    bottom: 4px;
+    right: 13%;
+    background-color: $teal;
+    z-index: -1;
+    transition: 0.3s ease;
+  }
+
+  &:hover:after {
+    height: 8px;
+    bottom: -4px;
+    background-color: $teal;
+    transition: 0.3s ease;
+  }
+}
+
+.navigation-link--header {
+
+  @include mq($mobile) {
+    text-align: right;
+    margin: 0 0 0 20px;
+  }
+  
+
+  &:after {
+    @include mq($mobile) {
+      right: -11%;
+    }
+  }
+}
+
+.navigation-link--footer {
+  @include mq($mobile) {
+    text-align: left;
+    margin: 0 20px 10px 0;
+  }
+
+  &:after {
+    @include mq($mobile) {
+      left: -6%;
+    }
+  }
+}
+
+.current {
+
+  &:after {
+    height: 11px;
+    bottom: 7px;
+    background-color: $light-teal;
+  }
+}
+
+.portfolio-footer {
+  
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+
+  @include mq($mobile) {
+    flex-direction: row;
+    border-top: $border-thin;
+    padding: 30px 0;
+  }
+}
+
+.navigation-links--footer {
+  padding: 18px 0;
+  border-top: $border-thin;
+  margin-top: 10px;
+  text-align: center;
+
+  @include mq($mobile) {
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.recirc {
+  padding-top: 30px;
+  border-top: $border-thick;
+  text-align: center;
+
+  @include mq($mobile) {
+    padding-top: 0;
+    margin-top: 0;
+    border: none;
+    text-align: right;
+  }
+}
+
+.recirc-project {
+  @extend .link;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px 20px;
+
+  h6 {
+    @extend .monospace;
+  }
+
+  @include mq($mobile) {
+    text-align: right;
+    margin: 0 0 0 40px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 12px;
+  color: #AAA;
+  text-align: center;
+
+  @include mq($mobile) {
+    text-align: right;
+  }
+}
+

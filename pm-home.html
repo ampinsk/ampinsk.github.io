@@ -1,0 +1,173 @@
+---
+title: Amanda Pinsker | Designer
+name: Project Home
+type: project
+layout: base
+---
+
+
+<section class='site-container'>
+    {% include navigation.html %}
+    {% include project-info.html %}
+    <section class="project-section">
+        <div class="project_img-container col12">
+            <img class="project_img" src="/img/full/pmhome1.png"/>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Background</h3>
+            <p class="project_text">Project Home was an initiative to improve the client and project management experience at Upstatement. It included quick links to conference lines, important files, and a roster of everyone working on the project. As a design apprentice at Upstatement, I worked on feature updates to the project.</p>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">In This Case Study</h3>
+            <p class="project_text">I worked on two features of this product:</p>
+            <ol class="table-of-contents">
+                <li><a href="#edit-mode">Edit Mode</a></li>
+                <li><a class="link" href="#budget">Budget Reports</a></li>
+            </ol>
+    </section>
+    <!-- <hr> -->
+    <section class="project-section" id="edit-mode">
+        <h2 class="col12">Edit Mode</h2>
+        <div class="project_img-container col12">
+            <img class="project_img" src="/img/full/pmhome3.png"/>
+            <h5 class="project_img-caption">Piece of final design</h5>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Problem</h3>
+            <p class="project_text">Employees at Upstatement had to go to the Wordpress back-end to edit anything on the page, which was frustrating and time consuming.</p>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Goal</h3>
+            <p class="project_text">I was tasked with establishing a way to edit a project from the interface itself.</p>
+        </div>
+        <div class="project_text-container col12">
+            <h3 class="project_subhead">Research</h3>
+            <p class="project_text col4">We decided to implement editing section by section, so that we could iterate and use what we were designing before implementing it globally. We started with the Links section.I investigated the WordPress backend and listed out all of the data that needed to be edited or added:</p>
+            <ul>
+                <li>Link URL (string)</li>
+                <li>Link Name (string)</li>
+                <li>Link Type (single select)</li>
+                <li>Hide from client (checkbox)</li>
+                <li>Date</li>
+                <li>File upload</li>
+            </ul>
+        </div>
+        <div class="project_img-container col8">
+            <img class="project_img" src="/img/full/pmhome2.png"/>
+            <h5 class="project_img-caption">Edit mode inspiration</h5>
+        </div>
+        <div class="project_text-container col4">
+            <p class="project_text">I also looked at other products and how they let users edit information. A big point of inspiration was Squarespace.</p>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Explorations</h3>
+            <p class="project_text">I first experimented with a modal style, but we thought it would be more intuitive and less time consuming if the editing could take place in context. We also decided to simplify and automate this information, which cut the data input down to:</p>
+            <ul>
+                <li>Link URL (string)</li>
+                <li>Link Name (string)</li>
+                <li>Hide from client (checkbox)</li>
+            </ul>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome4.png"/>
+            <h5 class="project_img-caption">First sketch</h5>
+        </div>
+        <div class="project_text-container col4">
+            <p class="project_text">I then explored creating an “Edit Mode,” that mimics the interface itself and lets you quickly edit in context. The colors invert, letting the user know they are in a different mode. The user can then click on an icon to expand the edit fields, which then automatically save.</p>
+        </div>
+        <div class="project_img-container col12">
+            <img class="project_img" src="/img/full/pmhome7.png"/>
+        </div>
+        <div class="project_text-container col12">
+            <h3 class="project_subhead">The details</h3>
+            <p class="project_text col4">I worked to establish patterns such as empty states, indicating saving status, reordering links, and entering edit mode.</p>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome8.png"/>
+            <h5 class="project_img-caption">Saving states</h5>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome9.png"/>
+            <h5 class="project_img-caption">Drag to reorder</h5>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome10.png"/>
+            <h5 class="project_img-caption">Empty state</h5>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome11.png"/>
+            <h5 class="project_img-caption">Entering edit mode</h5>
+        </div>
+
+        <div class="project_text-container col4">
+            <h3 class="project_subhead">Adding more</h3>
+            <p class="project_text ">I worked with the developer on the project to implement this, then worked on applying it to the roster. This added an extra layer of information, since the user needed to be able to add a team, and then add people to that team. To deal with this, I experimented with how to edit the team name, and how to create a hierarchy between adding a team vs adding a person. Editing a person simply followed the patterns that I established with the links section.
+
+        </div>
+        <div class="project_img-container col8">
+            <img class="project_img" src="/img/full/pmhome12.png"/>
+            <h5 class="project_img-caption">Editing roster</h5>
+        </div>
+        <div class="project_text-container col12">
+            <h3 class="project_subhead">In the end</h3>
+            <p class="project_text col4">Upstatement Producers can now easily create and edit projects without dealing with frustrating Wordpress forms.</p>
+        </div>
+
+    </section>
+
+    <section class="project-section" id="budget">
+        <h2 class="col12">Budget Reports</h2>
+        <div class="project_img-container col12">
+            <img class="project_img" src="/img/full/pmhome19.png"/>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Problem</h3>
+            <p class="project_text">Clients at Upstatement received weekly updates of how much of their budget has been used, and how much time was left in the project. This email couldn’t visualize any information, and had to be done manually by Upstatement’s studio manager.</p>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Goal</h3>
+            <p class="project_text">Visualize a project’s budget and time so that clients can easily understand where they currently are at through the project, and can make decisions about how to manage their money and time left.</p>
+        </div>
+        <div class="project_text-container col6">
+            <h3 class="project_subhead">Research</h3>
+            <p class="project_text">I interviewed the Studio Manager to understand how the budget worked, and how this process was currently working. Each week, the Studio Manager manually checked the project’s budget through Upstatement’s time tracking system, checked how many weeks through the project they were, and calculated a percentage to demonstrate whether the project was over budget or not. This email would say, for example, “We've completed 10 of 22 weeks (45.45%) and have used 43.23% of the target budget.”</p>
+        </div>
+        <div class="project_img-container col6">
+            <img class="project_img" src="/img/full/pmhome18.png"/>
+        </div>
+        <div class="project_text-container col12">
+            <h3 class="project_subhead">Explorations</h3>
+            <p class="project_text col4">I explored many ways to visualize this information, eventually landing on the visualization below. We felt that visualization had the most clarity for the context of checking whether the budget was above or below the current timeline.</p>
+        </div>
+        <div class="project_img-container col4">
+            <img class="project_img" src="/img/full/pmhome14.png"/>
+            <h5 class="project_img-caption">Exploration sketches</h5>
+        </div>
+        <div class="project_img-container col4">
+            <img class="project_img" src="/img/full/pmhome15.png"/>
+        </div>
+        <div class="project_img-container col4">
+            <img class="project_img" src="/img/full/pmhome16.png"/>
+        </div>
+        <div class="project_img-container col12">
+            <img class="project_img" src="/img/full/pmhome17.png"/>
+            <h5 class="project_img-caption">Final direction</h5>
+        </div>
+        <div class="project_text-container col12">
+            <h3 class="project_subhead">Final Product</h3>
+            <p class="project_text col4">I implemented a static version of my designs and collaborated with the developer on the project to implement the details of the edge cases such as how it would work responsively, and with different edge cases, such as a large amount of weeks, and going over budget or time. This process is now automated and always available to clients via PM Home.</p>
+        </div>
+        <div class="project_img-container col9">
+            <img class="project_img" src="/img/full/pmhome13.png"/>
+            <h5 class="project_img-caption">Large amount of weeks</h5>
+            <img class="project_img" src="/img/full/pmhome21.png"/>
+            <h5 class="project_img-caption">Over budget and time</h5>
+        </div>
+        <div class="project_img-container col3">
+            <img class="project_img" src="/img/full/pmhome20.png"/>
+            <h5 class="project_img-caption">On mobile</h5>
+        </div>
+
+    </section>
+    {% include footer.html %}
+</section>

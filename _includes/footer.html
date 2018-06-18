@@ -1,0 +1,34 @@
+<footer class="portfolio-footer">
+    <span class="navigation-links navigation-links--footer">
+        <a href="index.html"><h5 class="navigation-link navigation-link--footer {% if current_page.name == "home" %} current {% endif %}">Work</h5></a>
+        <a href="about.html"><h5 class="navigation-link navigation-link--footer {% if current_page.name == "about" %} current {% endif %}">About</h5></a>
+    </span>
+
+    {% if page.type == "project" %}
+        {% for item in site.data.portfolio %}
+            {% if item.url == page.name %}
+                <span class="recirc">
+                    {% assign before = forloop.index0 | minus: 1 %}
+                    {% assign after = forloop.index0 | plus: 1 %}
+                    {% unless forloop.index0 == 0 %}
+                    <span class="recirc-project recirc-project--prev">
+                        <h6>Previous</h6>
+                        <p><a href="{{site.data.portfolio[before].url}}">{{site.data.portfolio[before].title}}</a></p>
+                    </span>
+                    {% endunless %}
+                    {% assign len = site.data.portfolio|size %}
+                    {% if forloop.index < len %}
+                    <span class="recirc-project recirc-project--next">
+                        <h6>Next</h6>
+                        <p><a href="{{site.data.portfolio[after].url}}">{{site.data.portfolio[after].title}}</a></p>
+                    </span>
+                    {% endif %}
+                </span>
+            {% endif %}
+        {% endfor %}
+        {% else %}
+        <span class="copyright">Designed and built by Amanda Pinsker © 2016</span>
+    {% endif %}
+
+
+</footer>
