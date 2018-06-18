@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
-  } 
+  }
 }
 
 .header-logo {
@@ -21,7 +21,7 @@
 
   @include mq($mobile) {
     text-align: left;
-  } 
+  }
 
 
   &:hover {
@@ -87,7 +87,7 @@
     text-align: right;
     margin: 0 0 0 20px;
   }
-  
+
 
   &:after {
     @include mq($mobile) {
@@ -119,7 +119,7 @@
 }
 
 .portfolio-footer {
-  
+
   margin-top: 80px;
   display: flex;
   flex-direction: column-reverse;
@@ -190,3 +190,7 @@
   }
 }
 
+.built-link {
+  color: #AAA;
+  text-decoration: underline;
+}
