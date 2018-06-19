@@ -48,4 +48,42 @@ $entry-middle: $entry-height / 2;
   }
 }
 
+// nav
+
+.writing-nav {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-style: italic;
+  font-size: 12px;
+
+  a {
+    margin-left: 0;
+    color: #777;
+    transition: $timing;
+  }
+
+  a:hover {
+    margin-left: -3px;
+    color: $black;
+    transition: $timing;
+  }
+}
+
 // one
+
+.one {
+  margin: 0 auto;
+  padding: 15%;
+  max-width: 750px;
+  font-family: "BioRhyme Expanded";
+
+  h1 {
+    font-size: 100px;
+  }
+
+  p {
+    font-size: 18px;
+    font-family: $monospace;
+  }
+}
