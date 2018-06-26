@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Sirens of Titan",
+    "place": "Alamo Square",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/7146xazNxtL.jpg",
+    "pic_img": "/img/books/alamo.png",
+    "date": "06.25.2018",
+    "description": "I read a bunch of Vonnegut a few years ago, and his books are always a great jumping off point to get back into the habit of reading.",
+    "featured": "true"
+  },
+  {
+    "title": "The Sirens of Titan",
+    "place": "Alamo Square",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/7146xazNxtL.jpg",
+    "pic_img": "/img/books/alamo.png",
+    "date": "06.25.2018",
+    "description": "Personalized tours in the Harvard Art Museums",
+    "featured": "true"
+  }
+]

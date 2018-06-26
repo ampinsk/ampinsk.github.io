@@ -1,0 +1,69 @@
+.books {
+  padding: 100px 10%;
+}
+
+
+.book-title {
+  font-size: 62px;
+  line-height: 1.1;
+  font-family: $sans2;
+  font-weight: bold;
+
+  span {
+    color: $gray-dark;
+    font-style: normal;
+  }
+}
+
+.book {
+  margin-bottom: 50px;
+
+  .date {
+    font-size: 40px;
+    font-family: $expanded;
+    padding: 100px 0 25px 0;
+    margin-left: -100px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .title {
+    font-weight: 700;
+  }
+
+  .place {
+    font-weight: 300;
+    color: $gray-dark;
+  }
+
+  .info {
+    font-family: $sans2;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    max-width: 370px;
+  }
+
+  .description {
+
+  }
+
+
+
+  img {
+    width: 270px;
+  }
+
+
+  .book-img {
+    width: 270px;
+  }
+
+  .pic-img {
+    margin-top: 20px;
+  }
+
+}

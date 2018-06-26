@@ -8,6 +8,7 @@
 @import "homepage";
 @import "about";
 @import "project";
+@import "books";
 
 // General Styles
 
@@ -62,7 +63,8 @@ h3::selection,
 h2::selection,
 h1::selection,
 img::selection,
-a::selection {
+a::selection,
+span::selection {
   background: $teal;
 }
 
