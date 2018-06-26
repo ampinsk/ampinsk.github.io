@@ -1,10 +1,10 @@
 .books {
-  padding: 100px 10%;
+  padding: 100px 5%;
 }
 
 
 .book-title {
-  font-size: 62px;
+  font-size: 72px;
   line-height: 1.1;
   font-family: $sans2;
   font-weight: bold;
@@ -17,6 +17,7 @@
 
 .book {
   margin-bottom: 50px;
+  font-family: $sans2;
 
   .date {
     font-size: 40px;
@@ -43,8 +44,8 @@
     font-family: $sans2;
     display: inline-block;
     vertical-align: top;
-    padding: 30px;
-    max-width: 370px;
+    padding: 40px;
+    max-width: 475px;
   }
 
   .description {
@@ -54,16 +55,79 @@
 
 
   img {
-    width: 270px;
+    width: 230px;
   }
 
 
   .book-img {
-    width: 270px;
+    width: 315px;
+  }
+
+  .pic-container {
+    position: relative;
+
+    &:hover .pic-img-2 {
+      z-index: 100;
+    }
   }
 
   .pic-img {
     margin-top: 20px;
   }
 
+  .pic-img-2 {
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    z-index: -100;
+    width: 315px;
+  }
+
+  .left {
+    display: inline-block;
+    width: 315px;
+  }
+  .highlight {
+    display: inline-block;
+    width: 270px;
+    padding: 40px 40px 0 0;
+
+  }
+
+  .author {
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: $expanded;
+    margin: 10px 0;
+  }
+
+  h6 {
+    font-size: 12px;
+    position: relative;
+
+    &:before {
+      content: "“";
+      position: absolute;
+      font-size: 30px;
+      top: -0.3em;
+      left: -0.7em;
+      font-family: $expanded;
+      color: $gray-dark;
+    }
+  }
+
+
+}
+
+#hey {
+  padding: 20px;
+  font-size: 12px;
+  color: $gray-dark;
 }

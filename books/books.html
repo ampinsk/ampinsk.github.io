@@ -6,21 +6,34 @@ permalink: books
 ---
 
 <section class="site-container">
-
+  <div class="writing-nav">
+    <a href="/">← back</a>
+  </div>
 
 <section class="books">
-  <h1 class="book-title book-scroll">Books I've read <span>and where I read them</span></h1>
+  <h1 class="book-title book-scroll">Books I've read <span>and where I read them<a href="#hey">*</a></span></h1>
 
   {% for item in site.data.books %}
-    <div class="book" >
-      <h2 class="date book-scroll">{{ item.date }}</h2>
-      <img class="book-img book-scroll" src="{{ item.book_img }}" />
+    <div class="book" id="{{ item.url }}">
+      <a href="#{{ item.url }}"><h2 class="date book-scroll">{{ item.date }}</h2></a>
+      <span class="left book-scroll">
+        <span class="pic-container">
+          <img class="book-img" src="{{ item.book_img }}" />
+          <img class="pic-img-2" src="{{ item.pic_img }}" />
+        </span>
+      </span>
 
       <span class="info">
+        <h3 class="author book-scroll">{{ item.author }}</h3>
         <h2 class="title book-scroll">{{ item.title }}</h2>
         <h2 class="place book-scroll">{{ item.place }}</h2>
         <p class="description book-scroll"> {{ item.description }}</p>
-        <img class="pic-img book-scroll" src="{{ item.pic_img }}" />
+        {% if item.highlight %}
+          <span class="highlight book-scroll no-quote">
+            <h5>Highlight</h5>
+            <h6>{{ item.highlight }}</h6>
+          </span>
+        {% endif %}
 
       </span>
 
@@ -28,5 +41,7 @@ permalink: books
     </div>
   {% endfor %}
 </section>
+
+<div id="hey">* Are these dates real? Are these locations real? Who cares? Why did you even click on this? Go <a href="/books">get back</a> to what you were doing.</div>
 
 </section>
