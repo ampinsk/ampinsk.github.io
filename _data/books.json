@@ -16,7 +16,8 @@
     "place": "Alamo Square",
     "url": "o-fallen-angel",
     "book_img": "https://kbimages1-a.akamaihd.net/fe116176-3429-40e0-b796-59ff7acf3c36/1200/1200/False/o-fallen-angel-2.jpg",
-    "date": "02.15.2018"
+    "date": "02.15.2018",
+    "description": "This is a weird book. I think it's in a good way. I read it in an hour."
   },
   {
     "title": "Bad Feminist",
@@ -24,7 +25,8 @@
     "place": "Matching Half Cafe",
     "url": "bad-feminist",
     "book_img": "https://3.bp.blogspot.com/-kEipOThCqcY/Wc5r6rgZ3yI/AAAAAAAADiU/AewoHxa80DgYdpO8Gb9sE3-xymQLPHViQCLcBGAs/s1600/B9315073271Z.1_20141128191539_000%252BGBV95FDKC.1-0.jpg",
-    "date": "01.28.2018"
+    "date": "01.28.2018",
+    "description": "I should have read this years ago, but I'm glad I finally did."
   },
   {
     "title": "Her Bodies and Other Parties",
@@ -33,7 +35,7 @@
     "url": "bodies-parties",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/91ZOrAgmdrL.jpg",
     "date": "01.05.2018",
-    "description": "This date is a guess since I'm backfilling this, but I needed to include this since it was one of my favorite books I've read in a really long time.",
+    "description": "This is one of my favorite books I've read in a really long time.",
     "highlight": "As a grown woman, I would have said to my father that there are true things in this world observed only by a single set of eyes."
   }
 ]

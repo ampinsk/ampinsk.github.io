@@ -15,7 +15,7 @@ permalink: books
 
   {% for item in site.data.books %}
     <div class="book" id="{{ item.url }}">
-      <a href="#{{ item.url }}"><h2 class="date book-scroll">{{ item.date }}</h2></a>
+      <a href="#{{ item.url }}"><h2 class="date book-scroll">{{ item.date }}<div class="h5 book-scroll">{{ item.place }}</div></h2></a>
       <span class="pic-container">
         <img class="book-img book-scroll" src="{{ item.book_img }}" />
         <img class="pic-img book-scroll" src="{{ item.pic_img }}" />
@@ -24,7 +24,6 @@ permalink: books
       <span class="info">
         <h3 class="author book-scroll">{{ item.author }}</h3>
         <h2 class="title book-scroll">{{ item.title }}</h2>
-        <h2 class="place book-scroll">{{ item.place }}</h2>
         <p class="description book-scroll"> {{ item.description }}</p>
         {% if item.highlight %}
           <span class="highlight book-scroll no-quote">
