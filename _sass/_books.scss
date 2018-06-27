@@ -2,12 +2,10 @@
   padding: 100px 5%;
 }
 
-
 .book-title {
   font-size: 72px;
   line-height: 1.1;
   font-family: $sans2;
-  font-weight: bold;
 
   span {
     color: $gray-dark;
@@ -44,60 +42,41 @@
     font-family: $sans2;
     display: inline-block;
     vertical-align: top;
-    padding: 40px;
+    padding: 50px;
     max-width: 475px;
   }
 
-  .description {
-
-  }
-
-
-
   img {
-    width: 230px;
-  }
-
-
-  .book-img {
     width: 315px;
+    box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
   }
 
   .pic-container {
     position: relative;
 
-    &:hover .pic-img-2 {
+    &:hover .pic-img {
       z-index: 100;
     }
   }
 
   .pic-img {
-    margin-top: 20px;
-  }
-
-  .pic-img-2 {
     position: absolute;
     left: -20px;
     bottom: -20px;
     z-index: -100;
-    width: 315px;
   }
 
-  .left {
-    display: inline-block;
-    width: 315px;
-  }
   .highlight {
     display: inline-block;
     width: 270px;
     padding: 40px 40px 0 0;
-
   }
 
   .author {
-    font-style: italic;
+    font-family: $expanded;
     font-size: 12px;
     margin-bottom: 2px;
+    display: none;
   }
 
   h5 {
@@ -122,8 +101,6 @@
       color: $gray-dark;
     }
   }
-
-
 }
 
 #hey {
