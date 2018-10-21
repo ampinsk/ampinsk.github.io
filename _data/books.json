@@ -1,11 +1,20 @@
 [
   {
+    "title": "Never Let Me Go",
+    "url": "never-let-me-go",
+    "place": "My apartment",
+    "book_img": "https://i.pinimg.com/736x/06/b2/dc/06b2dc169d9dd5ae6cf7ee6db88f024c.jpg",
+    "pic_img": "/img/books/apartment.JPG",
+    "date": "07.30.2018",
+    "description": "I read a bunch of Vonnegut a few years ago, and his books are always a great jumping off point to get back into the habit of reading.",
+    "highlight": "The on button simply started a flight from Mars. The off button was connected to nothing. It was installed at the insistence of Martian mental-health experts, who said that human beings were always happier with machinery they thought they could turn off."
+  },
+  {
     "title": "The Sirens of Titan",
     "author": "Kurt Vonnegut",
     "url": "sirens-titan",
     "place": "Alamo Square",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/7146xazNxtL.jpg",
-    "pic_img": "/img/books/alamo.jpg",
     "date": "06.25.2018",
     "description": "I read a bunch of Vonnegut a few years ago, and his books are always a great jumping off point to get back into the habit of reading.",
     "highlight": "The on button simply started a flight from Mars. The off button was connected to nothing. It was installed at the insistence of Martian mental-health experts, who said that human beings were always happier with machinery they thought they could turn off."
@@ -24,7 +33,8 @@
     "author": "Roxane Gay",
     "place": "Matching Half Cafe",
     "url": "bad-feminist",
-    "book_img": "https://3.bp.blogspot.com/-kEipOThCqcY/Wc5r6rgZ3yI/AAAAAAAADiU/AewoHxa80DgYdpO8Gb9sE3-xymQLPHViQCLcBGAs/s1600/B9315073271Z.1_20141128191539_000%252BGBV95FDKC.1-0.jpg",
+    "book_img": "https://img.apmcdn.org/2956296726d82ab9b02567c5e31a6033f0c4cf07/uncropped/630278-20140902-badfeminist.jpg",
+    "pic_img": "/img/books/matching-half.jpg",
     "date": "01.28.2018",
     "description": "I should have read this years ago, but I'm glad I finally did."
   },

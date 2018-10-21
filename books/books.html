@@ -1,17 +1,16 @@
 ---
 title: Amanda Pinsker | Books
 name: books
-layout: base
+layout: books
 permalink: books
 ---
 
-<section class="site-container">
-  <div class="writing-nav">
-    <a href="/">← back</a>
+  <div class="books-nav">
+    <a href="/">Back</a>
   </div>
 
-<section class="books">
-  <h1 class="book-title book-scroll">Books I've read <span>and where I read them<a href="#hey">*</a></span></h1>
+<section class="books-container">
+  <h1 class="book-title book-scroll">Things I've read <span>and where I read them<a href="#hey">*</a></span></h1>
 
   {% for item in site.data.books %}
     <div class="book" id="{{ item.url }}">

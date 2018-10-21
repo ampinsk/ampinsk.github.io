@@ -1,14 +1,25 @@
+$beige: #f7eddd;
+$beige-gray: #888073;
+
 .books {
-  padding: 100px 5%;
+  font-family: $sans;
+  background: $black;
+  margin: 0;
+}
+
+.books-container {
+  background: $beige;
+  margin: 30px;
+  padding: 12% 2% 12% 23%;
 }
 
 .book-title {
-  font-size: 72px;
+  font-size: 86px;
   line-height: 1.1;
   font-family: $sans2;
 
   span {
-    color: $gray-dark;
+    color: $beige-gray;
     font-style: normal;
   }
 }
@@ -20,8 +31,7 @@
   .date {
     font-size: 40px;
     font-family: $expanded;
-    padding: 100px 0 25px 0;
-    margin-left: -100px;
+    padding: 100px 0 40px 0;
   }
 
   h2 {
@@ -42,7 +52,7 @@
     font-family: $sans2;
     display: inline-block;
     vertical-align: top;
-    padding: 50px 0 0 50px;
+    padding: 60px 0 0 80px;
     max-width: 50%;
   }
 
@@ -51,12 +61,13 @@
   }
 
   img {
-    width: 315px;
+    width: 330px;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
   }
 
   .pic-container {
     position: relative;
+    display: inline-block;
 
     &:hover .pic-img {
       z-index: 100;
@@ -65,9 +76,8 @@
 
   .pic-img {
     position: absolute;
-    left: -20px;
-    bottom: -20px;
-    z-index: -100;
+    top: 0;
+    left: -360px;
   }
 
   .highlight {
@@ -103,13 +113,43 @@
       top: -0.3em;
       left: -0.7em;
       font-family: $expanded;
-      color: $gray-dark;
+      color: $beige-gray;
     }
   }
 }
 
 #hey {
-  padding: 20px;
+  padding: 0 30px 30px;
   font-size: 12px;
-  color: $gray-dark;
+  color: $beige-gray;
+
+  a {
+    color: $beige;
+  }
+}
+
+.books h1::selection {
+  background: $black;
+  color: $beige;
+}
+
+
+.books-nav {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  font-size: 12px;
+  font-family: $sans2;
+  font-weight: bold;
+
+  a {
+    margin-left: 0;
+    color: $beige-gray;
+    transition: $timing;
+  }
+
+  a:hover {
+    color: $beige;
+    transition: $timing;
+  }
 }
