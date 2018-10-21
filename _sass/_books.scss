@@ -5,6 +5,7 @@ $beige-gray: #888073;
   font-family: $sans;
   background: $black;
   margin: 0;
+  color: $black;
 }
 
 .books-container {
@@ -128,7 +129,14 @@ $beige-gray: #888073;
   }
 }
 
-.books h1::selection {
+.books h1::selection,
+.books h2::selection,
+.books h3::selection,
+.books h4::selection,
+.books h5::selection,
+.books h6::selection,
+.books p::selection,
+.books span::selection {
   background: $black;
   color: $beige;
 }
