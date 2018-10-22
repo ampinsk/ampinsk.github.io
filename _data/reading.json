@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Never Let Me Go",
+    "url": "never-let-me-go",
+    "place": "My apartment",
+    "book_img": "https://i.pinimg.com/736x/06/b2/dc/06b2dc169d9dd5ae6cf7ee6db88f024c.jpg",
+    "pic_img": "/img/reading/apartment.JPG",
+    "date": "07.30.2018",
+    "description": "This book makes my whole chest hurt.",
+    "highlight": "And so we stood together like that, at the top of that field for what seemed like ages, not saying anything, just holding each other, while the wind kept blowing and blowing at us, tugging our clothes, and for a moment, it seemed like we were holding onto each other because that was the only way to stop us from being swept away into the night."
+  },
+  {
+    "title": "The Sirens of Titan",
+    "author": "Kurt Vonnegut",
+    "url": "sirens-titan",
+    "place": "Alamo Square",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/7146xazNxtL.jpg",
+    "date": "06.25.2018",
+    "description": "I read a bunch of Vonnegut a few years ago, and somehow missed this one. His reading are always easy for me to pick up when I'm not in the mood to read anything else.",
+    "highlight": "The on button simply started a flight from Mars. The off button was connected to nothing. It was installed at the insistence of Martian mental-health experts, who said that human beings were always happier with machinery they thought they could turn off."
+  },
+  {
+    "title": "O Fallen Angel",
+    "author": "Kate Zambreno",
+    "place": "Alamo Square",
+    "url": "o-fallen-angel",
+    "book_img": "https://kbimages1-a.akamaihd.net/fe116176-3429-40e0-b796-59ff7acf3c36/1200/1200/False/o-fallen-angel-2.jpg",
+    "date": "02.15.2018",
+    "description": "This is a weird book. I think it's in a good way. I read it in an hour."
+  },
+  {
+    "title": "Bad Feminist",
+    "author": "Roxane Gay",
+    "place": "Matching Half Cafe",
+    "url": "bad-feminist",
+    "book_img": "https://img.apmcdn.org/2956296726d82ab9b02567c5e31a6033f0c4cf07/uncropped/630278-20140902-badfeminist.jpg",
+    "pic_img": "/img/reading/matching-half.jpg",
+    "date": "01.28.2018",
+    "description": "I should have read this years ago, but I'm glad I finally did."
+  },
+  {
+    "title": "Her Bodies and Other Parties",
+    "place": "Long Island, NY",
+    "author": "Carmen Maria Machado",
+    "url": "bodies-parties",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/91ZOrAgmdrL.jpg",
+    "date": "01.05.2018",
+    "description": "This is one of my favorite reading I've read in a really long time.",
+    "highlight": "As a grown woman, I would have said to my father that there are true things in this world observed only by a single set of eyes."
+  }
+]
