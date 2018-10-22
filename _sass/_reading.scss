@@ -1,14 +1,14 @@
 $beige: #f7eddd;
 $beige-gray: #888073;
 
-.books {
+.reading {
   font-family: $sans;
   background: $black;
   margin: 0;
   color: $black;
 }
 
-.books-container {
+.reading-container {
   background: $beige;
   margin: 40px;
   padding: 12% 2% 12% 23%;
@@ -129,20 +129,20 @@ $beige-gray: #888073;
   }
 }
 
-.books h1::selection,
-.books h2::selection,
-.books h3::selection,
-.books h4::selection,
-.books h5::selection,
-.books h6::selection,
-.books p::selection,
-.books span::selection {
+.reading h1::selection,
+.reading h2::selection,
+.reading h3::selection,
+.reading h4::selection,
+.reading h5::selection,
+.reading h6::selection,
+.reading p::selection,
+.reading span::selection {
   background: $black;
   color: $beige;
 }
 
 
-.books-nav {
+.reading-nav {
   position: absolute;
   top: 10px;
   left: 40px;
