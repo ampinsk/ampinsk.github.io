@@ -10,18 +10,27 @@ $beige-gray: #888073;
 
 .reading-container {
   background: $beige;
-  margin: 40px;
-  padding: 12% 2% 12% 23%;
+  margin: 25px;
+  padding: 7%;
+
+  @include mq($mobile) {
+    padding: 12% 2% 12% 23%;
+    margin: 40px;
+  }
 }
 
 .book-title {
-  font-size: 86px;
+  font-size: 46px;
   line-height: 1.1;
   font-family: $sans2;
 
   span {
     color: $beige-gray;
     font-style: normal;
+  }
+
+  @include mq($mobile) {
+    font-size: 86px;
   }
 }
 
@@ -30,9 +39,14 @@ $beige-gray: #888073;
   font-family: $sans2;
 
   .date {
-    font-size: 40px;
+    font-size: 32px;
     font-family: $expanded;
-    padding: 100px 0 40px 0;
+    padding: 80px 0 40px 0;
+
+    @include mq($mobile) {
+      font-size: 40px;
+      padding: 100px 0 40px 0;
+    }
   }
 
   h2 {
@@ -53,8 +67,13 @@ $beige-gray: #888073;
     font-family: $sans2;
     display: inline-block;
     vertical-align: top;
-    padding: 60px 0 0 80px;
-    max-width: 50%;
+    width: 100%;
+    padding-top: 30px;
+
+    @include mq($mobile) {
+      padding: 60px 0 0 80px;
+      max-width: 45%;
+    }
   }
 
   p {
@@ -62,23 +81,28 @@ $beige-gray: #888073;
   }
 
   img {
-    width: 330px;
+    width: 40%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
+
+    @include mq($mobile) {
+      width: 330px;
+    }
   }
 
   .pic-container {
     position: relative;
     display: inline-block;
-
-    &:hover .pic-img {
-      z-index: 100;
-    }
   }
 
   .pic-img {
-    position: absolute;
-    top: 0;
-    left: -360px;
+    padding-left: 10px;
+
+    @include mq($mobile) {
+      position: absolute;
+      top: 0;
+      left: -360px;
+
+    }
   }
 
   .highlight {
@@ -144,8 +168,8 @@ $beige-gray: #888073;
 
 .reading-nav {
   position: absolute;
-  top: 10px;
-  left: 40px;
+  top: 5px;
+  left: 25px;
   font-size: 12px;
   font-family: $sans2;
   font-weight: bold;
@@ -159,5 +183,10 @@ $beige-gray: #888073;
   a:hover {
     color: $beige;
     transition: $timing;
+  }
+
+  @include mq($mobile) {
+    top: 10px;
+    left: 40px;
   }
 }
