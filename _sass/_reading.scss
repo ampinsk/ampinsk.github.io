@@ -13,7 +13,7 @@ $beige-gray: #888073;
   margin: 25px;
   padding: 7%;
 
-  @include mq($mobile) {
+  @include mq($phablet) {
     padding: 12% 2% 12% 23%;
     margin: 40px;
   }
@@ -29,7 +29,7 @@ $beige-gray: #888073;
     font-style: normal;
   }
 
-  @include mq($mobile) {
+  @include mq($phablet) {
     font-size: 86px;
   }
 }
@@ -43,7 +43,7 @@ $beige-gray: #888073;
     font-family: $expanded;
     padding: 80px 0 40px 0;
 
-    @include mq($mobile) {
+    @include mq($phablet) {
       font-size: 40px;
       padding: 100px 0 40px 0;
     }
@@ -70,7 +70,7 @@ $beige-gray: #888073;
     width: 100%;
     padding-top: 30px;
 
-    @include mq($mobile) {
+    @include mq($phablet) {
       padding: 60px 0 0 80px;
       max-width: 45%;
     }
@@ -84,7 +84,7 @@ $beige-gray: #888073;
     width: 40%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
-    @include mq($mobile) {
+    @include mq($phablet) {
       width: 330px;
     }
   }
@@ -97,7 +97,7 @@ $beige-gray: #888073;
   .pic-img {
     padding-left: 10px;
 
-    @include mq($mobile) {
+    @include mq($phablet) {
       position: absolute;
       top: 0;
       left: -360px;
@@ -185,7 +185,7 @@ $beige-gray: #888073;
     transition: $timing;
   }
 
-  @include mq($mobile) {
+  @include mq($phablet) {
     top: 10px;
     left: 40px;
   }
