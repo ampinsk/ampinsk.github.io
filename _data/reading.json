@@ -11,7 +11,7 @@
   },
   {
     "title": "The Faraway Nearby",
-    "url": "faraway-nearby",
+    "url": "the-faraway-nearby",
     "place": "Buena Vista Park & more",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/81bwskPJ0LL.jpg",
     "pic_img": "/img/reading/buena-vista.JPG",
@@ -22,11 +22,11 @@
   {
     "title": "The Sirens of Titan",
     "author": "Kurt Vonnegut",
-    "url": "sirens-titan",
+    "url": "the-sirens-of-titan",
     "place": "Alamo Square",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/7146xazNxtL.jpg",
     "date": "06/25/2018",
-    "description": "I read a bunch of Vonnegut a few years ago, and somehow missed this one. His books are always easy for me to pick up when I'm not in the mood to read anything else.",
+    "description": "I read a bunch of Vonnegut a few years ago when I had a long commute into Brooklyn, and somehow missed this one. His books are always easy for me to pick up when I'm not in the mood to read anything else.",
     "highlight": "The on button simply started a flight from Mars. The off button was connected to nothing. It was installed at the insistence of Martian mental-health experts, who said that human beings were always happier with machinery they thought they could turn off."
   },
   {
@@ -46,13 +46,14 @@
     "book_img": "https://img.apmcdn.org/2956296726d82ab9b02567c5e31a6033f0c4cf07/uncropped/630278-20140902-badfeminist.jpg",
     "pic_img": "/img/reading/matching-half.jpg",
     "date": "01/28/2018",
-    "description": "I should have read this years ago, but I'm glad I finally did."
+    "description": "I should have read this years ago, but I'm glad I finally did.",
+    "highlight": "Everybody gossips, so if you are going to gossip about your friends, at least make it fun and interesting. As a corollary, never say “I never lie” or “I never gossip” because you are lying."
   },
   {
-    "title": "Her Bodies and Other Parties",
+    "title": "Her Body and Other Parties",
     "place": "Long Island, NY",
     "author": "Carmen Maria Machado",
-    "url": "bodies-parties",
+    "url": "her-body-and-other-parties",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/91ZOrAgmdrL.jpg",
     "date": "01/05/2018",
     "description": "This is one of my favorite books I've read in a really long time.",
