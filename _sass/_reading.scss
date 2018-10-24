@@ -6,6 +6,7 @@ $beige-gray: #888073;
   background: $black;
   margin: 0;
   color: $black;
+  font-weight: 400;
 }
 
 .reading-container {
@@ -130,6 +131,7 @@ $beige-gray: #888073;
   h6 {
     font-size: 12px;
     position: relative;
+    font-weight: 400;
 
     &:before {
       content: "“";
