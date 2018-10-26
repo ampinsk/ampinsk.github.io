@@ -11,17 +11,17 @@ $beige-gray: #888073;
 
 .reading-container {
   background: $beige;
-  margin: 25px;
-  padding: 7%;
+  margin: 15px;
+  padding: 50px 7%;
 
   @include mq($phablet) {
-    padding: 12% 2% 12% 23%;
+    padding: 12% 4% 12% 23%;
     margin: 40px;
   }
 }
 
 .book-title {
-  font-size: 46px;
+  font-size: 40px;
   line-height: 1.1;
   font-family: $sans2;
 
@@ -40,7 +40,7 @@ $beige-gray: #888073;
   font-family: $sans2;
 
   .date {
-    font-size: 32px;
+    font-size: 25px;
     font-family: $expanded;
     padding: 80px 0 40px 0;
 
@@ -69,20 +69,20 @@ $beige-gray: #888073;
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10%;
 
-    @include mq($phablet) {
+    @include mq($desktop) {
       padding: 60px 0 0 80px;
       max-width: 45%;
     }
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   img {
-    width: 40%;
+    width: 46%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
     @include mq($phablet) {
@@ -96,7 +96,7 @@ $beige-gray: #888073;
   }
 
   .pic-img {
-    padding-left: 10px;
+    margin-left: 10px;
 
     @include mq($phablet) {
       position: absolute;
@@ -108,8 +108,8 @@ $beige-gray: #888073;
 
   .highlight {
     display: inline-block;
-    width: 270px;
-    padding: 40px 40px 0 0;
+    max-width: 270px;
+    padding-top: 40px;
   }
 
   .author {
@@ -146,12 +146,16 @@ $beige-gray: #888073;
 }
 
 #hey {
-  padding: 0 40px 40px;
+  padding: 5px 15px 20px;
   font-size: 12px;
   color: $beige-gray;
 
   a {
     color: $beige;
+  }
+
+  @include mq($phablet) {
+    padding: 0 40px 40px;
   }
 }
 
@@ -170,8 +174,8 @@ $beige-gray: #888073;
 
 .reading-nav {
   position: absolute;
-  top: 5px;
-  left: 25px;
+  top: 20px;
+  left: 22px;
   font-size: 12px;
   font-family: $sans2;
   font-weight: bold;
