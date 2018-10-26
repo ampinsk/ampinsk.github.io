@@ -12,7 +12,7 @@ $beige-gray: #888073;
 .reading-container {
   background: $beige;
   margin: 15px;
-  padding: 50px 7%;
+  padding: 60px 7% 30px;
 
   @include mq($phablet) {
     padding: 12% 4% 12% 23%;
@@ -82,7 +82,7 @@ $beige-gray: #888073;
   }
 
   img {
-    width: 46%;
+    width: 47%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
     @include mq($phablet) {
