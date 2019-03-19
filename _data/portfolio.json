@@ -12,27 +12,6 @@
     "show": "true"
   },
   {
-    "title": "Baudelaire",
-    "description": "Typeface design",
-    "img": "/img/small/baudelaire.png",
-    "url": "baudelaire.html",
-    "category": "Type design",
-    "date": "Fall 2016",
-    "role": "Student work under <a href='http://www.atypeprimer.com/'>John Kane</a>",
-    "show": "true"
-  },
-  {
-    "title": "Wellthy",
-    "description": "Healthcare application UI/UX",
-    "img": "/img/small/wellthy.jpg",
-    "url": "wellthy.html",
-    "category": "UI/UX",
-    "date": "May 2015",
-    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://wellthy.com'>wellthy.com</a>",
-    "show": "true"
-  },
-  {
     "title": "Anonymous Was A Woman",
     "description": "Social campaign about bias",
     "img": "/img/small/awaw.jpg",
@@ -44,37 +23,13 @@
     "show": "true"
   },
   {
-    "title": "Human Ventures",
-    "description": "Venture capitalist landing page",
-    "img": "/img/small/hvc.jpg",
-    "url": "human-ventures.html",
-    "category": "Branding, Website, Motion",
-    "date": "Feb 2015",
-    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
-    "show": "true"
-  },
-  {
     "title": "Project Home",
     "description": "Internal project management tool",
     "img": "/img/small/pm-home.png",
     "url": "pm-home.html",
     "category": "Product Design",
-    "featured": "true",
     "date": "Spring 2016",
     "role": "Design Apprentice at <a href='http://upstatement.com'>Upstatement</a>",
-    "show": "true"
-  },
-  {
-    "title": "Blurr",
-    "description": "Location based photo sharing app",
-    "img": "/img/small/blurr.jpg",
-    "url": "blurr.html",
-    "featured": "true",
-    "category": "Branding, UI/UX",
-    "date": "Fall 2015",
-    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
-    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>",
     "show": "true"
   },
   {
@@ -89,6 +44,48 @@
     "show": "true"
   },
   {
+    "title": "Baudelaire",
+    "description": "Typeface design",
+    "img": "/img/small/baudelaire.png",
+    "url": "baudelaire.html",
+    "category": "Type design",
+    "date": "Fall 2016",
+    "role": "Student work under <a href='http://www.atypeprimer.com/'>John Kane</a>",
+    "show": "true",
+    "featured": "true"
+  },
+  {
+    "title": "Wellthy",
+    "description": "Healthcare application UI/UX",
+    "img": "/img/small/wellthy.jpg",
+    "url": "wellthy.html",
+    "category": "UI/UX",
+    "date": "May 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://wellthy.com'>wellthy.com</a>"
+  },
+  {
+    "title": "Human Ventures",
+    "description": "Venture capitalist landing page",
+    "img": "/img/small/hvc.jpg",
+    "url": "human-ventures.html",
+    "category": "Branding, Website, Motion",
+    "date": "Feb 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://humanventures.co'>humanventures.co</a>"
+  },
+  {
+    "title": "Blurr",
+    "description": "Location based photo sharing app",
+    "img": "/img/small/blurr.jpg",
+    "url": "blurr.html",
+    "featured": "true",
+    "category": "Branding, UI/UX",
+    "date": "Fall 2015",
+    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
+    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>"
+  },
+  {
     "title": "Transforming Medicine",
     "description": "Nonprofit branding and website",
     "img": "/img/small/tmed.jpg",
@@ -96,8 +93,7 @@
     "category": "Branding, Website",
     "date": "Jan 2015",
     "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://transformingmedicine.com'>transformingmedicine.com</a>",
-    "show": "true"
+    "site": "<a href='http://transformingmedicine.com'>transformingmedicine.com</a>"
   },
   {
     "title": "Tastemakers Magazine",
