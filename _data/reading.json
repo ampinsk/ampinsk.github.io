@@ -1,5 +1,50 @@
 [
   {
+    "title": "The Order of Time",
+    "url": "the-order-of-time",
+    "place": "Golden Gate Park",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/71cUncd3mzL.jpg",
+    "pic_img": "/img/reading/golden-gate.jpg",
+    "date": "03/2019–",
+    "description": "Still reading this one, but already loving how poetic science can be. In a weird way, it talks about  some of the same themes that Her Body And Other Parties does.",
+    "highlight": "Perhaps poetry is another of science's deepest roots: the capacity to see beyond the visible."
+  },
+  {
+    "title": "Her Body And Other Parties",
+    "url": "her-body-and-other-parties-take-2",
+    "place": "A cafe in Barcelona",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/91ZOrAgmdrL.jpg",
+    "pic_img": "/img/reading/barcelona.jpeg",
+    "date": "02/13/2019",
+    "description": "I love this one so much I've been rereading it. I'm forced me to grapple with the absurdity of what it feels like to move through the world as myself, and it resonates in a way that can only be felt. The way form and structure are twisted delights me over and over again. It makes me feel like I'm losing my mind in the best way. We live in an illogical world and trying to make sense of it is what makes us crazy.",
+    "highlight": "I took a step toward her. “It is my right to reside in my own mind. It is my right,” I said."
+  },
+  {
+    "title": "Choose Your Own Disaster",
+    "url": "choose-your-own-disaster",
+    "place": "My bed",
+    "book_img": "https://pbs.twimg.com/media/DfbLFBWXUAAWeK9?format=jpg&name=large",
+    "date": "12/13/2018",
+    "description": "I feel like Dana is my friend and I got to hear her funny, honest, deeply personal story.",
+  },
+  {
+    "title": "The Power",
+    "url": "the-power",
+    "place": "My commute",
+    "book_img": "http://static1.1.sqspcdn.com/static/f/1371273/27278871/1475775961363/The+Power.jpg?token=iLQyy9Acb89uzeJEt7EsjLWu1qo%3D",
+    "date": "11/26/2018",
+    "description": "I haven't fallen into a story so quick in a while: electrifying, enrapturing, thought-provoking, heavy-handed revenge porn.",
+    "highlight": "They understood their strength, all at once."
+  },
+  {
+    "title": "Yes We (Still) Can",
+    "url": "yes-we-still-can",
+    "place": "My apartment",
+    "book_img": "https://s.hdnux.com/photos/74/00/31/15730281/5/rawImage.jpg",
+    "date": "09/19/2018",
+    "description": "I listen to the podcast so it was an easy, funny, approximation of that.",
+  },
+  {
     "title": "Never Let Me Go",
     "url": "never-let-me-go",
     "place": "My apartment",
