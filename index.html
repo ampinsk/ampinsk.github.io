@@ -15,7 +15,7 @@ layout: base
             </section>
             {% for item in site.data.portfolio %}
                 {% if item.show %}
-                <a href="{{item.url}}" class="homepage__thumbnail {% if item.featured %}homepage__thumbnail--featured {% endif %}">
+                <a href="/project/{{item.url}}" class="homepage__thumbnail {% if item.featured %}homepage__thumbnail--featured {% endif %}">
                     {% if item.featured %}
                     <span class="project-decription project-decription--featured">
                         <h6>Featured</h6>
