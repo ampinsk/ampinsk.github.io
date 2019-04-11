@@ -4,35 +4,17 @@
 // Import Partials
 @import "mq";
 @import "variables";
-@import "navigation";
-@import "homepage";
-@import "about";
 @import "project";
 @import "reading";
+@import "navigation";
 
 // General Styles
 
 .portfolio {
-  font-family: $sans;
-  background-color: $white;
+  font-family: $primary-font;
+  background-color: $background;
+  color: $foreground;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  position: relative;
-  color: $black;
-  cursor: pointer;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: 13px;
-  margin-top: 20px;
 }
 
 .site-container {
@@ -41,6 +23,78 @@ h6 {
   max-width: 1200px;
   margin: 30px auto 0;
 }
+
+a {
+  position: relative;
+  color: $foreground;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.home {
+  padding: 3% 0;
+
+  @include mq($tablet) {
+    width: 60%;
+    padding: 7%;
+  }
+
+  a {
+    font-family: $serif;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+
+    &:hover {
+      color: $highlight;
+    }
+
+    @include mq($tablet) {
+      font-size: 26px;
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+
+    @include mq($tablet) {
+      font-size: 36px;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family: $serif;
+    font-weight: normal;
+    margin-bottom: 50px;
+
+    @include mq($tablet) {
+      font-size: 36px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+
+    @include mq($tablet) {
+      font-size: 24px;
+    }
+  }
+
+  h6 {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}
+
+
 
 
 section {
@@ -66,32 +120,6 @@ img::selection,
 a::selection,
 span::selection {
   background: $teal;
-}
-
-.link {
-  a:after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 100%;
-      bottom: 4px;
-      left: 0px;
-      background-color: $teal;
-      transition: 0.2s ease;
-      cursor: pointer;
-      z-index: -1;
-    }
-
-    a:hover:after {
-      height: 8px;
-      bottom: -4px;
-      transition: 0.2s ease;
-    }
-}
-
-h2 {
-  font-size: 35px;
-  // margin-bottom: 40px;
 }
 
 .monospace {

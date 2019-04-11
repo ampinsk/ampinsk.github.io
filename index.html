@@ -5,31 +5,10 @@ layout: base
 ---
 
 
-<section class="site-container">
-    <section class="homepage-section homepage__work homepage__work--featured site-width">
-        <div class="homepage__work-container">
-            <section class='homepage-section homepage__header site-width'>
-                <h1 class="homepage__header--logo">Amanda Pinsker</h1>
-                <h1 class="homepage__header--tag">Product Designer @ GitHub</h1>
-                <h4 class="homepage__header--deck">I care about making my work smart, elegant, and simple by design. <a href='about.html'>More&nbsp;about&nbsp;me.</a></h4>
-            </section>
-            {% for item in site.data.portfolio %}
-                {% if item.show %}
-                <a href="/project/{{item.url}}" class="homepage__thumbnail {% if item.featured %}homepage__thumbnail--featured {% endif %}">
-                    {% if item.featured %}
-                    <span class="project-decription project-decription--featured">
-                        <h6>Featured</h6>
-                    </span>
-                    {% endif %}
-                    <span class="project-decription">
-                        <h5>{{item.title}}</h5>
-                        <h6>{{item.description}}</h6>
-                    </span>
-                    <img class="homepage__thumbnail--img" src="{{ item.img }}" />
-                </a>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
-    {% include footer.html %}
+<section class="site-container home">
+  <h1>Amanda Pinsker</h1>
+  <h2>Product & Interaction Designer</h2>
+  <p>I'm currently working as a product designer at <a href="https://github.com">GitHub</a>. I've worked on billing, notifications, <a href="https://desktop.github.com">GitHub Desktop</a>, <a href="https://experiments.github.com">GitHub Experiments</a> and currently enterprise. Previously, I worked at <a href="https://upstatement.com">Upstatment</a> and <a href="https://ronikdesign.com">Ronik</a>.</p>
+  <p>In addition to my work as a product designer, I've created a <a href="/project/museum">museum visitor app</a>, designed a <a href="/project/baudelaire">typeface</a>, and made a page to keep track of my <a href="/reading">reading</a>.</p>
+  <p>Get in touch with me by <a href="mailto:apinsker4@gmail.com">email</a>, on <a href="https://twitter.com/ampinsk">Twitter</a>, or on <a href="http://linkedin.com/in/amandapinsker">LinkedIn</a>.</p>
 </section>
