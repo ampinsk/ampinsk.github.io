@@ -6,8 +6,10 @@ permalink: reading
 ---
 
 <div class="reading-nav">
-  <a href="/">Back</a>
+  <a href="/">amandapinsker.com</a>
 </div>
+
+<span class="peek">?</span>
 
 <section class="reading-container">
   <h1 class="book-title book-scroll">Things I've read <span>and where I read them<a href="#hey">*</a></span></h1>
@@ -33,6 +35,21 @@ permalink: reading
       </span>
     </div>
   {% endfor %}
+
+  <section class="reading-list">
+    <h1 class="reading-list-hdr">On my shelf</h1>
+    <ol>
+    {% for item in site.data.readinglist%}
+      <li class="list-book">
+        <h2 class="reading-list-title">{{item.title}}</h2>
+        <h3 class="reading-list-author">{{item.author}}</h3>
+      </li>
+    {% endfor %}
+    </ol>
+  </section>
+
 </section>
+
+
 
 <div id="hey">* Are these dates real? Are these locations real? Who cares? Why did you even click on this? Go <a href="/reading">get back</a> to what you were doing.</div>

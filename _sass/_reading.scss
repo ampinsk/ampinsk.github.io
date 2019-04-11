@@ -1,5 +1,6 @@
 $beige: #f7eddd;
 $beige-gray: #888073;
+$timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
 
 .reading {
   font-family: $sans2;
@@ -7,12 +8,14 @@ $beige-gray: #888073;
   margin: 0;
   color: $black;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .reading-container {
   background: $beige;
   margin: 15px;
   padding: 60px 7% 30px;
+  transition: $timing2;
 
   @include mq($phablet) {
     padding: 12% 4% 12% 23%;
@@ -144,6 +147,80 @@ $beige-gray: #888073;
     }
   }
 }
+
+.peek {
+  color: $white;
+  position: absolute;
+  top: 9px;
+  right: 50vw;
+  font-size: 12px;
+  color: $beige-gray;
+  font-family: $expanded;
+  cursor: help;
+  padding: 0 10px;
+}
+
+.peek:hover + .reading-container {
+  transform: translateX(-300px);
+  transition: $timing2;
+}
+
+.reading-list {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  background: linear-gradient($black, transparent);
+  color: $white;
+  height: 98%;
+  padding: 50px;
+  max-width: 200px;
+  z-index: 10000;
+
+
+  h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $beige;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: normal;
+    color: $beige;
+  }
+
+  h3 {
+    font-size: 10px;
+    font-family: $expanded;
+    text-transform: uppercase;
+    color: $beige-gray;
+    padding-top: 2px;
+  }
+
+  .list-book {
+    margin: 45px 0;
+  }
+
+  ol {
+    list-style: none;
+    padding: 0;
+    counter-reset: my-counter;
+  }
+
+  ol li {
+    counter-increment: my-counter;
+  }
+
+  ol li::before {
+    content: counter(my-counter) ". ";
+    font-family: $expanded;
+    font-weight: normal;
+    font-size: 20px;
+    color: $beige;
+  }
+}
+
 
 #hey {
   padding: 5px 15px 20px;
