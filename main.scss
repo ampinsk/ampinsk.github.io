@@ -35,6 +35,7 @@ p {
   line-height: 1.45;
 }
 
+
 .home {
   padding: 3% 0;
 
@@ -43,19 +44,29 @@ p {
     padding: 7%;
   }
 
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+
+    @include mq($tablet) {
+      font-size: 22px;
+    }
+  }
+
   a {
     font-family: $serif;
     font-style: italic;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
+    line-height: 0;
 
     &:hover {
       color: $highlight;
     }
 
     @include mq($tablet) {
-      font-size: 26px;
+      font-size: 24px;
     }
   }
 
@@ -79,18 +90,13 @@ p {
     }
   }
 
-  p {
-    font-size: 20px;
-    line-height: 1.5;
-
-    @include mq($tablet) {
-      font-size: 24px;
-    }
-  }
-
   h6 {
     font-size: 13px;
     margin-top: 20px;
+  }
+
+  .aside {
+    color: lighten($black, 40%);
   }
 }
 
