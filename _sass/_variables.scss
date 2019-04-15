@@ -1,12 +1,13 @@
 // Colors
 $white: rgb(245, 245, 245);
-$beige: #FFFBF3;
+$beige: #f9e3ba;
 $teal: #71AFA3;
 $light-teal: #AFDFD9;
-$black: #2B2325;
+$black: #130422;
 $gray: #CCCCCC;
 $gray-dark: #9ca0a0;
 $red: #DA131F;
+$blue: #1212e1;
 
 // Spacing
 $spacing-med: 30px;
@@ -36,7 +37,7 @@ $border-thick: 2px solid $black;
 $border-thin: 1px solid $gray;
 
 $timing: 0.2s ease;
-
+$timing-cubic: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 // ---
 // Applications
 $background: $beige;

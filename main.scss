@@ -60,9 +60,37 @@ p {
     font-size: 20px;
     text-decoration: none;
     line-height: 0;
+    position: relative;
+    mix-blend-mode: multiply;
+    color: $blue;
+    white-space: nowrap;
+    transition: $timing;
+    font-weight: 600;
 
-    &:hover {
-      color: $highlight;
+    &:after {
+      content: attr(data-content);
+      position: absolute;
+      top: 10px;
+      left: 0;
+      color: $red;
+      mix-blend-mode: multiply;
+      transition: $timing;
+      width: 100%;
+
+      @include mq($tablet) {
+        top: 12px;
+      }
+    }
+
+    &:hover:after {
+      left: 2px;
+      top: 12px;
+      transition: $timing-cubic;
+
+      @include mq($tablet) {
+        top: 14px;
+      }
+
     }
 
     @include mq($tablet) {
@@ -75,7 +103,7 @@ p {
     margin-bottom: 5px;
 
     @include mq($tablet) {
-      font-size: 36px;
+      font-size: 34px;
     }
   }
 
@@ -83,10 +111,10 @@ p {
     font-size: 30px;
     font-family: $serif;
     font-weight: normal;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     @include mq($tablet) {
-      font-size: 36px;
+      font-size: 34px;
     }
   }
 
@@ -99,9 +127,6 @@ p {
     color: lighten($black, 40%);
   }
 }
-
-
-
 
 section {
   margin-bottom: 30px;
