@@ -1,25 +1,49 @@
-$white: rgb(245, 245, 245);
+// Colors
+$white: #fafafa;
+$beige: #f9e3ba;
 $teal: #71AFA3;
 $light-teal: #AFDFD9;
-$black: #032122;
+$black: #130422;
 $gray: #CCCCCC;
 $gray-dark: #9ca0a0;
+$red: #DA131F;
+$blue: #1212e1;
 
+// Spacing
 $spacing-med: 30px;
 $spacing-lg: 40px;
 
+// Breakpoints
 $desktop: 1150px;
 $tablet: 850px;
 $phablet: 700px;
 $mobile: 540px;
 
+
+// Type
 $monospace: 'Roboto Mono', monospace;
-$sans: 'Karla', sans-serif;
+
+$sans-display: neue-haas-grotesk-display, sans-serif;
+$sans-text: neue-haas-grotesk-text, sans-serif;
+$serif: jaf-lapture, serif;
+
 $expanded: 'BioRhyme Expanded', serif;
 $inknut: "Inknut Antiqua";
 $sans2: "poppins";
 
+
+// Misc
 $border-thick: 2px solid $black;
 $border-thin: 1px solid $gray;
 
 $timing: 0.2s ease;
+$timing-cubic: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+// ---
+// Applications
+$background: $white;
+$foreground: $black;
+$primary-font: $serif;
+$secondary-font: $sans-text;
+$primary-font-size: 18px;
+$secondary-font-size: 16px;
+$highlight: $red;

@@ -4,35 +4,17 @@
 // Import Partials
 @import "mq";
 @import "variables";
-@import "navigation";
-@import "homepage";
-@import "about";
 @import "project";
 @import "reading";
+@import "navigation";
 
 // General Styles
 
 .portfolio {
-  font-family: $sans;
-  background-color: $white;
+  font-family: $primary-font;
+  background-color: $background;
+  color: $foreground;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  position: relative;
-  color: $black;
-  cursor: pointer;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: 13px;
-  margin-top: 20px;
 }
 
 .site-container {
@@ -42,6 +24,74 @@ h6 {
   margin: 30px auto 0;
 }
 
+a {
+  position: relative;
+  color: $foreground;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+
+.home {
+  padding: 3% 0;
+
+  @include mq($tablet) {
+    width: 60%;
+    padding: 7%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  a {
+    font-family: $secondary-font;
+    cursor: pointer;
+    font-size: $secondary-font-size;
+    font-weight: 600;
+    line-height: 0;
+    position: relative;
+    mix-blend-mode: multiply;
+    color: $blue;
+    white-space: nowrap;
+    transition: $timing;
+
+    &:after {
+      content: attr(data-content);
+      position: absolute;
+      top: 10px;
+      left: 0;
+      color: $red;
+      mix-blend-mode: multiply;
+      transition: $timing;
+      width: 100%;
+    }
+
+    &:hover:after {
+      left: 2px;
+      top: 12px;
+      transition: $timing-cubic;
+    }
+  }
+
+  h1 {
+    font-size: $primary-font-size;
+    font-family: $secondary-font;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: $primary-font-size;
+    font-family: $primary-font;
+    font-weight: normal;
+    margin-bottom: 18px;
+  }
+}
 
 section {
   margin-bottom: 30px;
@@ -65,33 +115,7 @@ h1::selection,
 img::selection,
 a::selection,
 span::selection {
-  background: $teal;
-}
-
-.link {
-  a:after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 100%;
-      bottom: 4px;
-      left: 0px;
-      background-color: $teal;
-      transition: 0.2s ease;
-      cursor: pointer;
-      z-index: -1;
-    }
-
-    a:hover:after {
-      height: 8px;
-      bottom: -4px;
-      transition: 0.2s ease;
-    }
-}
-
-h2 {
-  font-size: 35px;
-  // margin-bottom: 40px;
+  background: $red;
 }
 
 .monospace {
