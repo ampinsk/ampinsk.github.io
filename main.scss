@@ -47,25 +47,19 @@ p {
   p {
     font-size: 18px;
     line-height: 1.6;
-
-    @include mq($tablet) {
-      font-size: 22px;
-    }
   }
 
   a {
-    font-family: $serif;
-    font-style: italic;
+    font-family: $secondary-font;
     cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: $secondary-font-size;
+    font-weight: 600;
     line-height: 0;
     position: relative;
     mix-blend-mode: multiply;
     color: $blue;
     white-space: nowrap;
     transition: $timing;
-    font-weight: 600;
 
     &:after {
       content: attr(data-content);
@@ -76,55 +70,26 @@ p {
       mix-blend-mode: multiply;
       transition: $timing;
       width: 100%;
-
-      @include mq($tablet) {
-        top: 12px;
-      }
     }
 
     &:hover:after {
       left: 2px;
       top: 12px;
       transition: $timing-cubic;
-
-      @include mq($tablet) {
-        top: 14px;
-      }
-
-    }
-
-    @include mq($tablet) {
-      font-size: 24px;
     }
   }
 
   h1 {
-    font-size: 30px;
+    font-size: $primary-font-size;
+    font-family: $secondary-font;
     margin-bottom: 5px;
-
-    @include mq($tablet) {
-      font-size: 34px;
-    }
   }
 
   h2 {
-    font-size: 30px;
-    font-family: $serif;
+    font-size: $primary-font-size;
+    font-family: $primary-font;
     font-weight: normal;
-    margin-bottom: 40px;
-
-    @include mq($tablet) {
-      font-size: 34px;
-    }
-  }
-
-  h6 {
-    font-size: 13px;
-    margin-top: 20px;
-  }
-
-  .aside {
-    color: lighten($black, 40%);
+    margin-bottom: 18px;
   }
 }
 
