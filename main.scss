@@ -40,8 +40,6 @@ p {
   padding: 3% 0;
 
   @include mq($tablet) {
-    width: 60%;
-    padding: 7%;
   }
 
   p {
@@ -89,8 +87,64 @@ p {
     font-size: $primary-font-size;
     font-family: $primary-font;
     font-weight: normal;
-    margin-bottom: 18px;
+    margin-bottom: 54px;
   }
+
+  h6 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+
+
+.project {
+  margin: 40px 0;
+
+  a {
+    font-size: 44px;
+    display: block;
+
+    &:after {
+      top: 0px;
+      left: 0;
+    }
+
+    &:hover:after {
+      top: 2px;
+      left: 2px;
+    }
+  }
+}
+
+.work {
+  width: 100%;
+  margin-right: 5px;
+
+  @include mq($tablet) {
+    width: 48%;
+    float: left;
+  }
+}
+
+.about {
+  width: 100%;
+
+  @include mq($tablet) {
+    width: 48%;
+    float: right;
+  }
+}
+
+.accent {
+  display: block;
 }
 
 section {
