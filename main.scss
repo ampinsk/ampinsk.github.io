@@ -38,6 +38,7 @@ p {
 
 .home {
   padding: 3% 0;
+  width: 90%;
 
   @include mq($tablet) {
   }
@@ -106,7 +107,7 @@ p {
 
 
 .project {
-  margin: 40px 0;
+  margin-bottom: 40px;
 
   a {
     font-size: 44px;
@@ -126,6 +127,7 @@ p {
 
 .work {
   width: 100%;
+  padding-top: 20px;
   margin-right: 5px;
 
   @include mq($tablet) {
