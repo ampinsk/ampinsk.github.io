@@ -1,10 +1,19 @@
 [
   {
+    "title": "Bad Blood",
+    "url": "bad-blood",
+    "place": "Tour Du Mont Blanc",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/71rtQvf5UVL.jpg",
+    "pic_img": "/img/reading/tmb2.jpeg",
+    "date": "07/03/2019",
+    "description": "I actually really hated that I was reading this while on a beautiful hike, but it was my only book on my kindle, and it was an incredibly juicy read."
+  },
+  {
     "title": "Someone Will Love You In All Your Damaged Glory",
     "url": "damaged-glory",
-    "place": "Amsterdam, Netherlands",
+    "place": "Rotterdam, Netherlands",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/71EE3HwPpjL.jpg",
-    "pic_img": "/img/reading/amsterdam.jpeg",
+    "pic_img": "/img/reading/rotterdam.jpeg",
     "date": "06/21/2019",
     "description": "This is both very up my alley and also I wanted to like it more than I did.",
     "highlight": "The things that are the most important aren't shared; they are important to only us."
@@ -22,9 +31,9 @@
   {
     "title": "How To Date Men When You Hate Men",
     "url": "date-men-hate-men",
-    "place": "Sorrento, Italy",
+    "place": "Positano, Italy",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/718DxMH0MCL.jpg",
-    "pic_img": "/img/reading/sorrento.jpeg",
+    "pic_img": "/img/reading/positano.jpeg",
     "date": "05/30/2019",
     "description": "This is the funniest book I've read in such a long time.",
     "highlight": "Whatever happens will happen, but the pay is certain: you'll always be able to write, or talk, or paint, or knit (why do people knit??) about it. You can make it into something beautiful or hilarious or genius or so incredibly dumb that it's hilarious and genius."
