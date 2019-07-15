@@ -44,6 +44,7 @@ p {
   p {
     font-size: $primary-font-size;
     line-height: 1.6;
+    margin: 25px 0
   }
 
   a {
@@ -68,33 +69,16 @@ p {
     }
 
     &:hover:after {
-      left: 2px;
+      left: 1px;
       top: 10px;
-      transition: $timing-cubic;
+      transition: $timing;
     }
   }
 
   h1 {
     font-size: $primary-font-size;
     font-family: $secondary-font;
-    margin-bottom: 5px;
-  }
-
-  h2 {
-    font-size: $primary-font-size;
-    font-family: $primary-font;
-    font-weight: normal;
-    padding-bottom: 20px;
-  }
-
-  h6 {
-    font-family: $secondary-font;
-    font-size: 16px;
-  }
-
-  h5 {
-    line-height: 1.8;
-    font-size: $secondary-font-size;
+    padding: 0 0 25px 0;
   }
 }
 
@@ -106,6 +90,7 @@ p {
   a {
     font-size: 28px;
     display: block;
+    line-height: 1.4;
 
     &:after {
       top: 0px;
@@ -116,6 +101,15 @@ p {
       top: 2px;
       left: 2px;
     }
+  }
+
+  &:first-child {
+    padding-top: 0;
+    background: red;
+  }
+
+  p {
+    margin: 0;
   }
 }
 
@@ -133,24 +127,30 @@ p {
 
 .work {
   width: 100%;
-  display: inline-block;
 
   @include mq($tablet) {
-    width: 48%;
+    width: 40%;
   }
-
 }
 
 .about {
   width: 100%;
-  display: inline-block;
 
   @include mq($tablet) {
-    width: 28%;
+    width: 25%;
   }
 
   a {
     line-height: 0;
+  }
+}
+
+
+.identity {
+  width: 100%;
+
+  @include mq($tablet) {
+    width: 24%;
   }
 }
 
@@ -159,8 +159,15 @@ p {
   margin: 25px 0;
 }
 
+
+
+
 section {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+
+  @include mq($tablet) {
+    margin-bottom: 30px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
