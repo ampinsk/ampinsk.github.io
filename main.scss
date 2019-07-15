@@ -35,26 +35,22 @@ p {
   line-height: 1.45;
 }
 
+// Home page
 
 .home {
-  padding: 3% 0;
+  padding: 4% 0;
   width: 90%;
 
-  @include mq($tablet) {
-  }
-
   p {
-    font-size: 18px;
+    font-size: $primary-font-size;
     line-height: 1.6;
   }
 
   a {
     font-family: $secondary-font;
     cursor: pointer;
-    font-size: $secondary-font-size;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 0;
-    position: relative;
     mix-blend-mode: multiply;
     color: $blue;
     white-space: nowrap;
@@ -63,7 +59,7 @@ p {
     &:after {
       content: attr(data-content);
       position: absolute;
-      top: 10px;
+      top: 9px;
       left: 0;
       color: $red;
       mix-blend-mode: multiply;
@@ -73,7 +69,7 @@ p {
 
     &:hover:after {
       left: 2px;
-      top: 12px;
+      top: 10px;
       transition: $timing-cubic;
     }
   }
@@ -88,29 +84,27 @@ p {
     font-size: $primary-font-size;
     font-family: $primary-font;
     font-weight: normal;
-    margin-bottom: 54px;
+    padding-bottom: 20px;
   }
 
   h6 {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
+    font-family: $secondary-font;
+    font-size: 16px;
   }
 
   h5 {
-    font-size: 14px;
-    font-style: italic;
-    margin: 0;
-    padding: 30px 0;
+    line-height: 1.8;
+    font-size: $secondary-font-size;
   }
 }
 
 
 .project {
-  margin-bottom: 40px;
+  padding: 25px 0;
+  border-bottom: 1px solid $gray;
 
   a {
-    font-size: 44px;
+    font-size: 28px;
     display: block;
 
     &:after {
@@ -125,28 +119,44 @@ p {
   }
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include mq($tablet) {
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .work {
   width: 100%;
-  padding-top: 20px;
-  margin-right: 5px;
+  display: inline-block;
 
   @include mq($tablet) {
     width: 48%;
-    float: left;
   }
+
 }
 
 .about {
   width: 100%;
+  display: inline-block;
 
   @include mq($tablet) {
-    width: 48%;
-    float: right;
+    width: 28%;
+  }
+
+  a {
+    line-height: 0;
   }
 }
 
 .accent {
   display: block;
+  margin: 25px 0;
 }
 
 section {
