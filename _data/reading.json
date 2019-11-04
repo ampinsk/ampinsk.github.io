@@ -1,9 +1,38 @@
 [
   {
+    "title": "How To Do Nothing",
+    "url": "how-to-do-nothing",
+    "place": "The Panhandle",
+    "book_img": "https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FJKrqKfh6_jbE0yciUKrUeQ%252FHTDN%2Bfinal.jpg&width=1200&quality=80",
+    "pic_img": "img/reading/panhandle.jpeg",
+    "date": "11/03/2019",
+    "description": "This crystalized so many things I've been feeling and thinking lately. What I actually have to say about this book needs much more than a little blurb here. This presents a reframing on our lives today that we'd all benefit from reflecting on. It also inspired me to start learning the trees around San Francisco, particularly at the park I mostly read this book in.",
+    "highlight": "Yet we inhabit a culture that privileges novelty and growth over the cyclical and the regenerative. Our very idea of productivity is premised on the idea of producing something new, whereas we do not tend to see maintenance and care as productive in the same way."
+  },
+  {
+    "title": "Super Pumped: The Battle for Uber",
+    "url": "super-pumped",
+    "place": "Home",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/71sXxANtN9L.jpg",
+    "date": "09/12/2019",
+    "highlight": "It is the story of the ugly decisions made around user data and personal information as technology firms seek to exploit consumer data. But most of all, it is a story about how blind worship of startup founders can go wildly wrong, and a cautionary tale that ends in spectacular disaster."
+  },
+  {
+    "title": "Normal People",
+    "url": "normal-people",
+    "place": "Portland, OR",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/71wD4yYUqyL.jpg",
+    "pic_img": "",
+    "date": "09/18/2019",
+    "description": "This was a really sweet, easy read.",
+    "highlight": "Marianne had the sense that her real life was happening somewhere very far away, happening without her, and she didn’t know if she would ever find out where it was and become part of it."
+  },
+  {
     "title": "Severance",
     "url": "severance",
-    "place": "Home",
+    "place": "Seattle, WA",
     "book_img": "https://images-na.ssl-images-amazon.com/images/I/81A9dFqIEEL.jpg",
+    "pic_img": "img/reading/seattle.jpeg",
     "date": "09/01/2019",
     "description": "This is a story about the apocalypse, but it is much more a story about our routines and how they form us.",
     "highlight": "To live in a city is to live the life that it was built for, to adapt to its schedule and rhythms, to move within the transit layout made for you during the morning and evening rush, winding through the crowds of fellow commuters. To live in a city is to consume its offerings. To eat at its restaurants. To drink at its bars. To shop at its stores. To pay its sales taxes. To give a dollar to its homeless."
@@ -12,11 +41,11 @@
     "title": "The Fifth Risk",
     "url": "fifth-risk",
     "place": "Dolores Park",
-    "book_img": "https://images-na.ssl-images-amazon.com/images/I/41SyPHoWCtL.jpg",
-    "pic_img": "/img/reading/tmb2.jpeg",
+    "book_img": "https://images-na.ssl-images-amazon.com/images/I/711-RtRYAXL.jpg",
+    "pic_img": "",
     "date": "07/03/2019",
     "description": "This made me appreciate good government even more than I already do. It was also horrifying for that same reason.",
-    "highlight": ""
+    "highlight": "We don’t really celebrate the accomplishments of government employees. They exist in our society to take the blame."
   },
   {
     "title": "Bad Blood",
