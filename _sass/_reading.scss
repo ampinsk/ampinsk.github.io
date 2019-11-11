@@ -1,6 +1,12 @@
 $beige: #f7eddd;
 $beige-gray: #888073;
 
+.reading-html,
+.reading {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .reading {
   font-family: $sans2;
   background: $black;
@@ -12,7 +18,7 @@ $beige-gray: #888073;
 .reading-container {
   background: $beige;
   margin: 15px;
-  padding: 60px 7% 30px;
+  padding: 80px 7% 30px;
 
   @include mq($phablet) {
     padding: 12% 4% 12% 23%;
@@ -21,7 +27,7 @@ $beige-gray: #888073;
 }
 
 .book-title {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.1;
   font-family: $sans2;
 
@@ -82,7 +88,7 @@ $beige-gray: #888073;
   }
 
   img {
-    width: 47%;
+    width: 62%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
     @include mq($phablet) {
@@ -97,12 +103,11 @@ $beige-gray: #888073;
 
   .pic-img {
     margin-left: 10px;
+    position: absolute;
+    top: 0;
 
     @include mq($phablet) {
-      position: absolute;
-      top: 0;
       left: -360px;
-
     }
   }
 
