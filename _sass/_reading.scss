@@ -1,6 +1,12 @@
 $beige: #f7eddd;
 $beige-gray: #888073;
 
+.reading-html,
+.reading {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .reading {
   font-family: $sans2;
   background: $black;
