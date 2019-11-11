@@ -49,6 +49,7 @@ $beige-gray: #888073;
   .date {
     font-size: 25px;
     font-family: $expanded;
+    font-weight: 700;
     padding: 80px 0 40px 0;
 
     @include mq($phablet) {
@@ -144,6 +145,7 @@ $beige-gray: #888073;
       top: -0.3em;
       left: -0.7em;
       font-family: $expanded;
+      font-weight: 700;
       color: $beige-gray;
     }
   }
