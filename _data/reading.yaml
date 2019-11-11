@@ -38,7 +38,7 @@
   pic_img: ''
   date: 09/18/2019
   description: This was a really sweet, easy read.
-  highlight: Marianne had the sense that her real life was happening somewhere very
+  highlights: Marianne had the sense that her real life was happening somewhere very
     far away, happening without her, and she didn’t know if she would ever find out
     where it was and become part of it.
 - title: Severance
@@ -49,7 +49,7 @@
   date: 09/01/2019
   description: This is a story about the apocalypse, but it is much more a story about
     our routines and how they form us.
-  highlight: To live in a city is to live the life that it was built for, to adapt
+  highlights: To live in a city is to live the life that it was built for, to adapt
     to its schedule and rhythms, to move within the transit layout made for you during
     the morning and evening rush, winding through the crowds of fellow commuters.
     To live in a city is to consume its offerings. To eat at its restaurants. To drink
@@ -126,7 +126,7 @@
   description: Still reading this one, but already loving how poetic science can be.
     In a weird way, it talks about  some of the same themes that Her Body And Other
     Parties does.
-  highlight:
+  highlights:
     - 'Perhaps poetry is another of science''s deepest roots: the capacity to see beyond the visible.'
 - title: Her Body And Other Parties
   url: her-body-and-other-parties-take-2
