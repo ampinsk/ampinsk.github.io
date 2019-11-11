@@ -137,11 +137,12 @@ $beige-gray: #888073;
     font-size: 12px;
     position: relative;
     font-weight: 400;
+    margin-bottom: 14px;
 
     &:before {
       content: "“";
       position: absolute;
-      font-size: 30px;
+      font-size: 24px;
       top: -0.3em;
       left: -0.7em;
       font-family: $expanded;
