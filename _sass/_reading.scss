@@ -120,8 +120,8 @@ $beige-gray: #888073;
 
   .highlight {
     display: inline-block;
-    max-width: 270px;
-    padding-top: 40px;
+    max-width: 350px;
+    padding-top: 30px;
   }
 
   h5, .h5 {
@@ -130,20 +130,21 @@ $beige-gray: #888073;
     letter-spacing: 1px;
     font-weight: 700;
     font-family: $expanded;
-    margin: 10px 0;
+    margin: 14px 0;
   }
 
   h6 {
     font-size: 12px;
     position: relative;
     font-weight: 400;
+    margin-bottom: 14px;
 
     &:before {
       content: "“";
       position: absolute;
-      font-size: 30px;
-      top: -0.3em;
-      left: -0.7em;
+      font-size: 24px;
+      top: -0.2em;
+      left: -0.8em;
       font-family: $expanded;
       font-weight: 700;
       color: $beige-gray;
