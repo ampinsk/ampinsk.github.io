@@ -82,7 +82,7 @@ $beige-gray: #888073;
   }
 
   img {
-    width: 47%;
+    width: 62%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
     @include mq($phablet) {
@@ -97,12 +97,11 @@ $beige-gray: #888073;
 
   .pic-img {
     margin-left: 10px;
+    position: absolute;
+    top: 0;
 
     @include mq($phablet) {
-      position: absolute;
-      top: 0;
       left: -360px;
-
     }
   }
 
