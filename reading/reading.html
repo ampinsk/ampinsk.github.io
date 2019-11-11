@@ -30,10 +30,12 @@ permalink: reading
           <span>{{ item.place }}</span>
         </h2>
         <p class="description book-scroll"> {{ item.description }}</p>
-        {% if item.highlight %}
+        {% if item.highlights %}
           <span class="highlight book-scroll no-quote">
             <h5>Underlined</h5>
-            <h6>{{ item.highlight }}</h6>
+            {% for highlight in item.highlights %}
+            <h6>{{ highlight }}</h6>
+            {% endfor %}
           </span>
         {% endif %}
       </span>
