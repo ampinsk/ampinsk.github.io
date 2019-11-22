@@ -73,6 +73,11 @@ p {
       top: 10px;
       transition: $timing;
     }
+
+    &:hover .icon {
+      opacity: 1;
+      transition: $timing;
+    }
   }
 
   h1 {
@@ -101,11 +106,6 @@ p {
       top: 2px;
       left: 2px;
     }
-  }
-
-  &:first-child {
-    padding-top: 0;
-    background: red;
   }
 
   p {
@@ -145,7 +145,6 @@ p {
   }
 }
 
-
 .identity {
   width: 100%;
 
@@ -159,8 +158,11 @@ p {
   margin: 25px 0;
 }
 
-
-
+.icon {
+  width: 14px;
+  opacity: 0.5;
+  transition: $timing;
+}
 
 section {
   margin-bottom: 100px;
