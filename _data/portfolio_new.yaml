@@ -11,7 +11,7 @@
 - title: GitHub Experiments
   description: Showcasing experimental machine learning research
   url: http://experiments.github.com
-  show: false
+  show: true
   external: true
 - title: Baudelaire
   description: A modern transitional serif typeface
@@ -26,5 +26,5 @@
 - title: Anonymous Was A Woman
   description: Social campaign about implicit bias
   url: /project/anonymous-was-a-woman
-  show: true
+  show: false
   external: false
