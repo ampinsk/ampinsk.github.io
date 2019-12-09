@@ -19,7 +19,7 @@ layout: base
 
     <section class="work">
       <h1>Some work</h1>
-      {% for item in site.data.portfolio_new %}
+      {% for item in site.data.portfolio %}
         {% if item.show %}
         <div class="project">
           <a data-content="{{ item.title }}" href="{{ item.url }}">
