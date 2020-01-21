@@ -1,0 +1,105 @@
+// Home page
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.column {
+  width: 48%;
+}
+
+.project {
+  padding-bottom: 25px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+  }
+}
+
+.footnote {
+  vertical-align: super;
+  font-size: 22px;
+  color: $red;
+}
+
+// HOVER STYLES
+
+$purple: #6134EC;
+
+body.hovered1 {
+  color: $purple;
+
+  a {
+    color: $purple;
+  }
+
+}
+
+body.hovered2 {
+  background-image: url(https://desktop.github.com/images/star-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #24292e;
+  color: white !important;
+
+  a {
+    color: white;
+    transition: $timing;
+  }
+}
+
+body.hovered3 {
+  background: black;
+  color: #69CC67 !important;
+  a {
+    color: #69CC67;
+    transition: $timing;
+  }
+}
+
+body.hovered4 {
+  background: #3E6939;
+}
+
+body.hovered5 {
+  background: $beige;
+  box-shadow: inset 0px 0px 0px 20px $black;
+}
+
+.home {
+  padding: 4% 0;
+  width: 92%;
+  font-size: $primary-font-size;
+  line-height: 1.15;
+
+  p {
+    font-size: $primary-font-size;
+    margin: 25px 0;
+  }
+
+  a {
+    font-weight: 700;
+
+    &:hover {
+      text-decoration-line: line-through;
+      text-decoration-style: double;
+    }
+  }
+
+  h1 {
+    font-size: $primary-font-size;
+    display: inline;
+  }
+
+  h2 {
+    font-size: $primary-font-size;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+}

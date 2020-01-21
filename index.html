@@ -4,43 +4,44 @@ name: home
 layout: base
 ---
 
-
+<div class="bg"></div>
 <section class="site-container home">
 
 
   <section class="content">
 
-    <section class="identity">
-      <h1>Amanda Pinsker</h1>
-      <p>Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.</p>
-    </section>
+    <div class="column">
+      <section class="identity">
+        <h1>Amanda Pinsker</h1>
+        <span>—Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.</span>
+      </section>
 
-      <!-- <img src="accent.svg" width="20px" class="accent"/> -->
+      <section class="about">
+        <p>I've been a product designer at <a>GitHub</a> for a few years now. I’ve spent most of my time there not working on the website. Right now, I’m working on a new command line tool.</p>
+        <p>Before all this, I spent some time at <a>Upstatement</a> and <a>Ronik</a>, led the crew at <a>Scout</a>, and graduated from <a>Northeastern</a>.</p>
+        <p>I grew up in the ‘burbs of New York<span class="footnote">6</span>, make a lot of self deprecating jokes<span class="footnote">7</span>, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.<span class="footnote">3</span></p>
+      </section>
+    </div>
 
-    <section class="work">
-      <h1>Some work</h1>
-      {% for item in site.data.portfolio %}
-        {% if item.show %}
-        <div class="project">
-          <a data-content="{{ item.title }}" href="{{ item.url }}">
-            {{ item.title }}
-            {% if item.external %}
-              <img class="icon" src="/img/external-link.svg" />
-            {% endif %}
-          </a>
-          <p>{{ item.description }}</p>
-        </div>
-        {% endif %}
-      {% endfor %}
-    </section>
+    <div class="column">
+      <section class="work">
+        <h2>Selected work</h2>
+        {% for item in site.data.portfolio %}
+          {% if item.show %}
+          <div class="project" id="{{ item.id }}">
+            <span><a href="{{ item.url }}">{{ item.title }}</a>—{{ item.description }}</span>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </section>
+    </div>
 
-    <section class="about">
-      <h1>More</h1>
-      <p>I'm currently working as a product designer at <a data-content="GitHub" href="https://github.com">GitHub</a>. I've owned design on <a data-content="GitHub Desktop" href="https://desktop.github.com">GitHub Desktop</a>, <a data-content="GitHub Experiments" href="https://experiments.github.com">GitHub Experiments</a> and some other parts of the product. Before that, I worked at <a data-content="Upstatement" href="https://upstatement.com">Upstatement</a> and <a data-content="Ronik" href="https://ronikdesign.com">Ronik</a>, led the team at <a data-content="Scout Studio" href="https://neu.edu/scout">Scout Studio</a>, and graduated from Northeastern University.</p>
 
-      <p>I grew up on Long Island, make a lot of self deprecating jokes, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.</p>
 
-      <p>Take a peek at my <a data-content="resume" href="/pinsker-resume-2019.pdf">resume</a> if you need. Say hey over <a data-content="email" href="mailto:apinsker4@gmail.com">email</a>, on <a data-content="Twitter" href="https://twitter.com/ampinsk">Twitter</a>, or on <a data-content="LinkedIn" href="http://linkedin.com/in/amandapinsker">LinkedIn</a>. Or don't. That's perfectly okay too.</p>
-    </section>
+
+
+
+
+
   </section>
 </section>

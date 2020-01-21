@@ -3,28 +3,34 @@
   url: /project/museum
   show: true
   external: false
+  id: link1
 - title: GitHub Desktop
   description: Lowering the barrier of entry to git and software development
   url: http://desktop.github.com
   show: true
   external: true
+  id: link2
 - title: GitHub Experiments
   description: Showcasing experimental machine learning research
   url: http://experiments.github.com
   show: true
   external: true
+  id: link3
 - title: Baudelaire
   description: A modern transitional serif typeface
   url: /project/baudelaire
   show: true
   external: false
+  id: link4
 - title: Reading
   description: Books I've read and where I read them
   url: reading
   show: true
   external: false
+  id: link5
 - title: Anonymous Was A Woman
   description: Social campaign about implicit bias
   url: /project/anonymous-was-a-woman
   show: false
   external: false
+  id: link6
