@@ -74,8 +74,9 @@ section.home {
 
 $purple: #6134EC;
 $desktop-gray: #24292e;
-$experiments: #f97583;
+$pink: #f97583;
 $gh-black: #0D0D0D;
+$blue: #2188FF;
 
 body.hovered1 {
   color: $purple;
@@ -91,6 +92,10 @@ body.hovered1 {
       border: 1px solid $purple;
     }
   }
+
+  .footnote {
+    color: $black;
+  }
 }
 
 body.hovered2 {
@@ -99,6 +104,7 @@ body.hovered2 {
   background-repeat: no-repeat;
   background-size: cover;
   color: white !important;
+  transition: $timing;
 
   a {
     color: white;
@@ -111,25 +117,34 @@ body.hovered2 {
       border: 1px solid white;
     }
   }
+
+  .footnote {
+    color: $pink;
+  }
 }
 
 body.hovered3 {
   background-color: $gh-black;
   background-image: url(img/experiments-bg.png);
-  background-size: 90%;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: $experiments;
+  color: $white;
+  transition: $timing;
 
   a {
-    color: $experiments;
+    color: $white;
     transition: $timing;
   }
 
   .project:hover {
 
     &:after {
-      border: 1px solid white;
+      border: 1px solid $pink;
     }
+  }
+
+  .footnote {
+    color: $blue;
   }
 }
 
@@ -161,7 +176,7 @@ body.hovered5 {
   .project:hover {
 
     &:after {
-      border: 1px solid $black;
+      border: 1px solid $beige-gray;
     }
   }
 }
