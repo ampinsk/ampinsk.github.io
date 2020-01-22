@@ -1,75 +1,5 @@
 // Home page
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.column {
-  width: 48%;
-}
-
-.project {
-  padding-bottom: 25px;
-  cursor: pointer;
-
-  &:hover {
-    text-decoration-line: line-through;
-    text-decoration-style: double;
-  }
-}
-
-.footnote {
-  vertical-align: super;
-  font-size: 22px;
-  color: $red;
-}
-
-// HOVER STYLES
-
-$purple: #6134EC;
-
-body.hovered1 {
-  color: $purple;
-
-  a {
-    color: $purple;
-  }
-
-}
-
-body.hovered2 {
-  background-image: url(https://desktop.github.com/images/star-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #24292e;
-  color: white !important;
-
-  a {
-    color: white;
-    transition: $timing;
-  }
-}
-
-body.hovered3 {
-  background: black;
-  color: #69CC67 !important;
-  a {
-    color: #69CC67;
-    transition: $timing;
-  }
-}
-
-body.hovered4 {
-  background: #3E6939;
-}
-
-body.hovered5 {
-  background: $beige;
-  box-shadow: inset 0px 0px 0px 20px $black;
-}
-
 .home {
   padding: 4% 0;
   width: 92%;
@@ -83,11 +13,6 @@ body.hovered5 {
 
   a {
     font-weight: 700;
-
-    &:hover {
-      text-decoration-line: line-through;
-      text-decoration-style: double;
-    }
   }
 
   h1 {
@@ -101,5 +26,139 @@ body.hovered5 {
     font-style: italic;
     margin-bottom: 25px;
   }
+}
 
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.column {
+  width: 48%;
+}
+
+.project {
+  padding-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 104%;
+    height: 0px;
+    background: transparent;
+    border: 1px solid transparent;
+    z-index: -1;
+    top: 50%;
+    left: -6%;
+    transition: $timing;
+  }
+
+  &:hover:after {
+    height: 104%;
+    top: -8%;
+    transition: $timing;
+  }
+}
+
+.footnote {
+  vertical-align: super;
+  font-size: 22px;
+  color: $red;
+}
+
+// HOVER STYLES
+
+$purple: #6134EC;
+$desktop-gray: #24292e;
+$experiments: #f97583;
+
+body.hovered1 {
+  color: $purple;
+
+  a {
+    color: $purple;
+  }
+
+  .project:hover {
+    // color: white !important;
+
+    &:after {
+      border: 1px solid $purple;
+    }
+  }
+}
+
+body.hovered2 {
+  background-color: $desktop-gray;
+  background-image: url(https://desktop.github.com/images/star-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+
+  a {
+    color: white;
+    transition: $timing;
+  }
+
+  .project:hover {
+
+    &:after {
+      border: 1px solid white;
+    }
+  }
+}
+
+body.hovered3 {
+  background: black;
+  color: $experiments;
+
+  a {
+    color: $experiments;
+    transition: $timing;
+  }
+
+  .project:hover {
+
+    &:after {
+      border: 1px solid $experiments;
+    }
+  }
+}
+
+body.hovered4 {
+  color: $white;
+  background-color: #3E6939;
+  background-image: url(img/snake-bg.png);
+  mix-blend-mode: multiply;
+  background-size: cover;
+
+  a {
+    color: $white;
+    transition: $timing;
+  }
+
+  .project:hover {
+
+    &:after {
+      border: 1px solid $white;
+      // background: rgba(0,0,0,.5);
+    }
+  }
+
+}
+
+body.hovered5 {
+  background: $beige;
+  box-shadow: inset 0px 0px 0px 20px $black;
+
+  .project:hover {
+
+    &:after {
+      border: 1px solid $black;
+    }
+  }
 }
