@@ -1,14 +1,14 @@
 // Home page
 
-.home {
-  padding: 4% 0;
-  width: 92%;
+section.home {
+  padding: 5%;
+  width: 90%;
   font-size: $primary-font-size;
   line-height: 1.15;
 
   p {
     font-size: $primary-font-size;
-    margin: 25px 0;
+    margin: 30px 0;
   }
 
   a {
@@ -24,7 +24,7 @@
     font-size: $primary-font-size;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 }
 
@@ -36,30 +36,30 @@
 }
 
 .column {
-  width: 48%;
+  width: 46%;
 }
 
 .project {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
   cursor: pointer;
   position: relative;
 
   &:after {
     content: "";
     position: absolute;
-    width: 104%;
+    width: 108%;
     height: 0px;
     background: transparent;
     border: 1px solid transparent;
     z-index: -1;
     top: 50%;
-    left: -6%;
+    left: -4%;
     transition: $timing;
   }
 
   &:hover:after {
-    height: 104%;
-    top: -8%;
+    height: 102%;
+    top: -12%;
     transition: $timing;
   }
 }
@@ -75,6 +75,7 @@
 $purple: #6134EC;
 $desktop-gray: #24292e;
 $experiments: #f97583;
+$gh-black: #0D0D0D;
 
 body.hovered1 {
   color: $purple;
@@ -113,7 +114,10 @@ body.hovered2 {
 }
 
 body.hovered3 {
-  background: black;
+  background-color: $gh-black;
+  background-image: url(img/experiments-bg.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
   color: $experiments;
 
   a {
@@ -124,7 +128,7 @@ body.hovered3 {
   .project:hover {
 
     &:after {
-      border: 1px solid $experiments;
+      border: 1px solid white;
     }
   }
 }
@@ -144,8 +148,7 @@ body.hovered4 {
   .project:hover {
 
     &:after {
-      border: 1px solid $white;
-      // background: rgba(0,0,0,.5);
+      border: 1px solid $black;
     }
   }
 

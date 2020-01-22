@@ -24,7 +24,7 @@ body {
   width: 90%;
   padding: 0 3%;
   // max-width: 1200px;
-  margin: 30px auto 0;
+  // margin: 30px auto 0;
 }
 
 a {
@@ -37,14 +37,6 @@ a {
 
 p {
   font-size: 16px;
-}
-
-section {
-  margin-bottom: 100px;
-
-  @include mq($tablet) {
-    margin-bottom: 30px;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
