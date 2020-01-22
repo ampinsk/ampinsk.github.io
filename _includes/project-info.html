@@ -1,11 +1,9 @@
 {% for item in site.data.portfolio %}
-    {% if item.url == page.name %}
-
+  {% if item.title == page.tag %}
     <div class="project-intro">
       <a href="/">← Back</a>
       <h1>{{ item.title }}</h1>
       <h2>{{ item.description }}</h2>
     </div>
-    
-    {% endif %}
+  {% endif %}
 {% endfor %}
