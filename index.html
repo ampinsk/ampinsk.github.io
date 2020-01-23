@@ -6,42 +6,22 @@ layout: base
 
 <div class="bg"></div>
 <section class="site-container home">
-
-
-  <section class="content">
-
-    <div class="column">
-      <section class="identity">
-        <h1>Amanda Pinsker</h1>
-        <span>—Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.</span>
-      </section>
-
-      <section class="about">
-        <p>I've been a product designer at <a>GitHub</a> for a few years now. I’ve spent most of my time there not working on the website. Right now, I’m working on a new command line tool.</p>
-        <p>Before all this, I spent some time at <a>Upstatement</a> and <a>Ronik</a>, led the crew at <a>Scout</a>, and graduated from <a>Northeastern</a>.</p>
-        <p>I grew up in the ‘burbs of New York<span class="footnote">6</span>, make a lot of self deprecating jokes<span class="footnote">7</span>, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.<span class="footnote">3</span></p>
-      </section>
+    <div class="about column">
+      <div>
+        <b>Amanda Pinsker</b>—Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.
+      </div>
+      <div>I've been a product designer at <a>GitHub</a> for a few years now. I’ve spent most of my time there not working on the website. Right now, I’m working on a new command line tool.</div>
+      <div>Before all this, I spent some time at <a>Upstatement</a> and <a>Ronik</a>, led the crew at <a>Scout</a>, and graduated from <a>Northeastern</a>.</div>
+      <div>I grew up in the ‘burbs of New York<span class="footnote">6</span>, make a lot of self deprecating jokes<span class="footnote">7</span>, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.<span class="footnote">3</span></div>
     </div>
-
-    <div class="column">
-      <section class="work">
-        <h2>Selected work</h2>
-        {% for item in site.data.portfolio %}
-          {% if item.show %}
-          <div class="project" id="{{ item.id }}">
-            <span><a href="{{ item.url }}">{{ item.title }}</a>—{{ item.description }}</span>
-          </div>
-          {% endif %}
-        {% endfor %}
-      </section>
+    <div class="work column">
+      <h2>Selected work</h2>
+      {% for item in site.data.portfolio %}
+        {% if item.show %}
+        <a class="project" id="{{ item.id }}" href="{{ item.url }}">
+          <b>{{ item.title }}</b>—{{ item.description }}
+        </a>
+        {% endif %}
+      {% endfor %}
     </div>
-
-
-
-
-
-
-
-
-  </section>
 </section>

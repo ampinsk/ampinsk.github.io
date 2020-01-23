@@ -1,23 +1,21 @@
-// Home page
+// HOME PAGE
 
-section.home {
-  padding: 5%;
-  width: 90%;
+// Base home styles
+
+.home {
+  padding: 5% 0;
   font-size: $primary-font-size;
   line-height: 1.15;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
-  p {
-    font-size: $primary-font-size;
-    margin: 30px 0;
+  @include mq($tablet) {
+    flex-direction: row;
   }
 
   a {
     font-weight: 700;
-  }
-
-  h1 {
-    font-size: $primary-font-size;
-    display: inline;
   }
 
   h2 {
@@ -26,23 +24,34 @@ section.home {
     font-style: italic;
     margin-bottom: 30px;
   }
+
+  .column {
+    width: 100%;
+
+    @include mq($tablet) {
+      width: 46%;
+    }
+  }
+
+  .about div {
+    margin-bottom: 30px;
+  }
+
+  .footnote {
+    vertical-align: super;
+    font-size: 22px;
+    color: $red;
+  }
 }
 
+// Projects
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.column {
-  width: 46%;
-}
-
-.project {
+a.project {
   padding-bottom: 30px;
   cursor: pointer;
   position: relative;
+  font-weight: 400;
+  display: block;
 
   &:after {
     content: "";
@@ -64,118 +73,112 @@ section.home {
   }
 }
 
-.footnote {
-  vertical-align: super;
-  font-size: 22px;
-  color: $red;
-}
-
 // HOVER STYLES
 
 $purple: #6134EC;
-$desktop-gray: #24292e;
+$gh-gray: #24292e;
 $pink: #f97583;
 $gh-black: #0D0D0D;
 $blue: #2188FF;
+$baudelaire-green: #3E6939;
 
-body.hovered1 {
-  color: $purple;
+body.kleo {
+  $foreground: $purple;
+  $accent: $black;
+
+  color: $foreground;
 
   a {
-    color: $purple;
+    color: $foreground;
   }
 
-  .project:hover {
-    // color: white !important;
-
-    &:after {
-      border: 1px solid $purple;
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
     }
   }
 
   .footnote {
-    color: $black;
+    color: $accent;
   }
 }
 
-body.hovered2 {
-  background-color: $desktop-gray;
-  background-image: url(https://desktop.github.com/images/star-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white !important;
-  transition: $timing;
+body.desktop {
+  $foreground: $white;
+  $accent: $pink;
+
+  background: url(https://desktop.github.com/images/star-bg.svg) 0 0/cover no-repeat $gh-gray;
+  color: $foreground;
 
   a {
-    color: white;
-    transition: $timing;
+    color: $foreground;
   }
 
-  .project:hover {
-
-    &:after {
-      border: 1px solid white;
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
     }
   }
 
   .footnote {
-    color: $pink;
+    color: $accent;
   }
 }
 
-body.hovered3 {
-  background-color: $gh-black;
-  background-image: url(img/experiments-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: $white;
-  transition: $timing;
+body.experiments {
+  $foreground: $white;
+  $accent: $pink;
+  $tertiary: $blue;
+
+  background: url(img/experiments-bg.png) 0 0/cover no-repeat $gh-black;
+  color: $foreground;
 
   a {
-    color: $white;
-    transition: $timing;
+    color: $foreground;
   }
 
   .project:hover {
 
     &:after {
-      border: 1px solid $pink;
+      border: 1px solid $accent;
+      background: $accent;
     }
   }
 
   .footnote {
-    color: $blue;
+    color: $tertiary;
   }
 }
 
-body.hovered4 {
-  color: $white;
-  background-color: #3E6939;
-  background-image: url(img/snake-bg.png);
-  mix-blend-mode: multiply;
-  background-size: cover;
+body.baudelaire {
+  $foreground: $white;
+  $accent: $black;
+
+  color: $foreground;
+  background: url(img/snake-bg.png) 0 0/cover no-repeat $baudelaire-green;
 
   a {
-    color: $white;
-    transition: $timing;
+    color: $foreground;
   }
 
-  .project:hover {
-
-    &:after {
-      border: 1px solid $black;
+  .project {
+    &:hover:after {
+      border: 1px solid $accent;
     }
   }
 
+  .footnote {
+    color: $accent;
+  }
+
 }
 
-body.hovered5 {
+body.read {
   background: $beige;
   box-shadow: inset 0px 0px 0px 20px $black;
 
-  .project:hover {
-
-    &:after {
+  .project {
+    &:hover:after {
       border: 1px solid $beige-gray;
     }
   }

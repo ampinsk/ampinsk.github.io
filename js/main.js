@@ -4,50 +4,50 @@ window.sr = ScrollReveal({
   scale: .95
 });
 
-var link1 = document.getElementById('link1');
-var link2 = document.getElementById('link2');
-var link3 = document.getElementById('link3');
-var link4 = document.getElementById('link4');
-var link5 = document.getElementById('link5');
+var kleo = document.getElementById('kleo');
+var desktop = document.getElementById('desktop');
+var experiments = document.getElementById('experiments');
+var baudelaire = document.getElementById('baudelaire');
+var read = document.getElementById('read');
 
 var body = document.body;
 
-link1.onmouseover = function() {
-	body.className = 'hovered1';
+kleo.onmouseover = function() {
+	body.className = 'kleo';
 }
 
-link1.onmouseout = function() {
+kleo.onmouseout = function() {
 	body.className = '';
 }
 
-link2.onmouseover = function() {
-	body.className = 'hovered2';
+desktop.onmouseover = function() {
+	body.className = 'desktop';
 }
 
-link2.onmouseout = function() {
+desktop.onmouseout = function() {
 	body.className = '';
 }
 
-link3.onmouseover = function() {
-	body.className = 'hovered3';
+experiments.onmouseover = function() {
+	body.className = 'experiments';
 }
 
-link3.onmouseout = function() {
+experiments.onmouseout = function() {
 	body.className = '';
 }
 
-link4.onmouseover = function() {
-	body.className = 'hovered4';
+baudelaire.onmouseover = function() {
+	body.className = 'baudelaire';
 }
 
-link4.onmouseout = function() {
+baudelaire.onmouseout = function() {
 	body.className = '';
 }
 
-link5.onmouseover = function() {
-	body.className = 'hovered5';
+read.onmouseover = function() {
+	body.className = 'read';
 }
 
-link5.onmouseout = function() {
+read.onmouseout = function() {
 	body.className = '';
 }
