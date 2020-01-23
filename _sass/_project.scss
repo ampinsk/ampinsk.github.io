@@ -7,13 +7,13 @@
   }
   h2 {
     font-size: 24px;
-    font-weight: normal;
-    font-family: $serif;
+    font-weight: 400;
+    font-family: $serif-text;
     font-style: italic;
   }
   a {
     font-size: 15px;
-    font-family: $serif;
+    font-family: $serif-text;
     margin-left: -17px;
     text-decoration: none;
 
@@ -146,7 +146,7 @@
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
-  font-family: $serif;
+  font-family: $serif-text;
 }
 
 .project_text a {
