@@ -33,14 +33,20 @@
     }
   }
 
-  .about div {
-    margin-bottom: 30px;
-  }
-
   .footnote {
     vertical-align: super;
     font-size: 22px;
     color: $red;
+  }
+}
+
+.about {
+  div {
+    margin-bottom: 30px;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
 
