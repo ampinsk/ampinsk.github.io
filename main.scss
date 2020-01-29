@@ -53,7 +53,9 @@ h2::selection,
 h1::selection,
 img::selection,
 a::selection,
-span::selection {
-  background: black;
-  color: white;
+span::selection,
+div::selection,
+b::selection {
+  background: $foreground;
+  color: $background;
 }
