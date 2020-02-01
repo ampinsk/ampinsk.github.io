@@ -34,3 +34,9 @@
   show: false
   external: false
   id: awaw
+- title: Fine Art
+  description: A collection of my high school fine art
+  url: /project/fine-art
+  show: false
+  external: false
+  id: art
