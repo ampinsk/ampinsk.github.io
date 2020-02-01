@@ -213,3 +213,15 @@
     }
   }
 }
+
+.art {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    width: 45%;
+    padding: 20px;
+    height: 100%;
+  }
+}

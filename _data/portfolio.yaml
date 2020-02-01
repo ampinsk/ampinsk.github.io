@@ -28,3 +28,8 @@
   url: /project/anonymous-was-a-woman
   show: false
   external: false
+- title: Fine Art
+  description: A collection of my high school fine art
+  url: /project/fine-art
+  show: false
+  external: false
