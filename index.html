@@ -5,23 +5,34 @@ layout: base
 ---
 
 <div class="bg"></div>
-<section class="site-container home">
+<section class="site-container">
+  <div class="home">
     <div class="about column">
       <div>
-        <b>Amanda Pinsker</b>—Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.
+        <b>Amanda Pinsker</b>—Experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.
       </div>
-      <div>I've been a product designer at <a>GitHub</a> for a few years now. I’ve spent most of my time there not working on the website. Right now, I’m working on a new command line tool.</div>
-      <div>Before all this, I spent some time at <a>Upstatement</a> and <a>Ronik</a>, led the crew at <a>Scout</a>, and graduated from <a>Northeastern</a>.</div>
-      <div>I grew up in the ‘burbs of New York<span class="footnote">6</span>, make a lot of self deprecating jokes<span class="footnote">7</span>, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.<span class="footnote">3</span></div>
+      <div>I've been a product designer at <a>GitHub</a> for a few years now. Right now, I’m focused on how you work with GitHub from your local machine. All of our work is <a href="http://github.com/desktop/desktop">open</a> <a href="http://github.com/cli/cli">source</a>.</div>
+      <div>Before all this, I spent some time at <a>Upstatement</a> and <a>Ronik</a>, led the crew at <a>Scout</a>, and graduated from <a>Northeastern</a><span class="accent superscript" id="asterisk">*</span>.</div>
+      <div>I grew up in the ‘burbs of New York<span class="accent superscript" id="dagger">†</span>, make a lot of self deprecating jokes<span class="accent superscript" id="doubledagger">‡</span>, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.<span class="accent superscript" id="section">§</span></div>
+
+
     </div>
     <div class="work column">
       <h2>Selected work</h2>
       {% for item in site.data.portfolio %}
         {% if item.show %}
         <a class="project" id="{{ item.id }}" href="{{ item.url }}">
-          <b>{{ item.title }}</b>—{{ item.description }}
+          <b>{{ item.title }}</b>—{{ item.description }}{% if item.external%}<span class="accent external-link">↗</span>{% endif %}
         </a>
         {% endif %}
       {% endfor %}
+      <div class="note grid">
+        <span class="accent">*</span><p class="note" id="asterisk2">Here's my <a href="/resume.pdf">resume</a> if you need it.</p>
+        <span class="accent">†</span><p class="note" id="dagger2">Long Island, specifically. At least it's not Jersey.</p>
+        <span class="accent">‡</span><p class="note" id="doubledagger2">I don't get away with these as well as I'd like on the West Coast.</p>
+        <span class="accent">§</span><p class="note" id="section2">If you've learned about me and would still like to talk to me, you can do so in these places: <a href="http://twitter.com/ampinsk">Twitter</a>, <a href="mailto:apinsker4@gmail.com">Email</a>, <a href="http://linkedin.com/amandapinsker">LinkedIn</a>.</p>
+        <span class="accent optically-smaller">↗</span><p class="note" id="external2">This means I do not have a public case study yet  and I must send you somewhere else.</p>
+      </div>
     </div>
+  </div>
 </section>

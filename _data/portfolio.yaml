@@ -4,6 +4,12 @@
   show: true
   external: false
   id: kleo
+- title: GitHub CLI
+  description: Designing GitHub for your terminal
+  url: http://cli.github.com
+  show: true
+  external: true
+  id: cli
 - title: GitHub Desktop
   description: Lowering the barrier of entry to git and software development
   url: http://desktop.github.com
@@ -13,7 +19,7 @@
 - title: GitHub Experiments
   description: Showcasing experimental machine learning research
   url: http://experiments.github.com
-  show: true
+  show: false
   external: true
   id: experiments
 - title: Baudelaire

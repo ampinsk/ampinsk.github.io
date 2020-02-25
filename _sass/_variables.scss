@@ -40,13 +40,28 @@ $border-thick: 2px solid $black;
 $border-thin: 1px solid $gray;
 $shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 $timing: 0.2s ease;
-$timing-cubic: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+$timing-cubic: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+$timing-slow: 0.5s ease;
+
+// Type scale
+$f1: 40px;
+$f2: 32px;
+$f3: 24px;
+$f4: 18px;
+$f5: 14px;
+$f6: 12px;
+
+.optically-smaller {
+  font-size: 80%;
+  vertical-align: middle;
+}
+
 // ---
 // Applications
 $background: $white;
 $foreground: $black;
 $primary-font: $serif;
 $secondary-font: $sans-text;
-$primary-font-size: 40px;
-$secondary-font-size: 14px;
+$primary-font-size: $f1;
+$secondary-font-size: $f5;
 $highlight: $red;

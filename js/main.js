@@ -4,13 +4,10 @@ window.sr = ScrollReveal({
   scale: .95
 });
 
-var kleo = document.getElementById('kleo');
-var desktop = document.getElementById('desktop');
-var experiments = document.getElementById('experiments');
-var baudelaire = document.getElementById('baudelaire');
-var read = document.getElementById('read');
-
 var body = document.body;
+var external = document.getElementsByClassName("external-link");
+var external2 = document.getElementById('external2');
+
 
 kleo.onmouseover = function() {
 	body.className = 'kleo';
@@ -28,14 +25,6 @@ desktop.onmouseout = function() {
 	body.className = '';
 }
 
-experiments.onmouseover = function() {
-	body.className = 'experiments';
-}
-
-experiments.onmouseout = function() {
-	body.className = '';
-}
-
 baudelaire.onmouseover = function() {
 	body.className = 'baudelaire';
 }
@@ -50,4 +39,54 @@ read.onmouseover = function() {
 
 read.onmouseout = function() {
 	body.className = '';
+}
+
+cli.onmouseover = function() {
+	body.className = 'cli';
+}
+
+cli.onmouseout = function() {
+	body.className = '';
+}
+
+asterisk.onmouseover = function() {
+  asterisk2.className= 'accent note';
+}
+
+asterisk.onmouseout = function() {
+  asterisk2.className= 'note';
+}
+
+dagger.onmouseover = function() {
+  dagger2.className= 'accent note';
+}
+
+dagger.onmouseout = function() {
+  dagger2.className= 'note';
+}
+
+doubledagger.onmouseover = function() {
+  doubledagger2.className= 'accent note';
+}
+
+doubledagger.onmouseout = function() {
+  doubledagger2.className= 'note';
+}
+
+section.onmouseover = function() {
+  section2.className= 'accent note';
+  console.log("section");
+}
+
+section.onmouseout = function() {
+  section2.className= 'note';
+}
+
+external.onmouseover = function() {
+  external2.className= 'accent note';
+  console.log("hi!!!!");
+}
+
+external.onmouseout = function() {
+  external2.className= 'note';
 }
