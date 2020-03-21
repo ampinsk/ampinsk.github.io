@@ -115,14 +115,19 @@ $gh-black: #0D0D0D;
 $blue: #2188FF;
 $baudelaire-green: #3E6939;
 $tan: #C2B2B4;
-$mauve: #DD7373;
-$new-gray: #3B3561;
+$mauve: #C6A1C7;
+$new-gray: #252021;
+$gh-purple: #f97583;
+
+$new-green: #40AB85;
+$new-purple: #6B4DE4;
+$new-beige: #F3E5CF;
 
 body.kleo {
-  $foreground: white;
-  $accent: $black;
+  $foreground: black;
+  $accent: white;
 
-  background: $purple;
+  background: $new-purple;
   color: $foreground;
 
   a {
@@ -163,8 +168,8 @@ body.cli {
 }
 
 body.desktop {
-  $foreground: $white;
-  $accent: $pink;
+  $foreground: $black;
+  $accent: yellow;
 
   // background: url(https://desktop.github.com/images/star-bg.svg) 0 0/cover no-repeat $gh-gray;
   background: $mauve;
@@ -211,11 +216,11 @@ body.experiments {
 }
 
 body.baudelaire {
-  $foreground: $white;
-  $accent: $black;
+  $foreground: $black;
+  $accent: $white;
 
   color: $foreground;
-  background: url(img/snake-bg.png) 0 0/cover no-repeat $baudelaire-green;
+  background: $new-green;
 
   a {
     color: $foreground;
@@ -234,7 +239,7 @@ body.baudelaire {
 }
 
 body.read {
-  background: $tan;
+  background: $new-beige;
   box-shadow: inset 0px 0px 0px 20px $black;
 
   .project {
