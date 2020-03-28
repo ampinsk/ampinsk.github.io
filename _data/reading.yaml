@@ -1,4 +1,13 @@
 ---
+- title: Bluets
+  url: bluets
+  place: at Buena Vista Park
+  pic_img: /img/reading/buena-vista.jpg
+  book_img: https://images-na.ssl-images-amazon.com/images/I/61fDEge2TzL.jpg
+  date: 03/22/2020
+  description: 
+  highlights:
+    - 
 - title: Little Fires Everywhere
   url: little-fires-everywhere
   place: in quarantine
