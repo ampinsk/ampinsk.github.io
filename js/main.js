@@ -90,3 +90,11 @@ external.onmouseover = function() {
 external.onmouseout = function() {
   external2.className= 'note';
 }
+
+degree.onmouseover = function() {
+  degree2.className= 'accent note';
+}
+
+degree.onmouseout = function() {
+  degree2.className= 'note';
+}
