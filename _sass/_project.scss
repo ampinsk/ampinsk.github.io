@@ -107,4 +107,21 @@
   p.right {
     @extend .right;
   }
+
+  blockquote {
+    width: 70%;
+    font-style: italic;
+    border-left: 1px solid black;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 0;
+
+    p {
+      margin: 0;
+      padding-left: 40px;
+      width: auto;
+    }
+  }
+
+
 }
