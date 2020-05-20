@@ -29,7 +29,13 @@
     width: 100%;
 
     @include mq($tablet) {
-      width: 46%;
+
+      &.about {
+        width: 42%;
+      }
+      &.work {
+        width: 50%
+      }
     }
   }
 }
@@ -75,6 +81,8 @@ a:hover {
   grid-row-gap: 8px;
   align-items: start;
   padding-top: 24px;
+  width: 50%;
+  margin-left: -18px;
 }
 
 // Projects

@@ -40,8 +40,11 @@
 
 .case-study-content {
   font-family: $serif-text;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-  p, h1, h2, h3, li, a {
+  p, h1, h2, h3, ul, ol, a {
     @include mq($tablet) {
       width: 70%;
       margin-left: auto;
@@ -71,6 +74,14 @@
     font-style: italic;
   }
 
+  a {
+    text-decoration: underline;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   img {
     width: 100%;
 
@@ -80,25 +91,20 @@
   }
 
   p.third {
-    @include mq($tablet) {
-      display: inline-block;
-      width: 30%;
-      padding: 0 5px;
-    }
+    @extend .third;
+    margin-left: 0;
   }
 
   p.half {
-    @include mq($tablet) {
-      display: inline-block;
-      width: 48%;
-    }
+    @extend .half;
+    margin-left: 0;
   }
 
   p.full {
-    width: 100%;
+    @extend .full;
   }
 
   p.right {
-    float: right;
+    @extend .right;
   }
 }

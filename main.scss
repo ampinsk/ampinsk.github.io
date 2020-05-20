@@ -51,6 +51,32 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.third {
+  @include mq($tablet) {
+    display: inline-block;
+    width: 32%;
+  }
+}
+
+.half {
+  @include mq($tablet) {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+.full {
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 
 p::selection,
 h6::selection,
