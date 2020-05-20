@@ -50,7 +50,7 @@ cli.onmouseout = function() {
 }
 
 asterisk.onmouseover = function() {
-  asterisk2.className= 'accent note';
+  asterisk2.className= 'footnote-accent note';
 }
 
 asterisk.onmouseout = function() {
@@ -58,7 +58,7 @@ asterisk.onmouseout = function() {
 }
 
 dagger.onmouseover = function() {
-  dagger2.className= 'accent note';
+  dagger2.className= 'footnote-accent note';
 }
 
 dagger.onmouseout = function() {
@@ -66,7 +66,7 @@ dagger.onmouseout = function() {
 }
 
 doubledagger.onmouseover = function() {
-  doubledagger2.className= 'accent note';
+  doubledagger2.className= 'footnote-accent note';
 }
 
 doubledagger.onmouseout = function() {
@@ -74,7 +74,7 @@ doubledagger.onmouseout = function() {
 }
 
 section.onmouseover = function() {
-  section2.className= 'accent note';
+  section2.className= 'footnote-accent note';
   console.log("section");
 }
 
@@ -83,7 +83,7 @@ section.onmouseout = function() {
 }
 
 external.onmouseover = function() {
-  external2.className= 'accent note';
+  external2.className= 'footnote-accent note';
   console.log("hi!!!!");
 }
 
@@ -91,10 +91,10 @@ external.onmouseout = function() {
   external2.className= 'note';
 }
 
-degree.onmouseover = function() {
-  degree2.className= 'accent note';
+paragraph.onmouseover = function() {
+  paragraph2.className= 'footnote-accent note';
 }
 
-degree.onmouseout = function() {
-  degree2.className= 'note';
+paragraph.onmouseout = function() {
+  paragraph2.className= 'note';
 }
