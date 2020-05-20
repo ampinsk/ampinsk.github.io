@@ -6,7 +6,7 @@
   id: kleo
   site: https://invis.io/VB9OO63AY#/210571241_Home
 - title: GitHub CLI
-  description: Designing GitHub for your terminal
+  description: Designing GitHub for your&nbsp;terminal
   url: http://cli.github.com
   show: true
   external: true
@@ -24,13 +24,13 @@
   external: true
   id: experiments
 - title: Baudelaire
-  description: A modern transitional serif typeface
+  description: A modern transitional serif&nbsp;typeface
   url: /project/baudelaire
   show: true
   external: false
   id: baudelaire
 - title: Reading
-  description: Books I've read and where I read them
+  description: Books I've read and where I read&nbsp;them
   url: reading
   show: true
   external: false
