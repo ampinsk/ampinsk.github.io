@@ -3,8 +3,8 @@
 // Base home styles
 
 .home {
-  padding: 5% 0;
-  font-size: $primary-font-size;
+  margin: 80px 0;
+  font-size: 36px;
   line-height: 1.15;
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,7 @@
 
   @include mq($tablet) {
     flex-direction: row;
+    font-size: $primary-font-size;
   }
 
   a {
@@ -92,7 +93,6 @@ a:hover {
   font-size: $f4;
   padding-left: 5px;
   padding-top: 24px;
-  margin-bottom: 80px;
   border-top: 1px solid $foreground;
 
   @include mq($tablet) {
@@ -110,7 +110,6 @@ a:hover {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   align-items: start;
-
 }
 
 // Projects
