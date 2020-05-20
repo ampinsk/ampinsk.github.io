@@ -5,14 +5,14 @@
 .home {
   margin: 80px 0;
   font-size: 36px;
-  line-height: 1.15;
+  line-height: 1.2;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 
   @include mq($tablet) {
     flex-direction: row;
-    font-size: $primary-font-size;
+    // font-size: $primary-font-size;
   }
 
   a {
