@@ -1,3 +1,21 @@
+- title: GitHub Desktop
+  description: Lowering the barrier of entry to git and software development
+  url: http://desktop.github.com
+  show: true
+  external: true
+  id: desktop
+- title: GitHub CLI
+  description: Designing GitHub for your&nbsp;terminal
+  url: http://cli.github.com
+  show: true
+  external: true
+  id: cli
+- title: GitHub Experiments
+  description: Showcasing experimental machine learning research
+  url: http://experiments.github.com
+  show: false
+  external: true
+  id: experiments
 - title: Kleo
   description: An award-winning, beginner-inclusive app for art museums
   url: /project/museum
@@ -5,24 +23,6 @@
   external: false
   id: kleo
   site: https://invis.io/VB9OO63AY#/210571241_Home
-- title: GitHub CLI
-  description: Designing GitHub for your&nbsp;terminal
-  url: http://cli.github.com
-  show: true
-  external: true
-  id: cli
-- title: GitHub Desktop
-  description: Lowering the barrier of entry to git and software development
-  url: http://desktop.github.com
-  show: true
-  external: true
-  id: desktop
-- title: GitHub Experiments
-  description: Showcasing experimental machine learning research
-  url: http://experiments.github.com
-  show: false
-  external: true
-  id: experiments
 - title: Baudelaire
   description: A modern transitional serif&nbsp;typeface
   url: /project/baudelaire
