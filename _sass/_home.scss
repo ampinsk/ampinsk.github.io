@@ -3,7 +3,7 @@
 // Base home styles
 
 .home {
-  margin: 80px 0;
+  padding: 80px 0;
   font-size: 36px;
   line-height: 1.2;
   display: flex;
@@ -32,10 +32,10 @@
     @include mq($tablet) {
 
       &.about {
-        width: 42%;
+        width: 40%;
       }
       &.work {
-        width: 50%
+        width: 52%
       }
     }
   }
