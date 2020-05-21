@@ -48,7 +48,7 @@
 
   p, h1, h2, h3, ul, ol, a {
     @include mq($tablet) {
-      width: 70%;
+      width: 64%;
       margin-left: auto;
     }
   }
@@ -79,7 +79,7 @@
 
   a {
     text-decoration: underline;
-    
+
     &:hover {
       text-decoration: none;
     }
