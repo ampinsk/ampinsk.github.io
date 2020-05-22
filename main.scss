@@ -77,6 +77,19 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
+.easter-egg {
+  animation-name: easter-egg;
+  animation-duration: 5s;
+}
+
+@keyframes easter-egg {
+  0%   {background-color: $white;}
+  25%  {background-color: red;}
+  50%  {background-color: yellow;}
+  75%  {background-color: blue;}
+  100% {background-color: $white;}
+}
+
 
 p::selection,
 h6::selection,

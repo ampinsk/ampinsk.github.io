@@ -15,6 +15,7 @@ kleo.onmouseover = function() {
 
 kleo.onmouseout = function() {
 	body.className = '';
+  console.log("my javascript is very bad don't judge me");
 }
 
 desktop.onmouseover = function() {
@@ -75,26 +76,68 @@ doubledagger.onmouseout = function() {
 
 section.onmouseover = function() {
   section2.className= 'footnote-accent note';
-  console.log("section");
+  console.log("hi!!!!!!");
 }
 
 section.onmouseout = function() {
   section2.className= 'note';
 }
 
-external.onmouseover = function() {
-  external2.className= 'footnote-accent note';
-  console.log("hi!!!!");
-}
-
-external.onmouseout = function() {
-  external2.className= 'note';
-}
-
 paragraph.onmouseover = function() {
   paragraph2.className= 'footnote-accent note';
+  console.log("my javascript is very bad don't judge me");
 }
 
 paragraph.onmouseout = function() {
   paragraph2.className= 'note';
+}
+
+
+
+// a key map of allowed keys
+var allowedKeys = {
+  65: 'a',
+  77: 'm',
+  78: 'n',
+  68: 'd',
+};
+
+// the 'official' Konami Code sequence
+var konamiCode = ['a', 'm', 'a', 'n', 'd', 'a'];
+
+// a variable to remember the 'position' the user has reached so far.
+var konamiCodePosition = 0;
+
+// add keydown event listener
+document.addEventListener('keydown', function(e) {
+  // get the value of the key code from the key map
+  var key = allowedKeys[e.keyCode];
+  // get the value of the required key from the konami code
+  var requiredKey = konamiCode[konamiCodePosition];
+
+  // compare the key with the required key
+  if (key == requiredKey) {
+
+    // move to the next key in the konami code sequence
+    konamiCodePosition++;
+
+    // if the last key is reached, activate cheats
+    if (konamiCodePosition == konamiCode.length) {
+      activateCheats();
+      konamiCodePosition = 0;
+
+      setTimeout(function(){
+        resetCheats();
+      }, 5000);
+    }
+  } else {
+    konamiCodePosition = 0;
+  }
+});
+
+function activateCheats() {
+  body.className = "easter-egg";
+}
+function resetCheats() {
+  body.className = "";
 }
