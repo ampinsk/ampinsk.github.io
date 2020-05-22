@@ -28,14 +28,10 @@ Based on academic papers we sourced, we identified our main audience as low-invo
 1. **Repeat visitors**—Student, Experience seeker, Recharger, Specialist
 1. **Facilitator**—Parent/Child, Teacher/Student
 
-{:.third}
-![](/img/full/museum2.jpg)
+{:.full}
+![](/img/full/museum8.png)
 
-{:.third}
-![](/img/full/museum3.jpg)
 
-{:.third}
-![](/img/full/museum4.jpg)
 
 
 
