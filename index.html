@@ -22,7 +22,7 @@ layout: base
       {% for item in site.data.portfolio %}
         {% if item.show %}
         <a class="project" id="{{ item.id }}" href="{{ item.url }}">
-          <b>{{ item.title }}</b>—{{ item.description }}{% if item.external%}<span class="accent external-link">↗</span>{% endif %}
+          <b>{{ item.title }}</b>—{{ item.description }}{% if item.external%}<span class="accent external-link">&#8599;&#xFE0E;</span>{% endif %}
         </a>
         {% endif %}
       {% endfor %}
