@@ -125,10 +125,6 @@ document.addEventListener('keydown', function(e) {
     if (konamiCodePosition == konamiCode.length) {
       activateCheats();
       konamiCodePosition = 0;
-
-      setTimeout(function(){
-        resetCheats();
-      }, 5000);
     }
   } else {
     konamiCodePosition = 0;
