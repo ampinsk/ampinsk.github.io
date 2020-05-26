@@ -77,10 +77,12 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
-.easter-egg {
-  animation-name: easter-egg;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
+body.easter-egg {
+  animation: easter-egg 60s infinite;
+
+  .accent {
+    animation: easter-egg-accent 60s infinite;
+  }
 }
 
 $color1: #2364aaff;
@@ -103,6 +105,11 @@ $color9: #ea7317ff;
   70%  {background-color: $color7;}
   80%  {background-color: $color8;}
   90%  {background-color: $color9;}
+}
+
+@keyframes easter-egg-accent {
+  2%  {color: $white;}
+  98%  {color: $white;}
 }
 
 
