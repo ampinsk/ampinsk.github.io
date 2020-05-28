@@ -29,7 +29,7 @@ body {
 
 a {
   position: relative;
-  color: inherit;
+  color: $foreground;
   text-decoration: none;
   cursor: pointer;
   transition: $timing;
