@@ -22,7 +22,7 @@ body {
 }
 
 .site-container {
-  width: 85%;
+  width: 86%;
   margin: 0 auto;
   max-width: 1300px;
 }
@@ -77,6 +77,38 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $foreground;
+    color: $background;
+  }
+
+  a {
+    color: $background;
+  }
+
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px darken($red, 20%);
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px darken($red, 20%);
+  }
+
+  .project-intro .site-button {
+    border-color: $background;
+
+    &:hover {
+      background: $background;
+      color: $foreground;
+    }
+  }
+
+  .footer {
+    border-color: $background;
+  }
+}
+
 body.easter-egg {
   animation: easter-egg 60s infinite;
 
@@ -127,4 +159,9 @@ div::selection,
 b::selection {
   background: $foreground;
   color: $background;
+
+  @media (prefers-color-scheme: dark) {
+    background: $background;
+    color: $foreground;
+  }
 }
