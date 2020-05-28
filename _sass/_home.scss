@@ -48,20 +48,16 @@
 }
 
 .note span  {
-  // padding: 0 4px;
   transition: 0.15s ease box-shadow;
   box-shadow: inset 0px 0px 0px 0px lighten($red, 30%);
-  // display: inline-block;
 }
 
 .footnote-accent span {
   box-shadow: inset 0px -25px 0px 0px lighten($red, 30%);
-  // color: $background;
   transition: 0.15s ease box-shadow;
 }
 
 .footnote-accent a {
-  // color: $background;
   transition: 0.15s ease box-shadow;
 }
 
@@ -207,7 +203,6 @@ body.desktop {
   $foreground: $black;
   $accent: yellow;
 
-  // background: url(https://desktop.github.com/images/star-bg.svg) 0 0/cover no-repeat $gh-gray;
   background: $mauve;
   color: $foreground;
 
@@ -277,6 +272,11 @@ body.baudelaire {
 body.read {
   background: $new-beige;
   box-shadow: inset 0px 0px 0px 20px $black;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
 
   .project {
     &:hover:after {
