@@ -4,7 +4,7 @@
 
 .home {
   padding: 80px 0;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.2;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 
   @include mq($tablet) {
     flex-direction: row;
-    // font-size: $primary-font-size;
+    font-size: 36px;
   }
 
   a {
@@ -79,7 +79,11 @@ a:hover {
 
 .superscript {
   vertical-align: super;
-  font-size: $f3;
+  font-size: 20px;
+
+  @include mq($tablet) {
+    font-size: $f3;
+  }
 }
 
 .notes {
@@ -87,7 +91,6 @@ a:hover {
   margin: 0;
   line-height: 1.4;
   font-size: $f4;
-  padding-left: 5px;
   padding-top: 24px;
   border-top: 1px solid $foreground;
 
@@ -96,6 +99,7 @@ a:hover {
     width: 310px;
     font-size: $f5;
     border: none;
+    padding-left: 5px;
   }
 }
 
