@@ -144,26 +144,17 @@ a.project {
 
 // HOVER STYLES
 
-$purple: #6134EC;
-$gh-gray: #24292e;
-$pink: #f97583;
-$gh-black: #0D0D0D;
-$blue: #2188FF;
-$baudelaire-green: #3E6939;
-$tan: #C2B2B4;
 $mauve: #C6A1C7;
 $new-gray: #252021;
-$gh-purple: #f97583;
-
-$new-green: #40AB85;
-$new-purple: #6B4DE4;
+$green: #40AB85;
+$purple: #6B4DE4;
 $new-beige: #F3E5CF;
 
 body.kleo {
-  $foreground: white;
-  $accent: black;
+  $foreground: $white;
+  $accent: $black;
 
-  background: $new-purple;
+  background: $purple;
   color: $foreground;
 
   a {
@@ -225,37 +216,12 @@ body.desktop {
   }
 }
 
-body.experiments {
-  $foreground: $white;
-  $accent: $pink;
-  $tertiary: $blue;
-
-  background: url(img/experiments-bg.png) 0 0/cover no-repeat $gh-black;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project:hover {
-
-    &:after {
-      border: 1px solid $accent;
-      background: $accent;
-    }
-  }
-
-  .accent {
-    color: $tertiary;
-  }
-}
-
 body.baudelaire {
   $foreground: $black;
   $accent: $white;
 
   color: $foreground;
-  background: $new-green;
+  background: $green;
 
   a {
     color: $foreground;

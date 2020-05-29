@@ -106,6 +106,22 @@ body.easter-egg {
     }
   }
 
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px 0px 0px 0px $black;
+    }
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px -25px 0px 0px $black;
+    }
+  }
+
   @media (prefers-color-scheme: dark) {
     background: $foreground;
     color: $background;
