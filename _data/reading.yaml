@@ -1,7 +1,35 @@
 ---
+- title: Little Fires Everywhere
+  url: little-fires-everywhere
+  place: in quarantine
+  pic_img: /img/reading/living-room.jpg
+  book_img: https://images-na.ssl-images-amazon.com/images/I/91twTG-CQ8L.jpg
+  date: 03/20/2020
+  description: I'll be honest, I started the TV show and then couldn't wait for more episodes so I read the book in 2 days.
+  highlights:
+    - Mia realized that she was crossing into a place she would have to go alone.
+    - A lifetime of practical and comfortable considerations settled atop the spark inside her like a thick, heavy blanket.
+- title: Trick Mirror
+  url: trick-mirror
+  place: for book club
+  pic_img: /img/reading/couch-kindle.jpg
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81M7D39GAWL.jpg
+  date: 03/17/2020
+  description: I really liked Tolentino's essays, but I almost already agreed with them so much that I found reading this kind of boring?
+  highlights:
+    - Writing is either a way to shed my self-delusions or a way to develop them. A well-practiced, conclusive narrative is usually a dubious one.
+- title: Maybe You Should Talk To Someone
+  url: maybe-you-should-talk-to-someone
+  place: for book club
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81k9Uam6RLL.jpg
+  date: 02/13/2020
+  description: I'd recommend this to anyone considering therapy but feeling apprehensive about it.
+  highlights:
+    - Maybe happiness is sometimes.
+    - Instead of leaning into the goodness that comes their way, they become hypervigilant, always waiting for something to go wrong.
 - title: Homesick For Another World
-  url: the-immortalists
-  place: in San Francisco
+  url: home-sick-for-another-world
+  place: at Matching Half
   book_img: https://images-na.ssl-images-amazon.com/images/I/81LqR8BogoL.jpg
   date: 01/24/2020
   description: I started this a few years ago and I finally picked it back up and finished it. I think I didn't get Moshfegh's writing at first, but after I read My Year Of Rest And Relaxation I understood her work better. It's brutally honest and darkly funny (...like many books on here)
@@ -168,7 +196,7 @@
 - title: The Power
   url: the-power
   place: during my commute
-  book_img: http://static1.1.sqspcdn.com/static/f/1371273/27278871/1475775961363/The+Power.jpg?token=iLQyy9Acb89uzeJEt7EsjLWu1qo%3D
+  book_img: https://static1.1.sqspcdn.com/static/f/1371273/27278871/1475775961363/The+Power.jpg?token=iLQyy9Acb89uzeJEt7EsjLWu1qo%3D
   date: 11/26/2018
   description: 'I haven''t fallen into a story so quick in a while: electrifying,
     enrapturing, thought-provoking, heavy-handed revenge porn.'
