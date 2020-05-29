@@ -85,51 +85,41 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: $foreground;
-    color: $background;
-  }
-
-  a {
-    color: $background;
-  }
-
-  .note span  {
-    box-shadow: inset 0px 0px 0px 0px darken($red, 20%);
-  }
-
-  .footnote-accent span {
-    box-shadow: inset 0px -25px 0px 0px darken($red, 20%);
-  }
-
-  .project-intro .site-button {
-    border-color: $background;
-
-    &:hover {
-      background: $background;
-      color: $foreground;
-    }
-  }
-
-  .footer {
-    border-color: $background;
-  }
-}
-
 body.easter-egg {
+  color: $foreground;
+  background: $background;
   animation: easter-egg 60s infinite;
 
   .accent {
     animation: easter-egg-accent 60s infinite;
   }
+
+  a {
+    color: inherit;
+  }
+
+  .project:hover:after {
+    border: 1px solid $white;
+
+    @media (prefers-color-scheme: dark) {
+      border: 1px solid $black;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: $foreground;
+    color: $background;
+  }
 }
+
+
+
+// 🌈
 
 .hint {
   cursor: help;
 }
 
-// 🌈
 $color1: #ffbe0bff;
 $color2: #fb5607ff;
 $color3: #ff006eff;
@@ -168,5 +158,42 @@ b::selection {
   @media (prefers-color-scheme: dark) {
     background: $background;
     color: $foreground;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $foreground;
+    color: $background;
+  }
+
+  a {
+    color: $background;
+  }
+
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px darken($red, 20%);
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px darken($red, 20%);
+  }
+
+  .project-intro .site-button {
+    border-color: $background;
+
+    &:hover {
+      background: $background;
+      color: $foreground;
+    }
+  }
+
+  .footer {
+    border-color: $background;
+  }
+
+  @keyframes easter-egg-accent {
+    2%  {color: $black;}
+    98%  {color: $black;}
   }
 }
