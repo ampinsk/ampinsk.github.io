@@ -10,6 +10,10 @@
   margin: 0;
   color: $black;
   font-weight: 400;
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .reading-container {
