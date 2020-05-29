@@ -151,7 +151,7 @@ $color5: #3a86ffff;
 }
 
 @keyframes easter-egg-accent {
-  2%  {color: $white;}
+  2%   {color: $white;}
   98%  {color: $white;}
 }
 
@@ -167,7 +167,8 @@ img::selection,
 a::selection,
 span::selection,
 div::selection,
-b::selection {
+b::selection,
+strike::selection {
   background: $foreground;
   color: $background;
 
