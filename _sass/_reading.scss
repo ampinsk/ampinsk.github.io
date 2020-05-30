@@ -2,6 +2,12 @@ $beige: #f7eddd;
 $beige-gray: #888073;
 $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
 
+.reading-html,
+.reading {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .reading {
   font-family: $sans2;
   background: $black;
@@ -24,13 +30,14 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .book-title {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.1;
   font-family: $sans2;
 
   span {
     color: $beige-gray;
     font-style: normal;
+    font-weight: 400;
   }
 
   @include mq($phablet) {
@@ -45,6 +52,7 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
   .date {
     font-size: 25px;
     font-family: $expanded;
+    font-weight: 700;
     padding: 80px 0 40px 0;
 
     @include mq($phablet) {
@@ -56,6 +64,11 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
   h2 {
     font-size: 32px;
     line-height: 1.2;
+
+    span {
+      font-weight: 400;
+      color: $beige-gray;
+    }
   }
 
   .title {
@@ -85,7 +98,7 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 
   img {
-    width: 47%;
+    width: 62%;
     box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 
     @include mq($phablet) {
@@ -100,26 +113,18 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
 
   .pic-img {
     margin-left: 10px;
+    position: absolute;
+    top: 0;
 
     @include mq($phablet) {
-      position: absolute;
-      top: 0;
       left: -360px;
-
     }
   }
 
   .highlight {
     display: inline-block;
-    max-width: 270px;
-    padding-top: 40px;
-  }
-
-  .author {
-    font-family: $expanded;
-    font-size: 12px;
-    margin-bottom: 2px;
-    display: none;
+    max-width: 350px;
+    padding-top: 30px;
   }
 
   h5, .h5 {
@@ -128,21 +133,23 @@ $timing2: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
     letter-spacing: 1px;
     font-weight: 700;
     font-family: $expanded;
-    margin: 10px 0;
+    margin: 14px 0;
   }
 
   h6 {
     font-size: 12px;
     position: relative;
     font-weight: 400;
+    margin-bottom: 14px;
 
     &:before {
       content: "“";
       position: absolute;
-      font-size: 30px;
-      top: -0.3em;
-      left: -0.7em;
+      font-size: 24px;
+      top: -0.2em;
+      left: -0.8em;
       font-family: $expanded;
+      font-weight: 700;
       color: $beige-gray;
     }
   }

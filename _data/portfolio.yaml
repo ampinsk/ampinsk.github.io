@@ -1,0 +1,35 @@
+- title: Kleo
+  description: An award-winning, beginner-inclusive app for art museums
+  url: /project/museum
+  show: true
+  external: false
+- title: GitHub Desktop
+  description: Lowering the barrier of entry to git and software development
+  url: http://desktop.github.com
+  show: true
+  external: true
+- title: GitHub Experiments
+  description: Showcasing experimental machine learning research
+  url: http://experiments.github.com
+  show: true
+  external: true
+- title: Baudelaire
+  description: A modern transitional serif typeface
+  url: /project/baudelaire
+  show: true
+  external: false
+- title: Reading
+  description: Books I've read and where I read them
+  url: reading
+  show: true
+  external: false
+- title: Anonymous Was A Woman
+  description: Social campaign about implicit bias
+  url: /project/anonymous-was-a-woman
+  show: false
+  external: false
+- title: Fine Art
+  description: A collection of my high school fine art
+  url: /project/fine-art
+  show: false
+  external: false

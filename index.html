@@ -5,31 +5,42 @@ layout: base
 ---
 
 
-<section class="site-container">
-    <section class="homepage-section homepage__work homepage__work--featured site-width">
-        <div class="homepage__work-container">
-            <section class='homepage-section homepage__header site-width'>
-                <h1 class="homepage__header--logo">Amanda Pinsker</h1>
-                <h1 class="homepage__header--tag">Product Designer @ GitHub</h1>
-                <h4 class="homepage__header--deck">I care about making my work smart, elegant, and simple by design. <a href='about.html'>More&nbsp;about&nbsp;me.</a></h4>
-            </section>
-            {% for item in site.data.portfolio %}
-                {% if item.show %}
-                <a href="/project/{{item.url}}" class="homepage__thumbnail {% if item.featured %}homepage__thumbnail--featured {% endif %}">
-                    {% if item.featured %}
-                    <span class="project-decription project-decription--featured">
-                        <h6>Featured</h6>
-                    </span>
-                    {% endif %}
-                    <span class="project-decription">
-                        <h5>{{item.title}}</h5>
-                        <h6>{{item.description}}</h6>
-                    </span>
-                    <img class="homepage__thumbnail--img" src="{{ item.img }}" />
-                </a>
-                {% endif %}
-            {% endfor %}
-        </div>
+<section class="site-container home">
+
+
+  <section class="content">
+
+    <section class="identity">
+      <h1>Amanda Pinsker</h1>
+      <p>Digital experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.</p>
     </section>
-    {% include footer.html %}
+
+      <!-- <img src="accent.svg" width="20px" class="accent"/> -->
+
+    <section class="work">
+      <h1>Some work</h1>
+      {% for item in site.data.portfolio %}
+        {% if item.show %}
+        <div class="project">
+          <a data-content="{{ item.title }}" href="{{ item.url }}">
+            {{ item.title }}
+            {% if item.external %}
+              <img class="icon" src="/img/external-link.svg" />
+            {% endif %}
+          </a>
+          <p>{{ item.description }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    <section class="about">
+      <h1>More</h1>
+      <p>I'm currently working as a product designer at <a data-content="GitHub" href="https://github.com">GitHub</a>. I've owned design on <a data-content="GitHub Desktop" href="https://desktop.github.com">GitHub Desktop</a>, <a data-content="GitHub Experiments" href="https://experiments.github.com">GitHub Experiments</a> and some other parts of the product. Before that, I worked at <a data-content="Upstatement" href="https://upstatement.com">Upstatement</a> and <a data-content="Ronik" href="https://ronikdesign.com">Ronik</a>, led the team at <a data-content="Scout Studio" href="https://neu.edu/scout">Scout Studio</a>, and graduated from Northeastern University.</p>
+
+      <p>I grew up on Long Island, make a lot of self deprecating jokes, and I'm notorious for being average at a thousand hobbies—most recently piano, Monday crossword puzzles, embroidery, and hand lettering.</p>
+
+      <p>Take a peek at my <a data-content="resume" href="/pinsker-resume-2020.pdf">resume</a> if you need. Say hey over <a data-content="email" href="mailto:apinsker4@gmail.com">email</a>, on <a data-content="Twitter" href="https://twitter.com/ampinsk">Twitter</a>, or on <a data-content="LinkedIn" href="http://linkedin.com/in/amandapinsker">LinkedIn</a>. Or don't. That's perfectly okay too.</p>
+    </section>
+  </section>
 </section>

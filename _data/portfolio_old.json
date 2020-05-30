@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Kleo",
+    "description": "Personalized tours in the Harvard Art Museums",
+    "img": "/img/small/museum.png",
+    "url": "museum.html",
+    "featured": "true",
+    "category": "Experience Design",
+    "date": "Sep 2016–May 2017",
+    "role": "Undergraduate thesis",
+    "site": "<a href='https://invis.io/VB9OO63AY#/210571241_Home'>InVision Prototype</a>",
+    "show": "true"
+  },
+  {
+    "title": "Anonymous Was A Woman",
+    "description": "Social campaign about bias",
+    "img": "/img/small/awaw.jpg",
+    "url": "anonymous-was-a-woman.html",
+    "category": "Graphic design",
+    "date": "Fall 2015",
+    "role": "Student work for Graphic Design 2",
+    "site": "<a href='http://causeinform.com'>causeinform.com</a>",
+    "show": "true"
+  },
+  {
+    "title": "Project Home",
+    "description": "Internal project management tool",
+    "img": "/img/small/pm-home.png",
+    "url": "pm-home.html",
+    "category": "Product Design",
+    "date": "Spring 2016",
+    "role": "Design Apprentice at <a href='http://upstatement.com'>Upstatement</a>",
+    "show": "true"
+  },
+  {
+    "title": "Broadway Bites",
+    "description": "NYC food market table",
+    "img": "/img/small/bway.jpg",
+    "url": "broadway-bites.html",
+    "category": "Packaging",
+    "date": "Summer 2014",
+    "role": "Design Intern at <a href='http://thetinyrebels.com'>Tiny Rebels</a>",
+    "site": "<a href='http://urbanspacenyc.com/broadway-bites'>broadwaybites.com</a>",
+    "show": "true"
+  },
+  {
+    "title": "Baudelaire",
+    "description": "Typeface design",
+    "img": "/img/small/baudelaire.png",
+    "url": "baudelaire.html",
+    "category": "Type design",
+    "date": "Fall 2016",
+    "role": "Student work under <a href='http://www.atypeprimer.com/'>John Kane</a>",
+    "show": "true",
+    "featured": "true"
+  },
+  {
+    "title": "Wellthy",
+    "description": "Healthcare application UI/UX",
+    "img": "/img/small/wellthy.jpg",
+    "url": "wellthy.html",
+    "category": "UI/UX",
+    "date": "May 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://wellthy.com'>wellthy.com</a>"
+  },
+  {
+    "title": "Human Ventures",
+    "description": "Venture capitalist landing page",
+    "img": "/img/small/hvc.jpg",
+    "url": "human-ventures.html",
+    "category": "Branding, Website, Motion",
+    "date": "Feb 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://humanventures.co'>humanventures.co</a>"
+  },
+  {
+    "title": "Blurr",
+    "description": "Location based photo sharing app",
+    "img": "/img/small/blurr.jpg",
+    "url": "blurr.html",
+    "featured": "true",
+    "category": "Branding, UI/UX",
+    "date": "Fall 2015",
+    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
+    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>"
+  },
+  {
+    "title": "Transforming Medicine",
+    "description": "Nonprofit branding and website",
+    "img": "/img/small/tmed.jpg",
+    "url": "transforming-medicine.html",
+    "category": "Branding, Website",
+    "date": "Jan 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://transformingmedicine.com'>transformingmedicine.com</a>"
+  },
+  {
+    "title": "Tastemakers Magazine",
+    "description": "Music magazine art direction",
+    "img": "/img/small/tastemakers.jpg",
+    "url": "tastemakers.html",
+    "category": "Editorial design",
+    "date": "2013–2016",
+    "role": "Art Director",
+    "site": "<a href='http://tastemakersmag.com'>tastemakersmag.com</a>",
+    "show": "true"
+  }
+]

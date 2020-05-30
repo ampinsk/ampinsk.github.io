@@ -12,24 +12,32 @@ permalink: reading
 <span class="peek">?</span>
 
 <section class="reading-container">
-  <h1 class="book-title book-scroll">Things I've read <span>and where I read them<a href="#hey">*</a></span></h1>
+  <h1 class="book-title book-scroll">Books I've read
+    <span>and where I read them</span>
+    <a href="#hey">*</a>
+  </h1>
 
   {% for item in site.data.reading %}
     <div class="book" id="{{ item.url }}">
-      <h2 class="date book-scroll"><a href="#{{ item.url }}">{{ item.date }}</a><div class="h5 book-scroll">{{ item.place }}</div></h2>
+      <h2 class="date book-scroll">
+        <a href="#{{ item.url }}">{{ item.date }}</a>
+      </h2>
       <span class="pic-container">
         <img class="book-img book-scroll" src="{{ item.book_img }}" />
         <img class="pic-img book-scroll" src="{{ item.pic_img }}" />
       </span>
 
       <span class="info">
-        <h3 class="author book-scroll">{{ item.author }}</h3>
-        <h2 class="title book-scroll">{{ item.title }}</h2>
+        <h2 class="title book-scroll">{{ item.title }}
+          <span>{{ item.place }}</span>
+        </h2>
         <p class="description book-scroll"> {{ item.description }}</p>
-        {% if item.highlight %}
+        {% if item.highlights %}
           <span class="highlight book-scroll no-quote">
             <h5>Underlined</h5>
-            <h6>{{ item.highlight }}</h6>
+            {% for highlight in item.highlights %}
+            <h6>{{ highlight }}</h6>
+            {% endfor %}
           </span>
         {% endif %}
       </span>

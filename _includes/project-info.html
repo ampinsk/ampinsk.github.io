@@ -1,31 +1,9 @@
 {% for item in site.data.portfolio %}
-    {% if item.url == page.name %}
-        <section class="project-info">
-            <h1 class="project-info--hdr"> {{ item.title }}</h1>
-            {% if item.featured %}
-                <span class="project-info--featured">featured</span>
-            {% endif %}
-            <div class="project-info--container">
-                <div class="project-info--item">
-                    <h6>category</h6>
-                    <p>{{ item.category }}</p>
-                </div>
-                <div class="project-info--item">
-                    <h6>date</h6>
-                    <p>{{ item.date }}</p>
-                </div>
-                <div class="project-info--item ">
-                    <h6>role</h6>
-                    <p>{{ item.role }}</p>
-                </div>
-                {% if item.site %}
-                <div class="project-info--item">
-                    <h6>site</h6>
-                    <p>{{ item.site }}</p>
-                </div>
-                {% endif %}
-
-            </div>
-        </section>
-    {% endif %}
+  {% if item.title == page.tag %}
+    <div class="project-intro">
+      <a href="/">← Back</a>
+      <h1>{{ item.title }}</h1>
+      <h2>{{ item.description }}</h2>
+    </div>
+  {% endif %}
 {% endfor %}

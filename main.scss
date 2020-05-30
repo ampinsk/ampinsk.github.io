@@ -4,35 +4,17 @@
 // Import Partials
 @import "mq";
 @import "variables";
-@import "navigation";
-@import "homepage";
-@import "about";
 @import "project";
 @import "reading";
+@import "navigation";
 
 // General Styles
 
 .portfolio {
-  font-family: $sans;
-  background-color: $white;
+  font-family: $primary-font;
+  background-color: $background;
+  color: $foreground;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  position: relative;
-  color: $black;
-  cursor: pointer;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: 13px;
-  margin-top: 20px;
 }
 
 .site-container {
@@ -42,9 +24,152 @@ h6 {
   margin: 30px auto 0;
 }
 
+a {
+  position: relative;
+  color: $foreground;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+// Home page
+
+.home {
+  padding: 4% 0;
+  width: 90%;
+
+  p {
+    font-size: $primary-font-size;
+    line-height: 1.6;
+    margin: 25px 0
+  }
+
+  a {
+    font-family: $secondary-font;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    mix-blend-mode: multiply;
+    color: $blue;
+    white-space: nowrap;
+    transition: $timing;
+
+    &:after {
+      content: attr(data-content);
+      position: absolute;
+      top: 9px;
+      left: 0;
+      color: $red;
+      mix-blend-mode: multiply;
+      transition: $timing;
+      width: 100%;
+    }
+
+    &:hover:after {
+      left: 1px;
+      top: 10px;
+      transition: $timing;
+    }
+
+    &:hover .icon {
+      opacity: 1;
+      transition: $timing;
+    }
+  }
+
+  h1 {
+    font-size: $primary-font-size;
+    font-family: $secondary-font;
+    padding: 0 0 25px 0;
+  }
+}
+
+
+.project {
+  padding: 25px 0;
+  border-bottom: 1px solid $gray;
+
+  a {
+    font-size: 28px;
+    display: block;
+    line-height: 1.4;
+
+    &:after {
+      top: 0px;
+      left: 0;
+    }
+
+    &:hover:after {
+      top: 2px;
+      left: 2px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include mq($tablet) {
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.work {
+  width: 100%;
+
+  @include mq($tablet) {
+    width: 40%;
+  }
+}
+
+.about {
+  width: 100%;
+
+  @include mq($tablet) {
+    width: 25%;
+  }
+
+  a {
+    line-height: 0;
+  }
+}
+
+.identity {
+  width: 100%;
+
+  @include mq($tablet) {
+    width: 24%;
+  }
+}
+
+.accent {
+  display: block;
+  margin: 25px 0;
+}
+
+.icon {
+  width: 14px;
+  opacity: 0.5;
+  transition: $timing;
+}
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+
+  @include mq($tablet) {
+    margin-bottom: 30px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,33 +190,7 @@ h1::selection,
 img::selection,
 a::selection,
 span::selection {
-  background: $teal;
-}
-
-.link {
-  a:after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 100%;
-      bottom: 4px;
-      left: 0px;
-      background-color: $teal;
-      transition: 0.2s ease;
-      cursor: pointer;
-      z-index: -1;
-    }
-
-    a:hover:after {
-      height: 8px;
-      bottom: -4px;
-      transition: 0.2s ease;
-    }
-}
-
-h2 {
-  font-size: 35px;
-  // margin-bottom: 40px;
+  background: $red;
 }
 
 .monospace {
