@@ -24,7 +24,7 @@
 }
 
 .book-title {
-  font-size: 48px;
+  font-size: $f0;
   line-height: 1.1;
   font-family: $sans2;
 
@@ -35,7 +35,7 @@
   }
 
   @include mq($phablet) {
-    font-size: 86px;
+    font-size: $f000;
   }
 }
 
@@ -45,19 +45,19 @@
   line-height: 1.45;
 
   .date {
-    font-size: 25px;
+    font-size: $f3;
     font-family: $expanded;
     font-weight: 700;
     padding: 80px 0 40px 0;
 
     @include mq($phablet) {
-      font-size: 40px;
+      font-size: $f1;
       padding: 100px 0 40px 0;
     }
   }
 
   h2 {
-    font-size: 32px;
+    font-size: $f2;
     line-height: 1.2;
 
     span {
@@ -89,12 +89,13 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: $f5;
+    margin-top: 20px;
   }
 
   img {
     width: 62%;
-    box-shadow: rgba(60,60,60,0.2) 6px 6px 24px;
+    box-shadow: $shadow;
 
     @include mq($phablet) {
       width: 330px;
@@ -123,7 +124,7 @@
   }
 
   h5, .h5 {
-    font-size: 14px;
+    font-size: $f5;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -132,7 +133,7 @@
   }
 
   h6 {
-    font-size: 12px;
+    font-size: $f6;
     position: relative;
     font-weight: 400;
     margin-bottom: 14px;
@@ -140,7 +141,7 @@
     &:before {
       content: "“";
       position: absolute;
-      font-size: 24px;
+      font-size: $f3;
       top: -0.2em;
       left: -0.8em;
       font-family: $expanded;
@@ -152,7 +153,7 @@
 
 #hey {
   padding: 5px 15px 20px;
-  font-size: 12px;
+  font-size: $f6;
   color: $beige-gray;
 
   a {
@@ -181,7 +182,7 @@
   position: absolute;
   top: 20px;
   left: 22px;
-  font-size: 12px;
+  font-size: $f6;
   font-family: $sans2;
   font-weight: bold;
 

@@ -1,13 +1,9 @@
 // Colors
 $white: #fafafa;
-$beige: #f9e3ba;
-$teal: #71AFA3;
-$light-teal: #AFDFD9;
 $black: #130422;
 $gray: #CCCCCC;
 $gray-dark: #9ca0a0;
 $red: #DA131F;
-$blue: #1212e1;
 $beige: #f7eddd;
 $beige-gray: #888073;
 
@@ -23,32 +19,30 @@ $mobile: 540px;
 
 
 // Type
-$monospace: 'Roboto Mono', monospace;
-
 $sans-display: neue-haas-grotesk-display, sans-serif;
 $sans-text: neue-haas-grotesk-text, sans-serif;
-$serif: miller-headline, jaf-lapture, serif;
+$serif: miller-headline, serif;
 $serif-text: miller-text, serif;
 
 $expanded: 'BioRhyme Expanded', serif;
-$inknut: "Inknut Antiqua";
-$sans2: "poppins";
+$sans2: "poppins", sans-serif;
 
 
 // Misc
 $border-thick: 2px solid $black;
 $border-thin: 1px solid $gray;
-$shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+$shadow: rgba(60,60,60,0.2) 6px 6px 24px;
 $timing: 0.2s ease;
-$timing-cubic: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-$timing-slow: 0.5s ease;
 
 // Type scale
-$f1: 40px;
+$f000: 84px;
+$f00: 72px;
+$f0: 48px;
+$f1: 36px;
 $f2: 32px;
 $f3: 24px;
-$f4: 18px;
-$f5: 14px;
+$f4: 20px;
+$f5: 16px;
 $f6: 12px;
 
 .optically-smaller {
@@ -62,6 +56,4 @@ $background: $white;
 $foreground: $black;
 $primary-font: $serif;
 $secondary-font: $sans-text;
-$primary-font-size: $f1;
-$secondary-font-size: $f5;
 $highlight: $red;
