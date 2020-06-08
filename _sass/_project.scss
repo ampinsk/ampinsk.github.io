@@ -27,6 +27,8 @@
     border: 1px solid $black;
     text-decoration: none;
     margin-top: 42px;
+    background-color: green;
+
 
     @include mq($tablet) {
       flex-shrink: 0;
@@ -34,8 +36,12 @@
     }
 
     &:hover {
-      color: $white;
-      background: $black;
+      color: $black;
+      background: yellow;
+      font-family: cursive;
+      border: 18px;
+      border-style: dashed double;
+      border-radius: 120px 0px 40px;
     }
   }
 }
@@ -64,6 +70,11 @@
     font-weight: 400;
     line-height: 1.05;
   }
+
+  &:hover {
+    font-family: fantasy;
+  }
+  
 
   h3 {
     font-family: $serif-text;
