@@ -1,0 +1,256 @@
+// HOME PAGE
+
+// Base home styles
+
+.home {
+  padding: 80px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include mq($tablet) {
+    flex-direction: row;
+    font-size: 36px;
+  }
+
+  a {
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: $primary-font-size;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+
+  .column {
+    width: 100%;
+
+    @include mq($tablet) {
+
+      &.about {
+        width: 40%;
+      }
+      &.work {
+        width: 52%
+      }
+    }
+  }
+}
+
+.accent {
+  color: $red;
+  transition: $timing;
+  cursor: cell;
+}
+
+.note span  {
+  transition: 0.15s ease box-shadow;
+  box-shadow: inset 0px 0px 0px 0px lighten($red, 30%);
+}
+
+.footnote-accent span {
+  box-shadow: inset 0px -25px 0px 0px lighten($red, 30%);
+  transition: 0.15s ease box-shadow;
+}
+
+.footnote-accent a {
+  transition: 0.15s ease box-shadow;
+}
+
+
+.external-link {
+  font-size: $f2;
+  vertical-align: baseline;
+}
+
+.about {
+  div {
+    margin-bottom: 30px;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.superscript {
+  vertical-align: super;
+  font-size: 20px;
+
+  @include mq($tablet) {
+    font-size: $f3;
+  }
+}
+
+.notes {
+  font-family: $serif-text;
+  margin: 0;
+  line-height: 1.4;
+  font-size: $f4;
+  padding-top: 24px;
+  border-top: 1px solid $foreground;
+
+  @include mq($tablet) {
+    margin-left: -23px;
+    width: 310px;
+    font-size: $f5;
+    border: none;
+    padding-left: 5px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  align-items: start;
+}
+
+// Projects
+
+a.project {
+  padding-bottom: 30px;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 108%;
+    height: 0px;
+    background: transparent;
+    border: 1px solid transparent;
+    z-index: -1;
+    top: 50%;
+    left: -4%;
+    transition: $timing;
+  }
+
+  &:hover:after {
+    height: 102%;
+    top: -12%;
+    transition: $timing;
+  }
+}
+
+// HOVER STYLES
+
+$mauve: #C6A1C7;
+$new-gray: #252021;
+$green: #40AB85;
+$purple: #6B4DE4;
+$new-beige: #F3E5CF;
+
+body.kleo {
+  $foreground: $white;
+  $accent: $black;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.cli {
+  $foreground: white;
+  $accent: lime;
+
+  background: $new-gray;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.desktop {
+  $foreground: $black;
+  $accent: yellow;
+
+  background: $mauve;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.baudelaire {
+  $foreground: $black;
+  $accent: $white;
+
+  color: $foreground;
+  background: $green;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $accent;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+}
+
+body.read {
+  background: $new-beige;
+  box-shadow: inset 0px 0px 0px 20px $black;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $beige-gray;
+    }
+  }
+}

@@ -1,6 +1,3 @@
-$beige: #f7eddd;
-$beige-gray: #888073;
-
 .reading-html,
 .reading {
   overflow-x: hidden;
@@ -13,6 +10,10 @@ $beige-gray: #888073;
   margin: 0;
   color: $black;
   font-weight: 400;
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .reading-container {
@@ -45,6 +46,7 @@ $beige-gray: #888073;
 .book {
   margin-bottom: 50px;
   font-family: $sans2;
+  line-height: 1.45;
 
   .date {
     font-size: 25px;
@@ -92,6 +94,7 @@ $beige-gray: #888073;
 
   p {
     font-size: 16px;
+    margin-top: 20px;
   }
 
   img {

@@ -1,9 +1,17 @@
 {% for item in site.data.portfolio %}
   {% if item.title == page.tag %}
     <div class="project-intro">
-      <a href="/">← Back</a>
-      <h1>{{ item.title }}</h1>
-      <h2>{{ item.description }}</h2>
+      <div>
+        <a href="/" class="back">
+          <span>←</span> Back
+        </a>
+        <div>
+          <strong>{{ item.title }}</strong>—{{ item.description }}
+        </div>
+      </div>
+      {% if item.site %}
+        <a href="{{ item.site }}" class="site-button">View the project &#8599;&#xFE0E;</a>
+      {% endif %}
     </div>
   {% endif %}
 {% endfor %}
