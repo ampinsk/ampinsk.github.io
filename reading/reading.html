@@ -21,7 +21,9 @@ permalink: reading
       </h2>
       <span class="pic-container">
         <img class="book-img book-scroll" src="{{ item.book_img }}" alt="Cover of {{ item.title }}"/>
-        <img class="pic-img book-scroll" src="{{ item.pic_img }}" alt="Picture of {{ item.place }}"/>
+        {% if item.pic_img %}
+          <img class="pic-img book-scroll" src="{{ item.pic_img }}" alt="Picture of {{ item.place }}"/>
+        {% endif %}
       </span>
 
       <span class="info">
