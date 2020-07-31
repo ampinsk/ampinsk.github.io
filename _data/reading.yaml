@@ -6,8 +6,9 @@
   book_img: https://images-na.ssl-images-amazon.com/images/I/61fDEge2TzL.jpg
   date: 03/22/2020
   description: 
-  highlights::
+  highlights:
     - 
+      -
 - title: Little Fires Everywhere
   url: little-fires-everywhere
   place: in quarantine
@@ -23,7 +24,7 @@
   place: for book club
   pic_img: /img/reading/couch-kindle.jpg
   book_img: https://images-na.ssl-images-amazon.com/images/I/81M7D39GAWL.jpg
-  date: 03/17/2020
+  date 03/17/2020
   description: I really liked Tolentino's essays, but I almost already agreed with them so much that I found reading this kind of boring?
   highlights:
     - Writing is either a way to shed my self-delusions or a way to develop them. A well-practiced, conclusive narrative is usually a dubious one.
