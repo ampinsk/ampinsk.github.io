@@ -1,14 +1,31 @@
 ---
+- title: The Crying Book
+  url: the-crying-books
+  place: on Long Island
+  book_img: https://images-na.ssl-images-amazon.com/images/I/91elh2ixGIL.jpg
+  date: 08/30/2020
+  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
+    - Empathy can be a hole through which one falls into despair.
+- title: How To Change Your Mind
+  url: how-to-change-your-mind
+  place: for book club, in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81z1rs6gVlL.jpg
+  date: 06/19/2020
+  description: The amount I talk about and recommend this book now is very annoying. You've been warned.
+  highlights:
+    - People feel they have been let in on a deep secret of the universe, and they cannot be shaken from that conviction.
+    - ‘I’ve heard that said all my life,’ we exclaim, ‘but I never realized its full meaning until now.’
+    - The core of our being, I now knew, is love.
+    - And then there was this light, it was the pure light of love and divinity, and it was with me and no words were needed.
 - title: Bluets
   url: bluets
   place: at Buena Vista Park
   pic_img: /img/reading/buena-vista.jpg
   book_img: https://images-na.ssl-images-amazon.com/images/I/61fDEge2TzL.jpg
   date: 03/22/2020
-  description: 
-  highlights:
-    - 
-      -
+  description: I discovered a love of prose poetry and this kicked off a phase of learning Joni Mitchell on the piano (including Blue, of course).
 - title: Little Fires Everywhere
   url: little-fires-everywhere
   place: in quarantine
@@ -24,7 +41,7 @@
   place: for book club
   pic_img: /img/reading/couch-kindle.jpg
   book_img: https://images-na.ssl-images-amazon.com/images/I/81M7D39GAWL.jpg
-  date 03/17/2020
+  date: 03/17/2020
   description: I really liked Tolentino's essays, but I almost already agreed with them so much that I found reading this kind of boring?
   highlights:
     - Writing is either a way to shed my self-delusions or a way to develop them. A well-practiced, conclusive narrative is usually a dubious one.
