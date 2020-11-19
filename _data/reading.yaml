@@ -1,8 +1,9 @@
 ---
 - title: The Crying Book
-  url: the-crying-books
+  url: the-crying-book
   place: on Long Island, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/91elh2ixGIL.jpg
+  pic_img: /img/reading/old-bethpage.jpeg
   date: 08/30/2020
   description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
   highlights:
@@ -20,14 +21,14 @@
 - title: Bluets
   url: bluets
   place: at Buena Vista Park, in quarantine
-  pic_img: /img/reading/buena-vista.jpg
+  pic_img: /img/reading/buena-vista3.JPG
   book_img: https://images-na.ssl-images-amazon.com/images/I/61fDEge2TzL.jpg
   date: 03/22/2020
   description: I discovered a love of prose poetry and this kicked off a phase of learning Joni Mitchell on the piano (including Blue, of course).
   highlights:
     - Do not, however, make the mistake that all desire is yearning.
     - At the bottom of the swimming pool, I watched the white winter light spangle the cloudy blue and I knew together they made God.
-    - At times I fake my enthusiasm. At others, I fear I am incapable of communicating the depth of it.     
+    - At times I fake my enthusiasm. At others, I fear I am incapable of communicating the depth of it.
 - title: Little Fires Everywhere
   url: little-fires-everywhere
   place: in quarantine
