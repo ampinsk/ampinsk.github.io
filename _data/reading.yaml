@@ -16,8 +16,6 @@
   description: The amount I talk about and recommend this book now is very annoying. You've been warned.
   highlights:
     - People feel they have been let in on a deep secret of the universe, and they cannot be shaken from that conviction.
-    - ‘I’ve heard that said all my life,’ we exclaim, ‘but I never realized its full meaning until now.’
-    - The core of our being, I now knew, is love.
     - And then there was this light, it was the pure light of love and divinity, and it was with me and no words were needed.
 - title: Bluets
   url: bluets
@@ -26,6 +24,10 @@
   book_img: https://images-na.ssl-images-amazon.com/images/I/61fDEge2TzL.jpg
   date: 03/22/2020
   description: I discovered a love of prose poetry and this kicked off a phase of learning Joni Mitchell on the piano (including Blue, of course).
+  highlights:
+    - Do not, however, make the mistake that all desire is yearning.
+    - At the bottom of the swimming pool, I watched the white winter light spangle the cloudy blue and I knew together they made God.
+    - At times I fake my enthusiasm. At others, I fear I am incapable of communicating the depth of it.     
 - title: Little Fires Everywhere
   url: little-fires-everywhere
   place: in quarantine
