@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="case-study">
+      <section class='site-container'>
+        {% include project-info.html %}
+        <div class="case-study-content">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </section>
+    {% include scripts.html %}
+  </body>
+</html>

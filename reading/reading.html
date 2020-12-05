@@ -11,8 +11,7 @@ permalink: reading
 
 <section class="reading-container">
   <h1 class="book-title book-scroll">Books I've read
-    <span>and where I read them</span>
-    <a href="#hey">*</a>
+    <span>and where I read them</span><a href="#hey">*</a>
   </h1>
 
   {% for item in site.data.reading %}
@@ -21,8 +20,10 @@ permalink: reading
         <a href="#{{ item.url }}">{{ item.date }}</a>
       </h2>
       <span class="pic-container">
-        <img class="book-img book-scroll" src="{{ item.book_img }}" />
-        <img class="pic-img book-scroll" src="{{ item.pic_img }}" />
+        <img class="book-img book-scroll" src="{{ item.book_img }}" alt="Cover of {{ item.title }}"/>
+        {% if item.pic_img %}
+          <img class="pic-img book-scroll" src="{{ item.pic_img }}" alt="Picture {{ item.place }}"/>
+        {% endif %}
       </span>
 
       <span class="info">

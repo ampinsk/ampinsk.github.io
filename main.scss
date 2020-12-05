@@ -7,178 +7,154 @@
 @import "project";
 @import "reading";
 @import "navigation";
+@import "home";
 
 // General Styles
 
-.portfolio {
+body {
   font-family: $primary-font;
   background-color: $background;
   color: $foreground;
   margin: 0;
+  line-height: 1.3;
+  transition: $timing;
+  font-size: 20px;
 }
 
 .site-container {
-  width: 80%;
-  padding: 0 3%;
-  max-width: 1200px;
-  margin: 30px auto 0;
+  width: 86%;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 a {
   position: relative;
   color: $foreground;
   text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.45;
-}
-
-// Home page
-
-.home {
-  padding: 4% 0;
-  width: 90%;
-
-  p {
-    font-size: $primary-font-size;
-    line-height: 1.6;
-    margin: 25px 0
-  }
-
-  a {
-    font-family: $secondary-font;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    mix-blend-mode: multiply;
-    color: $blue;
-    white-space: nowrap;
-    transition: $timing;
-
-    &:after {
-      content: attr(data-content);
-      position: absolute;
-      top: 9px;
-      left: 0;
-      color: $red;
-      mix-blend-mode: multiply;
-      transition: $timing;
-      width: 100%;
-    }
-
-    &:hover:after {
-      left: 1px;
-      top: 10px;
-      transition: $timing;
-    }
-
-    &:hover .icon {
-      opacity: 1;
-      transition: $timing;
-    }
-  }
-
-  h1 {
-    font-size: $primary-font-size;
-    font-family: $secondary-font;
-    padding: 0 0 25px 0;
-  }
-}
-
-
-.project {
-  padding: 25px 0;
-  border-bottom: 1px solid $gray;
-
-  a {
-    font-size: 28px;
-    display: block;
-    line-height: 1.4;
-
-    &:after {
-      top: 0px;
-      left: 0;
-    }
-
-    &:hover:after {
-      top: 2px;
-      left: 2px;
-    }
-  }
-
-  p {
-    margin: 0;
-  }
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-
-  @include mq($tablet) {
-
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-.work {
-  width: 100%;
-
-  @include mq($tablet) {
-    width: 40%;
-  }
-}
-
-.about {
-  width: 100%;
-
-  @include mq($tablet) {
-    width: 25%;
-  }
-
-  a {
-    line-height: 0;
-  }
-}
-
-.identity {
-  width: 100%;
-
-  @include mq($tablet) {
-    width: 24%;
-  }
-}
-
-.accent {
-  display: block;
-  margin: 25px 0;
-}
-
-.icon {
-  width: 14px;
-  opacity: 0.5;
+  cursor: pointer;
   transition: $timing;
 }
 
-section {
-  margin-bottom: 100px;
-
-  @include mq($tablet) {
-    margin-bottom: 30px;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-h3, h4, h5 {
-  font-weight: 300;
+.back {
+  font-size: 18px;
+  font-family: $serif-text;
+  text-decoration: none;
+
+  span {
+    display: inline-block;
+    transition: $timing;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    span {
+      transform: translateX(-5px);
+      transition: $timing;
+    }
+  }
 }
+
+.third {
+  @include mq($tablet) {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+.half {
+  @include mq($tablet) {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+.full {
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+body.easter-egg {
+  color: $foreground;
+  background: $background;
+  animation: easter-egg 60s infinite;
+
+  .accent {
+    animation: easter-egg-accent 60s infinite;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .project:hover:after {
+    border: 1px solid $white;
+
+    @media (prefers-color-scheme: dark) {
+      border: 1px solid $black;
+    }
+  }
+
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px 0px 0px 0px $black;
+    }
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px -25px 0px 0px $black;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: $foreground;
+    color: $background;
+  }
+}
+
+
+
+// 🌈
+
+.hint {
+  cursor: help;
+}
+
+$color1: #ffbe0bff;
+$color2: #fb5607ff;
+$color3: #ff006eff;
+$color4: #8338ecff;
+$color5: #3a86ffff;
+
+@keyframes easter-egg {
+  10%  {background-color: $color1;}
+  30%  {background-color: $color2;}
+  50%  {background-color: $color3;}
+  70%  {background-color: $color4;}
+  90%  {background-color: $color5;}
+}
+
+@keyframes easter-egg-accent {
+  2%   {color: $white;}
+  98%  {color: $white;}
+}
+
 
 p::selection,
 h6::selection,
@@ -189,12 +165,53 @@ h2::selection,
 h1::selection,
 img::selection,
 a::selection,
-span::selection {
-  background: $red;
+span::selection,
+div::selection,
+b::selection,
+strike::selection {
+  background: $foreground;
+  color: $background;
+
+  @media (prefers-color-scheme: dark) {
+    background: $background;
+    color: $foreground;
+  }
 }
 
-.monospace {
-  font-family: $monospace;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $foreground;
+    color: $background;
+  }
+
+  .home a,
+  .case-study a {
+    color: $background;
+  }
+
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px darken($red, 20%);
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px darken($red, 20%);
+  }
+
+  .project-intro .site-button {
+    border-color: $background;
+
+    &:hover {
+      background: $background;
+      color: $foreground;
+    }
+  }
+
+  .footer {
+    border-color: $background;
+  }
+
+  @keyframes easter-egg-accent {
+    2%  {color: $black;}
+    98%  {color: $black;}
+  }
 }

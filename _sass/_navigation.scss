@@ -1,12 +1,5 @@
 .footer {
   border-top: 1px solid $black;
   padding: 40px 0;
-}
-
-.footer a {
-  font-family: $serif;
-
-  &:hover {
-    color: $red;
-  }
+  margin-top: 80px;
 }
