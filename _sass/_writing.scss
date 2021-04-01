@@ -7,7 +7,7 @@ $entry-middle: $entry-height / 2;
 .writing-listing {
   padding: 20%;
   text-align: center;
-  font-family: "BioRhyme Expanded";
+  font-family: $serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 
@@ -22,17 +22,22 @@ $entry-middle: $entry-height / 2;
 
     &:hover {
       transition: 0.3s ease;
+      text-decoration: none;
     }
 
     &:hover a {
-      color: $white;
+      color: $foreground;
+
+      @media (prefers-color-scheme: dark) {
+        color: $background !important;
+      }
     }
 
     &:after {
       width: 104%;
       content: "";
       height: 0;
-      background-color: $black;
+      background-color: $background;
       position: absolute;
       top: $entry-middle;
       left: -2%;
@@ -45,6 +50,16 @@ $entry-middle: $entry-height / 2;
       top: 0px;
       transition: 0.2s ease;
     }
+
+    a {
+      @media (prefers-color-scheme: dark) {
+        color: $background !important;
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $background;
   }
 }
 
