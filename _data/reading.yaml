@@ -1,4 +1,45 @@
 ---
+- title: Death In Her Hands
+  url: death-in-her-hands
+  place: in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/71Da9RYuSaL.jpg
+  date: 4/9/2021
+  description: 
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
+- title: Luster
+  url: luster
+  place: in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/91h5gTluEVL.jpg
+  date: 4/5/2021
+  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
+- title: What Tech Calls Thinking
+  url: what-tech-calls-thinking
+  place: in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/71sUfgG9cuL.jpg
+  date: 12/18/2020
+  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
+- title: I Want to Be Where the Normal People Are
+  url: where-the-normal-people-are
+  place: in Cambria, in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81-ODGDf1aL.jpg
+  pic_img: /img/reading/old-bethpage.jpeg
+  date: 12/22/2020
+  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
+- title: Such A Fun Age
+  url: such-a-fun-age
+  place: in quarantine
+  book_img: https://images-na.ssl-images-amazon.com/images/I/91TwkWWSsiL.jpg
+  date: 12/18/2020
+  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
 - title: The Crying Book
   url: the-crying-book
   place: on Long Island, in quarantine
