@@ -1,4 +1,13 @@
 ---
+- title: Sarahland
+  url: sarahland
+  place: in Sea Ranch
+  book_img: https://www.grandcentralpublishing.com/wp-content/uploads/2021/01/9781538735053.jpg?fit=1721%2C2600
+  pic_img: /img/reading/sea-ranch.jpeg
+  date: 5/25/2021
+  description: 
+  highlights:
+    - If you see a person crying inside a car, you know they are already held.
 - title: Death In Her Hands
   url: death-in-her-hands
   place: in quarantine
@@ -27,7 +36,7 @@
   url: where-the-normal-people-are
   place: in Cambria, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/81-ODGDf1aL.jpg
-  pic_img: /img/reading/old-bethpage.jpeg
+  pic_img: /img/reading/cambria.gif
   date: 12/22/2020
   description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
   highlights:
