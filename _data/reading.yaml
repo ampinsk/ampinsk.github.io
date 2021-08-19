@@ -1,11 +1,36 @@
 ---
+# TEMPLATE
+# - title: title
+#   url: title-title
+#   place: in
+#   book_img: url
+#   date: 0/0/2021
+#   description: TODO
+#   highlights:
+#     - TODO
+- title: The Case Against Free Speech
+  url: free-speech
+  place: on the New York City subway
+  book_img: https://www.boldtypebooks.com/wp-content/uploads/2019/07/9781568588667-1.jpg?fit=436%2C675
+  date: 8/6/2021
+  description:
+  highlights:
+    - We don’t need to look very far back to know that free speech is a conditional freedom in this country, and that those conditions are nearly always defined by those in power.
+- title: The Midnight Library
+  url: midnight-library
+  place: at home
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81YzHKeWq7L.jpg
+  date: 6/28/2021
+  description: This was sweet and an easy read, but a little too on the nose for me.
+  highlights:
+    - TODO
 - title: Sarahland
   url: sarahland
-  place: in Sea Ranch
+  place: in Sea Ranch, CA
   book_img: https://www.grandcentralpublishing.com/wp-content/uploads/2021/01/9781538735053.jpg?fit=1721%2C2600
   pic_img: /img/reading/sea-ranch.jpeg
   date: 5/25/2021
-  description: 
+  description:
   highlights:
     - If you see a person crying inside a car, you know they are already held.
 - title: Death In Her Hands
@@ -13,32 +38,32 @@
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71Da9RYuSaL.jpg
   date: 4/9/2021
-  description: 
+  description:
   highlights:
-    - If you see a person crying inside a car, you know they are already held.
+    - TODO
 - title: Luster
   url: luster
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/91h5gTluEVL.jpg
   date: 4/5/2021
-  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  description: TODO
   highlights:
-    - If you see a person crying inside a car, you know they are already held.
+    - TODO
 - title: What Tech Calls Thinking
   url: what-tech-calls-thinking
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71sUfgG9cuL.jpg
   date: 12/18/2020
-  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  description: TODO
   highlights:
-    - If you see a person crying inside a car, you know they are already held.
+    - TODO
 - title: I Want to Be Where the Normal People Are
   url: where-the-normal-people-are
   place: in Cambria, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/81-ODGDf1aL.jpg
   pic_img: /img/reading/cambria.gif
   date: 12/22/2020
-  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  description: TODO
   highlights:
     - If you see a person crying inside a car, you know they are already held.
 - title: Such A Fun Age
@@ -46,9 +71,10 @@
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/91TwkWWSsiL.jpg
   date: 12/18/2020
-  description: It took me a while to read this. I finished it when I visited home to see my grandma before she passed away. The timing is appropriate, I suppose.
+  description: TODO
   highlights:
-    - If you see a person crying inside a car, you know they are already held.
+    - TODO
+# OLD
 - title: The Crying Book
   url: the-crying-book
   place: on Long Island, in quarantine
