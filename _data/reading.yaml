@@ -29,7 +29,7 @@
 - title: Beautiful World, Where Are You
   url: beautiful-world
   place: in Amsterdam
-  pic_img: /img/reading/amsterdam.jpeg
+  pic_img: /img/reading/amsterdam2.jpeg
   book_img: https://i2.wp.com/www.paperbackparis.com/wp-content/uploads/2021/04/Sally-Rooney-Beautiful-World-Where-Are-You-Cover.jpg?resize=1000%2C1529
   date: 9/9/2021
   description: I wasn't sure for a while, but after this I've decided I like Sally Rooney's writing. Its sparseness has a way of sucking you in. It's blunt and specific. Her pontificating is very thinly veiled, but so is a lot of literature. When she gets poetic, it's surprisingly magnetic.
@@ -74,6 +74,7 @@
   url: death-in-her-hands
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71Da9RYuSaL.jpg
+  pic_img: /img/reading/coyote.jpeg
   date: 4/9/2021
   description: The more Otessa Moshfegh I read, the more I love her writing. This one didn't get as much attention as My Year of Rest and Relaxation, but I liked it more. The mystery and deeply unreliable narrator were more up my alley.
   highlights:
@@ -91,7 +92,8 @@
   url: what-tech-calls-thinking
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71sUfgG9cuL.jpg
-  date: 12/18/2020
+  pic_img: /img/reading/sf.jpeg
+  date: 01/18/2021
   description: This put into words so much of what I've felt about the tech world. I've always observed the tech world has very little interest in the past, and this does a good job tracing back all the platitudes everyone repeats and holds.
   highlights:
     - It describes our tendency to think that the meaning of a work of art comes out of the specific mind of the creator, not out of the preexisting rules that creator worked within nor the broader spirit of society and time.
@@ -101,14 +103,15 @@
   url: where-the-normal-people-are
   place: in Cambria, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/81-ODGDf1aL.jpg
-  pic_img: /img/reading/cambria.jpg
+  pic_img: /img/reading/cambria.jpeg
   date: 12/22/2020
   description: I love Rachel Bloom, and I loved listening to her read her own book.
 - title: Such A Fun Age
   url: such-a-fun-age
-  place: in quarantine
+  place: at Buena Vista Park, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/91TwkWWSsiL.jpg
-  date: 12/18/2020
+  pic_img: /img/reading/gravestone.jpg
+  date: 12/19/2020
   description: I can't wait for Reese Witherspoon to star in this once she adapts it as a Hulu series. I liked the book enough, but I'm not sure if I mean that as a compliment.
 # OLD
 - title: The Crying Book
