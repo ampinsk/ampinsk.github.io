@@ -8,39 +8,71 @@
 #   description: TODO
 #   highlights:
 #     - TODO
+- title: Cultish
+  url: cultish
+  place: in Puglia, Italy
+  book_img: https://kbimages1-a.akamaihd.net/515d683d-3179-472b-875f-0d8b9be86e3e/353/569/90/False/cultish-1.jpg
+  date: 9/29/2021
+  description: This is one of those books that will stay with me a long time because it gave me a new framework through which to see the world. I'm also very happy it introduced me to the phrase "heuristic reaction." I love words. I love language. I love understanding how language shapes who we are and how we move through the world together.
+  highlights:
+    - With words, we breathe reality into being.
+    - They were raised to see the good in people, even to their own detriment.
+    - In this way, it’s not desperation or mental illness that consistently suckers people into exploitative groups—instead, it’s an overabundance of optimism.
+- title: Writers & Lovers
+  url: writers-lovers
+  place: in Puglia, Italy
+  book_img: https://cannonballread.com/wp-content/uploads/2020/05/euphoria.jpg
+  date: 9/24/2021
+  description: I'm a little embarrassed to admit that this book made me want to become a writer. Maybe it was the almost saccharine happy ending, or maybe I read it in the first place because that life already sounds romantic to me.
+- title: Beautiful World, Where Are You
+  url: beautiful-world
+  place: in Amsterdam
+  book_img: https://i2.wp.com/www.paperbackparis.com/wp-content/uploads/2021/04/Sally-Rooney-Beautiful-World-Where-Are-You-Cover.jpg?resize=1000%2C1529
+  date: 9/9/2021
+  description: I wasn't sure for a while, but after this I've decided I like Sally Rooney's writing. Its sparseness has a way of sucking you in. It's blunt and specific. Her pontificating is very thinly veiled, but so is a lot of literature. When she gets poetic, it's surprisingly magnetic.
+  highlights:
+    - The fact that we are exposed to these people everywhere in our culture, as if they are not only normal but attractive and enviable, indicates the extent of our disfiguring social disease. There is something wrong with them, and when we look at them and learn from them, something goes wrong with us.
+    - What if the meaning of life on earth is not eternal progress toward some unspecified goal—the engineering and production of more and more powerful technologies, the development of more and more complex and abstruse cultural forms? What if these things just rise and recede naturally, like tides, while the meaning of life remains the same always—just to live and be with other people?
+- title: The Hole
+  url: the-hole
+  place: in Brooklyn, NY
+  book_img: https://images-na.ssl-images-amazon.com/images/I/81QqaYhf4XL.jpg
+  date: 8/25/2021
+  description: This was short and weird. I liked it. It wasn't what I was expecting.
 - title: The Case Against Free Speech
   url: free-speech
   place: on the New York City subway
   book_img: https://www.boldtypebooks.com/wp-content/uploads/2019/07/9781568588667-1.jpg?fit=436%2C675
   date: 8/6/2021
-  description:
+  description: P. E. Moskowitz is one of my favorite journalists right now, and reading this book solidified that for me.
   highlights:
     - We don’t need to look very far back to know that free speech is a conditional freedom in this country, and that those conditions are nearly always defined by those in power.
+    - If we are debating the free speech rights of people like Milo, whom are we ignoring? What about the free speech rights of the people he is recommending we deport or imprison?
+    - What is and is not free speech is in the eye of the beholder.
 - title: The Midnight Library
   url: midnight-library
   place: at home
   book_img: https://images-na.ssl-images-amazon.com/images/I/81YzHKeWq7L.jpg
   date: 6/28/2021
-  description: This was sweet and an easy read, but a little too on the nose for me.
-  highlights:
-    - TODO
+  description: This was sweet and an easy read, but a little too on the nose and cheesy for me.
 - title: Sarahland
   url: sarahland
   place: in Sea Ranch, CA
   book_img: https://www.grandcentralpublishing.com/wp-content/uploads/2021/01/9781538735053.jpg?fit=1721%2C2600
   pic_img: /img/reading/sea-ranch.jpeg
   date: 5/25/2021
-  description:
+  description: Yet another funny surrealist short story collection! I'm consistent, I loved it! Each story stars a woman named Sarah, from a freshman in college, to a sex worker, to the first Sarah.
   highlights:
-    - If you see a person crying inside a car, you know they are already held.
+    - Probably he talked shit about sex workers and voted Republican, which made Sarah sad to think about because besides probably wanting all women dead, he seemed really sweet.
+    - It was amazing, Sarah felt, how whole worlds existed right beside or within the world you thought you were in.
 - title: Death In Her Hands
   url: death-in-her-hands
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71Da9RYuSaL.jpg
   date: 4/9/2021
-  description:
+  description: The more Otessa Moshfegh I read, the more I love her writing. This one didn't get as much attention as My Year of Rest and Relaxation, but I liked it more. The mystery and deeply unreliable narrator were more up my alley.
   highlights:
-    - TODO
+    - The mind must be spoken to, Vesta, otherwise it starts to atrophy. ... "But if the mind talks to itself," I said, "isn't it just saying what it wants to hear?"
 - title: Luster
   url: luster
   place: in quarantine
@@ -54,26 +86,23 @@
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/71sUfgG9cuL.jpg
   date: 12/18/2020
-  description: TODO
+  description: This put into words so much of what I've felt about the tech world. I've always observed the tech world has very little interest in the past, and this does a good job tracing back all the platitudes everyone repeats and holds.
   highlights:
-    - TODO
+    - It describes our tendency to think that the meaning of a work of art comes out of the specific mind of the creator, not out of the preexisting rules that creator worked within nor the broader spirit of society and time.
+    - The genius aesthetic that rules the tech industry relies again and again on this purely gestural kind of courage, on hyping everyday things into grand acts of nonconformism and even resistance. You repeat what people around you are saying anyway and get to call yourself a freethinker.
+    - The rhetoric of disruption relies on actively misunderstanding and misrepresenting the past.
 - title: I Want to Be Where the Normal People Are
   url: where-the-normal-people-are
   place: in Cambria, in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/81-ODGDf1aL.jpg
   video: /img/reading/cambria.mp4
   date: 12/22/2020
-  description: TODO
-  highlights:
-    - If you see a person crying inside a car, you know they are already held.
 - title: Such A Fun Age
   url: such-a-fun-age
   place: in quarantine
   book_img: https://images-na.ssl-images-amazon.com/images/I/91TwkWWSsiL.jpg
   date: 12/18/2020
-  description: TODO
-  highlights:
-    - TODO
+  description: I can't wait for Reese Witherspoon to star in this once she adapts it as a Hulu series. I liked the book enough, but I'm not sure if I mean that as a compliment.
 # OLD
 - title: The Crying Book
   url: the-crying-book
