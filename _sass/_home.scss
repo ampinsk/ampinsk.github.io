@@ -52,6 +52,13 @@
   cursor: cell;
 }
 
+hr.accent {
+  border-color: $red;
+  border-style: solid;
+  border-width: 0.5px;
+  margin: 20px 0;
+}
+
 .note span  {
   transition: 0.15s ease box-shadow;
   box-shadow: inset 0px 0px 0px 0px lighten($red, 30%);
@@ -175,6 +182,10 @@ body.kleo {
   .accent {
     color: $accent;
   }
+
+  hr.accent {
+    border-color: $accent;
+  }
 }
 
 body.cli {
@@ -197,6 +208,10 @@ body.cli {
   .accent {
     color: $accent;
   }
+
+  hr.accent {
+    border-color: $accent;
+  }
 }
 
 body.desktop {
@@ -218,6 +233,10 @@ body.desktop {
 
   .accent {
     color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
   }
 }
 
@@ -242,6 +261,9 @@ body.baudelaire {
     color: $accent;
   }
 
+  hr.accent {
+    border-color: $accent;
+  }
 }
 
 body.read {
