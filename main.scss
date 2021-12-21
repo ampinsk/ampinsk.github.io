@@ -90,7 +90,7 @@ body.easter-egg {
   background: $background;
   animation: easter-egg 60s infinite;
 
-  .accent {
+  .accent, hr.accent {
     animation: easter-egg-accent 60s infinite;
   }
 
@@ -151,8 +151,8 @@ $color5: #3a86ffff;
 }
 
 @keyframes easter-egg-accent {
-  2%   {color: $white;}
-  98%  {color: $white;}
+  2%   {color: $white; border-color: $white;}
+  98%  {color: $white; border-color: $white;}
 }
 
 
@@ -211,7 +211,7 @@ strike::selection {
   }
 
   @keyframes easter-egg-accent {
-    2%  {color: $black;}
-    98%  {color: $black;}
+    2%  {color: $black; border-color: $black;}
+    98%  {color: $black; border-color: $black;}
   }
 }
