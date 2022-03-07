@@ -9,7 +9,6 @@
   line-height: 1.2;
 
   .flex {
-    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -41,7 +40,7 @@
     @include mq($tablet) {
 
       &.about {
-        width: 40%;
+        width: 45%;
       }
       &.work {
         width: 48%
@@ -60,7 +59,14 @@ hr.accent {
   border-color: $red;
   border-style: solid;
   border-width: 0.5px;
-  margin: 20px 0;
+  margin: 60px 0;
+}
+
+.writing-link {
+  text-transform: uppercase;
+  font-size: $f4;
+  letter-spacing: 1px;
+  font-weight: 300 !important;
 }
 
 .note span  {

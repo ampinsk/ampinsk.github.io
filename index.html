@@ -24,6 +24,14 @@ layout: base
           </a>
           {% endif %}
         {% endfor %}
+        <h2 style="padding-top:40px">Recent writing</h2>
+        {% for item in site.data.writing %}
+          <a class="project" href="/writing/{{ item.url }}">
+            <b>{{ item.title }}</b>—{{ item.description }}
+          </a>
+        {% endfor %}
+        <a class="writing-link" href="/writing">Read the rest →</a>
+
       </div>
       <div class="about column">
         <h2>A little about me</h2>
