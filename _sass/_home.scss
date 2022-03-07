@@ -2,17 +2,22 @@
 
 // Base home styles
 
+
+
 .home {
   padding: 80px 0;
-  font-size: 32px;
+  font-size: $primary-font-size;
   line-height: 1.2;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 
-  @include mq($tablet) {
-    flex-direction: row;
-    font-size: 36px;
+  .flex {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include mq($tablet) {
+      flex-direction: row;
+    }
   }
 
   a {
@@ -40,7 +45,7 @@
         width: 40%;
       }
       &.work {
-        width: 52%
+        width: 48%
       }
     }
   }
@@ -79,7 +84,7 @@ hr.accent {
   vertical-align: baseline;
 }
 
-.about {
+.intro, .about {
   div {
     margin-bottom: 30px;
   }
