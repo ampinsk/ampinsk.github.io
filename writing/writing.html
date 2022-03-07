@@ -10,9 +10,12 @@ permalink: writing
       <li>
         <a href="{{ item.url }}">
           <h4>{{ item.title }}</h4>
+
           <p>{{ item.description }}</p>
+          <h5>{{ item.date }}</h5>
         </a>
       </li>
     {% endfor %}
   </ol>
+  {% include footer.html %}
 </section>

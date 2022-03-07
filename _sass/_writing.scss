@@ -13,6 +13,20 @@ $entry-middle: $entry-height / 2;
     font-size: $entry-size;
   }
 
+   h5,p {
+    display: inline-block;
+    font-size: $entry-size;
+
+  }
+
+  h5 {
+    font-size: 12px;
+    vertical-align: baseline;
+    font-family: monospace;
+    font-weight: normal;
+    padding-left: 5px;
+  }
+
   ol {
     list-style: none;
     padding: 80px 0;
@@ -20,6 +34,7 @@ $entry-middle: $entry-height / 2;
 
   li {
     position: relative;
+    margin-bottom: 60px;
 
     &:hover {
       transition: 0.3s ease;
@@ -72,6 +87,10 @@ $entry-middle: $entry-height / 2;
 
 // one
 
+.post {
+  padding: 0 15%;
+}
+
 .post-content {
   font-family: $serif-text;
 
@@ -81,7 +100,7 @@ $entry-middle: $entry-height / 2;
 
   h1 {
     font-family: $serif;
-    font-size: 56px;
+    font-size: 72px;
     margin-bottom: 42px;
     font-weight: 400;
     line-height: 1.05;
