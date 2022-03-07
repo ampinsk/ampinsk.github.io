@@ -24,6 +24,12 @@ permalink: reading
         {% if item.pic_img %}
           <img class="pic-img book-scroll" src="{{ item.pic_img }}" alt="Picture {{ item.place }}"/>
         {% endif %}
+        {% if item.video %}
+          <video width="330" height="440" class="pic-img" autoplay>
+            <source src="{{ item.video }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% endif %}
       </span>
 
       <span class="info">
