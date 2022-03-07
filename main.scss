@@ -26,6 +26,7 @@ body {
   width: 86%;
   margin: 0 auto;
   max-width: 1300px;
+  padding: 80px 0;
 }
 
 a {
@@ -57,6 +58,10 @@ h1, h2, h3, h4, h5, h6, p {
       transform: translateX(-5px);
       transition: $timing;
     }
+  }
+  
+  @include mq($tablet) {
+    margin-left: -22px;
   }
 }
 
@@ -185,8 +190,7 @@ strike::selection {
     color: $background;
   }
 
-  .home a,
-  .case-study a {
+  a {
     color: $background;
   }
 

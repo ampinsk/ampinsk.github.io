@@ -3,9 +3,16 @@ title: Amanda Pinsker | Writing
 layout: base
 permalink: writing
 ---
-<section class="writing-listing">
-  <h1 class="w-h1">writings</h1>
+<section class="site-container writing-listing">
+  <h1>Writings</h1>
   <ol>
-    <li><a href="1.html">1</a></li>
+    {% for item in site.data.writing %}
+      <li>
+        <a href="{{ item.url }}">
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
+        </a>
+      </li>
+    {% endfor %}
   </ol>
 </section>
