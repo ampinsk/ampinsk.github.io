@@ -40,10 +40,10 @@
     @include mq($tablet) {
 
       &.about {
-        width: 45%;
+        width: 48%;
       }
       &.work {
-        width: 48%
+        width: 47%
       }
     }
   }
@@ -62,11 +62,32 @@ hr.accent {
   margin: 60px 0;
 }
 
-.writing-link {
-  text-transform: uppercase;
-  font-size: $f4;
-  letter-spacing: 1px;
-  font-weight: 300 !important;
+.writing-preview {
+  padding-top: 80px;
+  font-size: 22px;
+
+  .post-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .post-link {
+    font-weight: normal;
+    width: 48%;
+  }
+
+  .back {
+    font-family: $serif;
+    margin: 0;
+    padding-top: 24px;
+    display: inline-block;
+
+    &:hover span {
+      transform: translateX(5px);
+    }
+  }
 }
 
 .note span  {

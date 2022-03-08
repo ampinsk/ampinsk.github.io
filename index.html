@@ -24,13 +24,19 @@ layout: base
           </a>
           {% endif %}
         {% endfor %}
-        <h2 style="padding-top:40px">Recent writing</h2>
-        {% for item in site.data.writing %}
-          <a class="project" href="/writing/{{ item.url }}">
-            <b>{{ item.title }}</b>—{{ item.description }}
-          </a>
-        {% endfor %}
-        <a class="writing-link" href="/writing">Read the rest →</a>
+        
+        <div class="writing-preview">
+          <h2>Recent writing</h2>
+            <div class="post-container">
+              {% for item in site.data.writing %}
+                <a class="post-link" href="/writing/{{ item.url }}">
+                  <b>{{ item.title }}</b>
+                  <div>{{ item.description }}</div>
+                </a>
+              {% endfor %}
+            </div>
+          <a class="back" href="/writing">Read the rest <span>→</span></a>
+        </div>
 
       </div>
       <div class="about column">
