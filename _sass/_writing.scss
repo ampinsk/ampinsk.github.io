@@ -1,91 +1,122 @@
 // Writing landing page
 
-$entry-size: 32px;
+$entry-size: 36px;
 $entry-height: $entry-size * 2 * 1.55;
 $entry-middle: $entry-height / 2;
 
-.writing-listing {
-  font-family: $serif;
-  padding: 80px 0;
-  font-size: $entry-size;
 
-  h1 {
-    font-size: $entry-size;
+// Writing landing
+
+.site-container.writing {
+  width: 70%;
+}
+
+.writing {
+  font-family: $serif;
+  font-size: $entry-size;
+  display: flex;
+  justify-content: space-between;
+
+  .head {
+    margin-top: 48px;
   }
 
-   h5,p {
-    display: inline-block;
-    font-size: $entry-size;
+  .head a {
+    font-family: $serif-text;
+    font-size: 18px;
+    margin-left: -26px;
+  }
 
+  .posts {
+    margin-top: 142px;
+  }
+
+  h1 {
+    font-size: 180px;
+    font-weight: normal;
+    line-height: .8;
+  }
+
+  h4 {
+    font-weight: normal;
+  }
+
+  p {
+    font-family: $serif-text;
+    font-size: 18px;
+    padding-top: 16px;
   }
 
   h5 {
-    font-size: 12px;
+    font-size: 14px;
     vertical-align: baseline;
-    font-family: monospace;
+    font-family: $serif-text;
     font-weight: normal;
-    padding-left: 5px;
+    padding-top: 8px;
   }
 
-  ol {
-    list-style: none;
-    padding: 80px 0;
-  }
-
-  li {
+  article {
+    display: inline-block;
     position: relative;
-    margin-bottom: 60px;
-
-    &:hover {
-      transition: 0.3s ease;
-      text-decoration: none;
-    }
-
-    &:hover a {
-      color: $background;
-
-      @media (prefers-color-scheme: dark) {
-        color: $foreground !important;
-      }
-    }
-
-    &:after {
-      width: 104%;
-      content: "";
-      height: 0;
-      background-color: $foreground;
-      position: absolute;
-      top: $entry-middle;
-      left: -2%;
-      z-index: -1;
-      transition: 0.2s ease;
-
-      @media (prefers-color-scheme: dark) {
-        background-color: $background !important;
-      }
-    }
-
-    &:hover:after {
-      height: $entry-height;
-      top: -5px;
-      transition: 0.2s ease;
-    }
+    margin-bottom: 72px;
+    width: 400px;
 
     a {
       text-decoration: none;
+    }
 
-      @media (prefers-color-scheme: dark) {
-        color: $background !important;
-      }
+    &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      top: -8px;
+      transition: 1s ease width;
+    }
+
+    &:before {
+      background: $white;
     }
   }
 
-  @media (prefers-color-scheme: dark) {
-    color: $background;
+  .column {
+    width: 100%;
+
+    @include mq($tablet) {
+      width: 40%;
+    }
   }
 }
 
-// one
+body.writing-bg {
+  background: #DEB082;
+  color: #121783;
+
+  a {
+    color: #121783;
+  }
+
+  article:hover:before {
+    background: #121783;
+  }
+
+  article:hover:before {
+    width: 20%;
+    transition: 3s ease width;
+  }
+
+  article:before {
+    background: #121783;
+  }
+
+
+}
+
+
+
+
+
+// Posts
 
 .post {
   padding: 0 15%;

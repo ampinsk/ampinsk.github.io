@@ -59,10 +59,15 @@ h1, h2, h3, h4, h5, h6, p {
       transition: $timing;
     }
   }
-  
+
   @include mq($tablet) {
     margin-left: -22px;
   }
+}
+
+.disabled {
+  opacity: 50%;
+  pointer-events: none;
 }
 
 .third {
