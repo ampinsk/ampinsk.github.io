@@ -187,17 +187,21 @@ a.project {
 
 // HOVER STYLES
 
-$mauve: #C6A1C7;
-$new-gray: #252021;
-$green: #40AB85;
-$purple: #6B4DE4;
-$new-beige: #F3E5CF;
+$maroon: #BF5F74;
+$plum: #4C1C7B;
+$yellow: #EECB15;
+$graydient: linear-gradient(180deg, #000000 0%, #363636 100%);
+$purpdient: radial-gradient(117.73% 117.73% at 50% 50%, #7E4DE4 0%, #AE8AFA 100%);
+$tan: #F6CB9F;
+$green: #4B8261;
+
+
 
 body.kleo {
   $foreground: $white;
   $accent: $black;
 
-  background: $purple;
+  background: $purpdient;
   color: $foreground;
 
   a {
@@ -223,7 +227,7 @@ body.cli {
   $foreground: lime;
   $accent: white;
 
-  background: black;
+  background: $graydient;
   color: $foreground;
 
   a {
@@ -246,10 +250,10 @@ body.cli {
 }
 
 body.desktop {
-  $foreground: $black;
-  $accent: yellow;
+  $foreground: $plum;
+  $accent: $yellow;
 
-  background: $mauve;
+  background: $maroon;
   color: $foreground;
 
   a {
@@ -272,11 +276,11 @@ body.desktop {
 }
 
 body.baudelaire {
-  $foreground: $black;
-  $accent: $white;
+  $foreground: $green;
+  $accent: $black;
 
   color: $foreground;
-  background: $green;
+  background: $tan;
 
   a {
     color: $foreground;
@@ -298,7 +302,7 @@ body.baudelaire {
 }
 
 body.read {
-  background: $new-beige;
+  background: $beige;
   box-shadow: inset 0px 0px 0px 20px $black;
   color: $foreground;
 
