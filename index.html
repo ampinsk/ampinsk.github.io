@@ -29,7 +29,11 @@ layout: base
           <h2>Recent writing</h2>
             <div class="post-container">
               {% for item in site.data.writing %}
-                <a class="post-link" href="/writing/{{ item.url }}">
+                <a
+                  class="post-link
+                  {% if item.published == false %} disabled {% endif %}" 
+                  href="/writing/{{ item.url }}"
+                >
                   <b>{{ item.title }}</b>
                   <div>{{ item.description }}</div>
                 </a>

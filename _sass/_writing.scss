@@ -4,9 +4,15 @@ $entry-size: 36px;
 $entry-height: $entry-size * 2 * 1.55;
 $entry-middle: $entry-height / 2;
 
+
+// Writing landing
+
+.site-container.writing {
+  width: 70%;
+}
+
 .writing {
   font-family: $serif;
-  padding: 80px 0;
   font-size: $entry-size;
   display: flex;
   justify-content: space-between;
@@ -21,8 +27,12 @@ $entry-middle: $entry-height / 2;
     margin-left: -26px;
   }
 
+  .posts {
+    margin-top: 142px;
+  }
+
   h1 {
-    font-size: 200px;
+    font-size: 180px;
     font-weight: normal;
     line-height: .8;
   }
@@ -45,63 +55,28 @@ $entry-middle: $entry-height / 2;
     padding-top: 8px;
   }
 
-  .disabled {
-    opacity: 50%;
-    pointer-events: none;
-  }
-
   article {
     display: inline-block;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 72px;
     width: 400px;
-
-    &:hover {
-      transition: 0.3s ease;
-      text-decoration: none;
-    }
-
-    &:hover a {
-      color: $background;
-
-      @media (prefers-color-scheme: dark) {
-        color: $foreground !important;
-      }
-    }
-
-    &:after {
-      width: 104%;
-      content: "";
-      height: 0;
-      background-color: $foreground;
-      position: absolute;
-      top: $entry-middle;
-      left: -2%;
-      z-index: -1;
-      transition: 0.2s ease;
-
-      @media (prefers-color-scheme: dark) {
-        background-color: $background !important;
-      }
-    }
-
-    &:hover:after {
-      height: $entry-height;
-      top: -5px;
-      transition: 0.2s ease;
-    }
 
     a {
       text-decoration: none;
-
-      @media (prefers-color-scheme: dark) {
-        color: $background !important;
-      }
     }
-  }
 
-  @media (prefers-color-scheme: dark) {
-    color: $background;
+    &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      top: -8px;
+      transition: 1s ease width;
+    }
+
+    &:before {
+      background: $white;
+    }
   }
 
   .column {
@@ -111,13 +86,37 @@ $entry-middle: $entry-height / 2;
       width: 40%;
     }
   }
-
-  .posts {
-    margin-top: 142px;
-  }
 }
 
-// one
+body.writing-bg {
+  background: #DEB082;
+  color: #121783;
+
+  a {
+    color: #121783;
+  }
+
+  article:hover:before {
+    background: #121783;
+  }
+
+  article:hover:before {
+    width: 20%;
+    transition: 3s ease width;
+  }
+
+  article:before {
+    background: #121783;
+  }
+
+
+}
+
+
+
+
+
+// Posts
 
 .post {
   padding: 0 15%;

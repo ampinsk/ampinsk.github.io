@@ -16,6 +16,7 @@ permalink: writing
         {% if item.published == false %}
           disabled
         {% endif %}"
+        onmouseover="addClass(body, 'writing-bg');" onmouseout="removeClass(body, 'writing-bg');"
       >
         <a href="{{ item.url }}">
           <h4>{{ item.title }}</h4>
