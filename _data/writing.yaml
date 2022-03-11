@@ -1,8 +1,8 @@
 - title: Some advice on reading
   description: I end up giving this same spiel about writing a lot, so I figured I’d write it down.
   url: reading-advice.html
-  date: 4-1-2022
-- title: Sample post
-  description: Description about what I'm saying
-  url: reading-advice.html
-  date: 5-22-2022
+  date: 4 / 1 / 2022
+  published: true
+- title: Coming soon
+  description: I mean, I don’t have anything else written yet, but hopefully this embarrases me into writing more.
+  published: false

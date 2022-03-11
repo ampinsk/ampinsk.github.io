@@ -1,40 +1,60 @@
 // Writing landing page
 
-$entry-size: 32px;
+$entry-size: 36px;
 $entry-height: $entry-size * 2 * 1.55;
 $entry-middle: $entry-height / 2;
 
-.writing-listing {
+.writing {
   font-family: $serif;
   padding: 80px 0;
   font-size: $entry-size;
+  display: flex;
+  justify-content: space-between;
 
-  h1 {
-    font-size: $entry-size;
+  .head {
+    margin-top: 48px;
   }
 
-   h5,p {
-    display: inline-block;
-    font-size: $entry-size;
+  .head a {
+    font-family: $serif-text;
+    font-size: 18px;
+    margin-left: -26px;
+  }
 
+  h1 {
+    font-size: 200px;
+    font-weight: normal;
+    line-height: .8;
+  }
+
+  h4 {
+    font-weight: normal;
+  }
+
+  p {
+    font-family: $serif-text;
+    font-size: 18px;
+    padding-top: 16px;
   }
 
   h5 {
-    font-size: 12px;
+    font-size: 14px;
     vertical-align: baseline;
-    font-family: monospace;
+    font-family: $serif-text;
     font-weight: normal;
-    padding-left: 5px;
+    padding-top: 8px;
   }
 
-  ol {
-    list-style: none;
-    padding: 80px 0;
+  .disabled {
+    opacity: 50%;
+    pointer-events: none;
   }
 
-  li {
+  article {
+    display: inline-block;
     position: relative;
     margin-bottom: 60px;
+    width: 400px;
 
     &:hover {
       transition: 0.3s ease;
@@ -82,6 +102,18 @@ $entry-middle: $entry-height / 2;
 
   @media (prefers-color-scheme: dark) {
     color: $background;
+  }
+
+  .column {
+    width: 100%;
+
+    @include mq($tablet) {
+      width: 40%;
+    }
+  }
+
+  .posts {
+    margin-top: 142px;
   }
 }
 
