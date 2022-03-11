@@ -8,7 +8,11 @@ $entry-middle: $entry-height / 2;
 // Writing landing
 
 .site-container.writing {
-  width: 70%;
+  width: 80%;
+
+  @include mq($desktop) {
+    width: 70%;
+  }
 }
 
 .writing {
@@ -16,6 +20,11 @@ $entry-middle: $entry-height / 2;
   font-size: $entry-size;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  @include mq($tablet) {
+    flex-direction: row;
+  }
 
   .head {
     margin-top: 48px;
@@ -32,9 +41,10 @@ $entry-middle: $entry-height / 2;
   }
 
   h1 {
-    font-size: 180px;
+    font-size: 160px;
     font-weight: normal;
     line-height: .8;
+    padding-right: 24px;
   }
 
   h4 {
@@ -59,7 +69,7 @@ $entry-middle: $entry-height / 2;
     display: inline-block;
     position: relative;
     margin-bottom: 72px;
-    width: 400px;
+    max-width: 400px;
 
     a {
       text-decoration: none;
@@ -75,7 +85,11 @@ $entry-middle: $entry-height / 2;
     }
 
     &:before {
-      background: $white;
+      background: $black;
+
+      @media (prefers-color-scheme: dark) {
+        background: $white;
+      }
     }
   }
 
@@ -89,15 +103,18 @@ $entry-middle: $entry-height / 2;
 }
 
 body.writing-bg {
-  background: #DEB082;
-  color: #121783;
+  $tan:#DEB082;
+  $navy: #121783;
+
+  background: $tan;
+  color: $navy;
 
   a {
-    color: #121783;
+    color: $navy;
   }
 
   article:hover:before {
-    background: #121783;
+    background: $navy;
   }
 
   article:hover:before {
@@ -106,7 +123,7 @@ body.writing-bg {
   }
 
   article:before {
-    background: #121783;
+    background: $navy;
   }
 
 
