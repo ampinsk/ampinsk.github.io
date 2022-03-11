@@ -220,10 +220,10 @@ body.kleo {
 }
 
 body.cli {
-  $foreground: white;
-  $accent: lime;
+  $foreground: lime;
+  $accent: white;
 
-  background: $new-gray;
+  background: black;
   color: $foreground;
 
   a {
@@ -232,7 +232,7 @@ body.cli {
 
   .project {
     &:hover:after {
-      border: 1px solid $foreground;
+      border: 1px solid $accent;
     }
   }
 
