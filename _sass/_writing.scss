@@ -41,10 +41,14 @@ $entry-middle: $entry-height / 2;
   }
 
   h1 {
-    font-size: 160px;
+    font-size: 100px;
     font-weight: normal;
     line-height: .8;
     padding-right: 24px;
+
+    @include mq($tablet) {
+      font-size: 160px;
+    }
   }
 
   h4 {
@@ -155,9 +159,13 @@ body.writing-bg {
 
   h1 {
     font-family: $serif;
-    font-size: 72px;
+    font-size: 52px;
     font-weight: 400;
     line-height: 1.05;
+
+    @include mq($tablet) {
+      font-size: 72px;
+    }
   }
 
   h2 {
