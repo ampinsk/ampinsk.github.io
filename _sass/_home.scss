@@ -188,10 +188,10 @@ a.project {
 // HOVER STYLES
 
 $maroon: #BF5F74;
-$plum: #4C1C7B;
+$plum: #46045D;
 $yellow: #EECB15;
-$graydient: linear-gradient(180deg, #000000 0%, #363636 100%);
-$purpdient: radial-gradient(117.73% 117.73% at 50% 50%, #7E4DE4 0%, #AE8AFA 100%);
+$true-black: #000000;
+$purple: #5700F3;
 $tan: #F6CB9F;
 $green: #4B8261;
 
@@ -201,7 +201,7 @@ body.kleo {
   $foreground: $white;
   $accent: $black;
 
-  background: $purpdient;
+  background: $purple;
   color: $foreground;
 
   a {
@@ -227,7 +227,7 @@ body.cli {
   $foreground: lime;
   $accent: white;
 
-  background: $graydient;
+  background: $true-black;
   color: $foreground;
 
   a {
