@@ -1,0 +1,131 @@
+// HOVER STYLES
+
+$maroon: #BF5F74;
+$plum: #46045D;
+$yellow: #EECB15;
+$true-black: #000000;
+$purple: #5700F3;
+$tan: #F6CB9F;
+$green: #4B8261;
+
+
+
+body.kleo {
+  $foreground: $white;
+  $accent: $black;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
+  }
+}
+
+body.cli {
+  $foreground: lime;
+  $accent: white;
+
+  background: $true-black;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $accent;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
+  }
+}
+
+body.desktop {
+  $foreground: $tan;
+  $accent: $plum;
+
+  background: $maroon;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
+  }
+}
+
+body.baudelaire {
+  $foreground: $green;
+  $accent: $black;
+
+  color: $foreground;
+  background: $tan;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $accent;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
+  }
+}
+
+body.read {
+  background: $beige;
+  box-shadow: inset 0px 0px 0px 20px $black;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $beige-gray;
+    }
+  }
+}

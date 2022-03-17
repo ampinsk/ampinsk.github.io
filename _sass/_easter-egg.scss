@@ -1,0 +1,71 @@
+// Easter Egg Styles
+
+body.easter-egg {
+  color: $foreground;
+  background: $background;
+  animation: easter-egg 60s infinite;
+
+  .accent, hr.accent {
+    animation: easter-egg-accent 60s infinite;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .project:hover:after {
+    border: 1px solid $white;
+
+    @media (prefers-color-scheme: dark) {
+      border: 1px solid $black;
+    }
+  }
+
+  .note span  {
+    box-shadow: inset 0px 0px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px 0px 0px 0px $black;
+    }
+  }
+
+  .footnote-accent span {
+    box-shadow: inset 0px -25px 0px 0px $white;
+
+    @media (prefers-color-scheme: dark) {
+      box-shadow: inset 0px -25px 0px 0px $black;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: $foreground;
+    color: $background;
+  }
+}
+
+
+
+// 🌈
+
+.hint {
+  cursor: help;
+}
+
+$color1: #ffbe0bff;
+$color2: #fb5607ff;
+$color3: #ff006eff;
+$color4: #8338ecff;
+$color5: #3a86ffff;
+
+@keyframes easter-egg {
+  10%  {background-color: $color1;}
+  30%  {background-color: $color2;}
+  50%  {background-color: $color3;}
+  70%  {background-color: $color4;}
+  90%  {background-color: $color5;}
+}
+
+@keyframes easter-egg-accent {
+  2%   {color: $white; border-color: $white;}
+  98%  {color: $white; border-color: $white;}
+}
