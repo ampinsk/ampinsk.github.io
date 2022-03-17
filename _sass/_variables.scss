@@ -12,6 +12,22 @@ $beige-gray: #888073;
 $spacing-med: 30px;
 $spacing-lg: 40px;
 
+$spacer-0: 0;
+$spacer-1: 4px;
+$spacer-2: 8px;
+$spacer-3: 16px;
+$spacer-4: 24px;
+$spacer-5: 32px;
+$spacer-6: 40px;
+$spacer-7: 48px;
+$spacer-8: 64px;
+$spacer-9: 80px;
+$spacer-10:	96px;
+$spacer-11: 112px;
+$spacer-12: 128px;
+
+
+
 // Breakpoints
 $desktop: 1150px;
 $tablet: 850px;
@@ -41,12 +57,34 @@ $timing-cubic: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 $timing-slow: 0.5s ease;
 
 // Type scale
-$f1: 40px;
-$f2: 34px;
-$f3: 24px;
-$f4: 18px;
-$f5: 14px;
-$f6: 12px;
+$f00: 160px;
+$f0: 86px;
+$f1: 72px;
+$f2: 48px;
+$f3: 36px;
+$f4: 24px;
+$f5: 20px;
+$f6: 16px;
+$f7: 12px;
+
+// 12px
+// 14px
+// 16px
+// 18px
+// 20px
+// 22px
+// 24px
+// 25px
+// 32px
+// 36px
+// 40px
+// 45px
+// 48px
+// 52px
+// 72px
+// 86px
+// 100px
+// 160px
 
 .optically-smaller {
   font-size: 80%;
@@ -59,6 +97,6 @@ $background: $white;
 $foreground: $black;
 $primary-font: $serif;
 $secondary-font: $sans-text;
-$primary-font-size: $f2;
+$primary-font-size: $f3;
 $secondary-font-size: $f5;
 $highlight: $red;
