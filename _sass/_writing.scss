@@ -108,7 +108,7 @@ $entry-middle: $entry-height / 2;
 
     @include mq($tablet) {
       width: 40%;
-      min-width: 360px;
+      min-width: 350px;
     }
   }
 }

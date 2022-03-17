@@ -5,8 +5,12 @@
 
 
 .home {
-  font-size: $primary-font-size;
+  font-size: 24px;
   line-height: 1.2;
+
+  @include mq($tablet) {
+    font-size: $primary-font-size;
+  }
 
   .flex {
     display: flex;
@@ -105,7 +109,7 @@ hr.accent {
 
 
 .external-link {
-  font-size: $f2;
+  font-size: inherit;
   vertical-align: baseline;
 }
 
