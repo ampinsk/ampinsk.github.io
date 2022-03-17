@@ -8,10 +8,11 @@ $entry-middle: $entry-height / 2;
 // Writing landing
 
 .site-container.writing {
-  width: 80%;
+  width: 90%;
 
   @include mq($desktop) {
     width: 70%;
+    max-width: 870px;
   }
 }
 
@@ -33,7 +34,12 @@ $entry-middle: $entry-height / 2;
   .head a {
     font-family: $serif-text;
     font-size: 18px;
-    margin-left: -26px;
+  }
+
+  .back {
+    @include mq($tablet) {
+      margin-left: -26px;
+    }
   }
 
   .posts {
@@ -102,6 +108,7 @@ $entry-middle: $entry-height / 2;
 
     @include mq($tablet) {
       width: 40%;
+      min-width: 360px;
     }
   }
 }
