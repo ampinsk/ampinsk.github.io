@@ -1,5 +1,5 @@
 ---
-title: Amanda Pinsker \| Writing \| The Center for Grown-Ups Who Don’t Read Good
+title: Amanda Pinsker | Writing | The Center for Grown-Ups Who Don’t Read Good
 description: A collection of advice I frequently give about reading
 layout: post
 ---

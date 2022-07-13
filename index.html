@@ -2,6 +2,7 @@
 title: Amanda Pinsker | Designer
 name: home
 layout: base
+image: "/img/og-img.png"
 ---
 
 <div class="bg"></div>
@@ -31,7 +32,7 @@ layout: base
               {% for item in site.data.writing %}
                 <a
                   class="post-link
-                  {% if item.published == false %} disabled {% endif %}" 
+                  {% if item.published == false %} disabled {% endif %}"
                   href="/writing/{{ item.url }}"
                 >
                   <b>{{ item.title }}</b>
