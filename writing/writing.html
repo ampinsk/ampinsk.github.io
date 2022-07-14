@@ -1,0 +1,29 @@
+---
+title: Amanda Pinsker | Writing
+layout: base
+permalink: writing
+---
+<section class="site-container writing">
+  <div class="head">
+    <a href="/" class="back">
+      <span>←</span> Amanda Pinsker
+    </a>
+    <h1>Writing</h1>
+  </div>
+  <section class="posts column">
+    {% for item in site.data.writing %}
+      <article class="
+        {% if item.published == false %}
+          disabled
+        {% endif %}"
+        onmouseover="addClass(body, 'writing-bg');" onmouseout="removeClass(body, 'writing-bg');"
+      >
+        <a href="/writing/{{ item.url }}">
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
+          <h5>{{ item.date }}</h5>
+        </a>
+      </article>
+    {% endfor %}
+  </section>
+</section>

@@ -5,8 +5,12 @@
 
 
 .home {
-  font-size: $primary-font-size;
+  font-size: 24px;
   line-height: 1.2;
+
+  @include mq($tablet) {
+    font-size: $primary-font-size;
+  }
 
   .flex {
     display: flex;
@@ -64,7 +68,7 @@ hr.accent {
 
 .writing-preview {
   padding-top: 80px;
-  font-size: 22px;
+  font-size: 20px;
 
   .post-container {
     display: flex;
@@ -79,9 +83,8 @@ hr.accent {
   }
 
   .back {
-    font-family: $serif;
     margin: 0;
-    padding-top: 24px;
+    padding: 24px 0 80px;
     display: inline-block;
 
     &:hover span {
@@ -106,7 +109,7 @@ hr.accent {
 
 
 .external-link {
-  font-size: $f2;
+  font-size: inherit;
   vertical-align: baseline;
 }
 
@@ -123,6 +126,7 @@ a:hover {
 .superscript {
   vertical-align: super;
   font-size: 20px;
+  line-height: 0;
 
   @include mq($tablet) {
     font-size: $f3;
@@ -133,14 +137,13 @@ a:hover {
   font-family: $serif-text;
   margin: 0;
   line-height: 1.4;
-  font-size: $f4;
+  font-size: $f5;
   padding-top: 24px;
   border-top: 1px solid $foreground;
 
   @include mq($tablet) {
     margin-left: -23px;
     width: 310px;
-    font-size: $f5;
     border: none;
     padding-left: 5px;
   }
@@ -182,133 +185,5 @@ a.project {
     height: 102%;
     top: -12%;
     transition: $timing;
-  }
-}
-
-// HOVER STYLES
-
-$mauve: #C6A1C7;
-$new-gray: #252021;
-$green: #40AB85;
-$purple: #6B4DE4;
-$new-beige: #F3E5CF;
-
-body.kleo {
-  $foreground: $white;
-  $accent: $black;
-
-  background: $purple;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-
-  hr.accent {
-    border-color: $accent;
-  }
-}
-
-body.cli {
-  $foreground: lime;
-  $accent: white;
-
-  background: black;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $accent;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-
-  hr.accent {
-    border-color: $accent;
-  }
-}
-
-body.desktop {
-  $foreground: $black;
-  $accent: yellow;
-
-  background: $mauve;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-
-  hr.accent {
-    border-color: $accent;
-  }
-}
-
-body.baudelaire {
-  $foreground: $black;
-  $accent: $white;
-
-  color: $foreground;
-  background: $green;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $accent;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-
-  hr.accent {
-    border-color: $accent;
-  }
-}
-
-body.read {
-  background: $new-beige;
-  box-shadow: inset 0px 0px 0px 20px $black;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $beige-gray;
-    }
   }
 }

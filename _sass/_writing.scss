@@ -1,122 +1,207 @@
 // Writing landing page
 
-$entry-size: 32px;
+$entry-size: 36px;
 $entry-height: $entry-size * 2 * 1.55;
 $entry-middle: $entry-height / 2;
 
-.writing-listing {
-  font-family: $serif;
-  padding: 80px 0;
-  font-size: $entry-size;
 
-  h1 {
-    font-size: $entry-size;
-  }
+// Writing landing
 
-   h5,p {
-    display: inline-block;
-    font-size: $entry-size;
+.site-container.writing {
+  width: 90%;
 
-  }
-
-  h5 {
-    font-size: 12px;
-    vertical-align: baseline;
-    font-family: monospace;
-    font-weight: normal;
-    padding-left: 5px;
-  }
-
-  ol {
-    list-style: none;
-    padding: 80px 0;
-  }
-
-  li {
-    position: relative;
-    margin-bottom: 60px;
-
-    &:hover {
-      transition: 0.3s ease;
-      text-decoration: none;
-    }
-
-    &:hover a {
-      color: $background;
-
-      @media (prefers-color-scheme: dark) {
-        color: $foreground !important;
-      }
-    }
-
-    &:after {
-      width: 104%;
-      content: "";
-      height: 0;
-      background-color: $foreground;
-      position: absolute;
-      top: $entry-middle;
-      left: -2%;
-      z-index: -1;
-      transition: 0.2s ease;
-
-      @media (prefers-color-scheme: dark) {
-        background-color: $background !important;
-      }
-    }
-
-    &:hover:after {
-      height: $entry-height;
-      top: -5px;
-      transition: 0.2s ease;
-    }
-
-    a {
-      text-decoration: none;
-
-      @media (prefers-color-scheme: dark) {
-        color: $background !important;
-      }
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    color: $background;
+  @include mq($desktop) {
+    width: 70%;
+    max-width: 870px;
   }
 }
 
-// one
+.writing {
+  font-family: $serif;
+  font-size: $entry-size;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
-.post {
-  padding: 0 15%;
+  @include mq($tablet) {
+    flex-direction: row;
+  }
+
+  .head {
+    margin-top: 48px;
+  }
+
+  .head a {
+    font-family: $serif-text;
+    font-size: 18px;
+  }
+
+  .back {
+    @include mq($tablet) {
+      margin-left: -26px;
+    }
+  }
+
+  .posts {
+    margin-top: 142px;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: normal;
+    line-height: .8;
+    padding-right: 24px;
+
+    @include mq($tablet) {
+      font-size: 160px;
+    }
+  }
+
+  h4 {
+    font-weight: normal;
+  }
+
+  p {
+    font-family: $serif-text;
+    font-size: 18px;
+    padding-top: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+    vertical-align: baseline;
+    font-family: $serif-text;
+    font-weight: normal;
+    padding-top: 8px;
+  }
+
+  article {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 72px;
+    max-width: 400px;
+
+    a {
+      text-decoration: none;
+    }
+
+    &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      top: -8px;
+      transition: 1s ease width;
+    }
+
+    &:before {
+      background: $black;
+
+      @media (prefers-color-scheme: dark) {
+        background: $white;
+      }
+    }
+  }
+
+  .column {
+    width: 100%;
+
+    @include mq($tablet) {
+      width: 40%;
+      min-width: 350px;
+    }
+  }
+}
+
+body.writing-bg {
+  $tan:#DEB082;
+  $navy: #121783;
+
+  background: $tan;
+  color: $navy;
+
+  a {
+    color: $navy;
+  }
+
+  article:hover:before {
+    background: $navy;
+  }
+
+  article:hover:before {
+    width: 20%;
+    transition: 3s ease width;
+  }
+
+  article:before {
+    background: $navy;
+  }
+
+
+}
+
+
+
+
+
+// Posts
+
+.post .site-container {
+  max-width: 580px;
 }
 
 .post-content {
   font-family: $serif-text;
 
   p {
-    margin: 25px 0;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  li {
+    font-size: 18px;
+    line-height: 1.4;
   }
 
   h1 {
     font-family: $serif;
-    font-size: 72px;
-    margin-bottom: 42px;
+    font-size: 52px;
     font-weight: 400;
     line-height: 1.05;
+
+    @include mq($tablet) {
+      font-size: 72px;
+    }
   }
 
   h2 {
     font-family: $serif;
-    font-size: 40px;
-    margin: 25px 0;
+    font-size: 36px;
+    margin-top: 36px;
     font-weight: 400;
+    line-height: 1.05;
   }
 
   h3 {
+    font-family: $serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 36px;
+  }
+
+  h4 {
     font-family: $serif-text;
+    font-weight: normal;
     font-size: 20px;
-    margin-top: 52px;
+    margin-top: 36px;
+  }
+
+  h5 {
+    font-family: $serif-text;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 36px;
   }
 
   h6 {
@@ -135,9 +220,51 @@ $entry-middle: $entry-height / 2;
 
   img {
     width: 100%;
+  }
 
-    @include mq($tablet) {
-      margin-top: 52px;
+  hr {
+    margin: 40px 0;
+    border-top: 1px solid $black;
+    border-bottom: none;
+
+    @media (prefers-color-scheme: dark) {
+      border-color: $white;
+    }
+  }
+
+  sup {
+    line-height: 0;
+  }
+
+  .footnote {
+    color: $red;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .footnotes {
+    margin: 20px 0 -32px;
+  }
+
+  .footnotes ol {
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .footnotes li, .footnotes p {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .reversefootnote  {
+    color: $red;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 

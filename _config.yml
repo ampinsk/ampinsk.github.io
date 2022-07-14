@@ -1,0 +1,18 @@
+kramdown:
+  footnote_backlink: '&#8617;&#65038;'
+
+plugins:
+  - jekyll-seo-tag
+
+
+
+
+title: Amanda Pinsker
+tagline: Independent Product & Experience Designer
+description: Portfolio and more of Amanda Pinsker, independent product & experience designer.
+Author: Amanda Pinsker
+image: "/img/og-img.png"
+lang: en_GB
+twitter:
+  username: ampinsk
+  card: summary

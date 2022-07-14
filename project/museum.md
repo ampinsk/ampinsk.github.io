@@ -3,6 +3,7 @@ title: Amanda Pinsker | Kleo
 tag: Kleo
 type: project
 layout: project
+image: "/img/og-img.png"
 ---
 
 

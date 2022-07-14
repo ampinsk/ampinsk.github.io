@@ -9,6 +9,8 @@
 @import "navigation";
 @import "home";
 @import "writing";
+@import "easter-egg";
+@import "hover";
 
 // General Styles
 
@@ -19,14 +21,18 @@ body {
   margin: 0;
   line-height: 1.3;
   transition: $timing;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .site-container {
-  width: 80%;
+  width: 88%;
   margin: 0 auto;
   max-width: 1300px;
   padding: 80px 0;
+
+  @include mq($tablet) {
+    width: 80%;
+  }
 }
 
 a {
@@ -59,10 +65,15 @@ h1, h2, h3, h4, h5, h6, p {
       transition: $timing;
     }
   }
-  
+
   @include mq($tablet) {
     margin-left: -22px;
   }
+}
+
+.disabled {
+  opacity: 50%;
+  pointer-events: none;
 }
 
 .third {
@@ -91,75 +102,6 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
-body.easter-egg {
-  color: $foreground;
-  background: $background;
-  animation: easter-egg 60s infinite;
-
-  .accent, hr.accent {
-    animation: easter-egg-accent 60s infinite;
-  }
-
-  a {
-    color: inherit;
-  }
-
-  .project:hover:after {
-    border: 1px solid $white;
-
-    @media (prefers-color-scheme: dark) {
-      border: 1px solid $black;
-    }
-  }
-
-  .note span  {
-    box-shadow: inset 0px 0px 0px 0px $white;
-
-    @media (prefers-color-scheme: dark) {
-      box-shadow: inset 0px 0px 0px 0px $black;
-    }
-  }
-
-  .footnote-accent span {
-    box-shadow: inset 0px -25px 0px 0px $white;
-
-    @media (prefers-color-scheme: dark) {
-      box-shadow: inset 0px -25px 0px 0px $black;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    background: $foreground;
-    color: $background;
-  }
-}
-
-
-
-// 🌈
-
-.hint {
-  cursor: help;
-}
-
-$color1: #ffbe0bff;
-$color2: #fb5607ff;
-$color3: #ff006eff;
-$color4: #8338ecff;
-$color5: #3a86ffff;
-
-@keyframes easter-egg {
-  10%  {background-color: $color1;}
-  30%  {background-color: $color2;}
-  50%  {background-color: $color3;}
-  70%  {background-color: $color4;}
-  90%  {background-color: $color5;}
-}
-
-@keyframes easter-egg-accent {
-  2%   {color: $white; border-color: $white;}
-  98%  {color: $white; border-color: $white;}
-}
 
 
 p::selection,
@@ -183,6 +125,12 @@ strike::selection {
     color: $foreground;
   }
 }
+
+
+
+// Dark Mode
+// ---------
+
 
 @media (prefers-color-scheme: dark) {
   body {

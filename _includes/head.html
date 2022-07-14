@@ -2,9 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
 <link rel="shortcut icon" href="/favicon.png" >
-<meta property="og:image" content="/img/og-img.png"/>
-<meta property="og:image:width" content="1200"/>
-<meta property="og:image:height" content="630"/>
 <link rel="stylesheet" type="text/css" href="/main.css">
 <link rel="stylesheet" href="https://use.typekit.net/nxa2uwt.css">
 <link rel="stylesheet" href="https://use.typekit.net/nie8tuv.css">
@@ -21,21 +18,4 @@
 {% if jekyll.environment == 'stage'%}
   <meta name="robots" content="noindex" />
 {% endif %}
-
-
-
-<!-- HTML Meta Tags -->
-<meta name="description" content="Independent product & experience designer. I like to rethink things through experimentation, compassion, and a sense of humor.">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="http://amandapinsker.com/">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/img/og-img.png">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="amandapinsker.com">
-<meta property="twitter:url" content="http://amandapinsker.com/">
-<meta name="twitter:image" content="/img/og-img.png">
-
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+{% seo %}

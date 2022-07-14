@@ -3,6 +3,7 @@ title: Amanda Pinsker | Baudelaire
 tag: Baudelaire
 type: project
 layout: project
+image: "/img/og-img.png"
 ---
 
 
