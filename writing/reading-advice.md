@@ -1,10 +1,10 @@
 ---
-title: The Center for Grown-Ups Who Don’t Read Good
+title: A Grown Up's Guide to Reading
 description: A collection of advice I frequently give about reading
 layout: post
 ---
 
-# The Center for Grown-Ups Who Don’t Read Good
+# A Grown Up's Guide to Reading
 ## A collection of advice I frequently give about reading
 
 ---
