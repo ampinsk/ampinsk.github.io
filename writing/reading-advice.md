@@ -9,7 +9,7 @@ layout: post
 
 ---
 
-I give these same pieces of advice over and over, so I figured I’d write it all down. I’ve had a really common reading experience as a lot of people. I was, as they say, a voracious reader as a kid. Then, somewhere along the way, I kind of just stopped. Maybe high school turned reading into homework, or maybe I was so busy in college that it became hard to keep up with. But either way, I found myself still holding onto this identity as “a reader” without having read a book, especially one outside of The Canon[^1], in years.
+I’ve had a really common reading experience as a lot of people. I was, as they say, a voracious reader as a kid. Then, somewhere along the way, I kind of just stopped. Maybe high school turned reading into homework, or maybe I was so busy in college that it became hard to keep up with. But either way, I found myself still holding onto this identity as “a reader” without having read a book, especially one outside of The Canon[^1], in years.
 
 I still probably don’t read as much as it might seem, but I’ve found a much happier, more productive[^2] relationship to reading and I think that all starts with my first reminder:
 
@@ -31,7 +31,9 @@ I am often in the middle of multiple books at a time. I’ll read one book when 
 
 
 ## Fiction is good for your soul
-I read a pretty even mix of fiction and nonfiction, but I’ve met a lot of other grown-ups who never read fiction and that makes me very sad. When I ask why they tend to say that fiction feels frivolous or that they should (note the “should”) be using that time to learn about something. Or sometimes they just say they prefer it. But let me give you my quick, very earnest, pitch about fiction if you need to hear it.
+I read a pretty even mix of fiction and nonfiction, but I’ve met a lot of other grown-ups who never read fiction and that makes me very sad. When I ask why they often say that fiction feels frivolous or that they should be using that time to learn about something.
+
+Allow me to give you my quick, very earnest, pitch about fiction if you need to hear it.
 
 Nonfiction might help you learn about a topic, but fiction helps you learn about life! The human condition! I dunno, your own soul! I learn so much more through fiction, and if that’s surprising to you, you need to expand your definition of learning. Stories put words to the mysterious, the things you thought couldn’t be made concrete, the felt but not seen. Stories pull water from the mist in the air.
 
@@ -46,11 +48,11 @@ This one you can take or leave, but I like to read with a pen. I feel like it he
 
 
 ## Independent bookstores have _great_ book recommendations
-I get asked sometimes where I find books to read. It can be hard to break out of The Canon if that’s what you’re used to. Independent bookstores are genuinely an amazing way to find new books. This is probably the second biggest thing that got me out of my reading rut.
+It can be hard to break out of The Canon if that’s what you’re used to, but independent bookstores are genuinely an amazing way to find new books. This is the second biggest thing that got me out of my reading rut.
 
-Walk into any independent bookstore where you live and there will probably be a Staff Picks shelf.[^5] Or a Bestsellers shelf. And probably plenty of other fun sections that speak to you. My favorite stores have little personally written notecards with their favorite books. Plus, there are really lovely people there whose whole job is to talk to you about books. The books you’ll find will be interesting, different, often contemporary books that weren’t written decades ago by a dead white guy. They will be books that speak to our lives today, and books that stretch your idea of what a good book can be. Maybe you’ll get exposed to short story collections[^6], poetry, or graphic novels.
+Walk into any independent bookstore where you live and there will probably be a Staff Picks shelf.[^5] Or a Bestsellers shelf. And probably plenty of other fun sections that speak to you. My favorite stores have personally written notecards with their favorite books. Plus, there are really lovely people there whose whole job is to talk to you about books. The books you’ll find will be interesting, different, often contemporary books that weren’t written decades ago by a dead white guy. They will be books that speak to our lives today, and books that stretch your idea of what a good book can be. Maybe you’ll get exposed to short story collections[^6], poetry, or graphic novels.
 
-If you don’t live near a bookstore (sadly), a lot of places will post recommendations on their site or in their email newsletters.
+If you don’t live near a bookstore, a lot of places will post recommendations on their site or in their email newsletters.
 
 If you live in NYC or SF (sorry I’m a coastal elitist), or you don’t live near an independent bookstore, here are some quick plugs of my favorites, and links to their online recommendations.
 
@@ -90,9 +92,9 @@ If there’s anything I hope you take away it's this. Read on a Kindle. Read phy
 
 ---
 
-[^1]: Books you might get assigned in a high school English class, for example
+[^1]: Books you might get assigned in a high school English class, for example.
 [^2]: Productive here defined simply as: I read more!
 [^3]: YA is still fun as an adult too.
 [^4]: I like to share my messy hardcopies with friends and have this romantic notion that it's as if they're reading the book along with me. My friends disagree and find my "lol"s very distracting.
 [^5]: If you’re lucky, the Staff Picks shelf will have the bookseller’s name, and if you like something on there, you can assume you might like their other recommendations.
-[^6]: I did, which mini tip: is also a great way to get out of a rut
+[^6]: I did, which mini tip: is also a great way to get out of a rut.
