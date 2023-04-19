@@ -8,6 +8,30 @@
 #   description: TODO
 #   highlights:
 #     - TODO
+- title: A Certain Hunger
+  url: a-certain-hunger
+  place: in Arizona
+  book_img: https://m.media-amazon.com/images/I/71+Pw-VbaoL._AC_UF1000,1000_QL80_.jpg
+  date: 5/21/2022
+  description: TODO
+  highlights:
+    - TODO
+- title: No One Is Talking About This
+  url: no-one-is-talking-about-this
+  place: in Utah
+  book_img: https://m.media-amazon.com/images/I/81lCOcgXfxL._AC_UF1000,1000_QL80_.jpg
+  date: 4/30/2022
+  description: TODO
+  highlights:
+    - TODO
+- title: The Artist's Way
+  url: the-artists-way
+  place: at home, during my sabbatical
+  book_img: https://m.media-amazon.com/images/I/81MHEbRag6L._AC_UF1000,1000_QL80_.jpg
+  date: 3/21/2022
+  description: TODO
+  highlights:
+    - TODO
 - title: Cultish
   url: cultish
   place: in Puglia, Italy
