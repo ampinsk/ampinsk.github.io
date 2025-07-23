@@ -11,6 +11,7 @@
 @import "writing";
 @import "easter-egg";
 @import "hover";
+@import "art";
 
 // General Styles
 
@@ -45,6 +46,12 @@ a {
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+  font-weight: normal;
+}
+
+
+img {
+  width: 100%;
 }
 
 .back {

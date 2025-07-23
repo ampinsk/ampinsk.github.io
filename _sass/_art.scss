@@ -1,0 +1,66 @@
+.art {
+
+	p, h5 {
+		font-family: $serif-text;
+	}
+
+	p {
+		margin-bottom: 16px;
+	}
+
+	h1 {
+		font-size: 52px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	h4 {
+		font-size: 22px;
+	}
+
+	section {
+		margin: 100px 0;
+		padding-bottom: 100px;
+		border-bottom: 1px solid $gray;
+	}
+
+	a {
+		color: $black;
+		text-decoration: underline;
+		font-family: $serif-text;
+	}
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		margin: 36px 0;
+	}
+	.piece {
+		display: inline-block;
+		max-width: 23%;
+	}
+
+	.music-piece {
+		display: inline-block;
+		max-width: 24%;
+		margin-right: 16px;
+	}
+
+	.writing-piece {
+
+		h4 {
+			font-size: 24px;
+			margin-bottom: 16px;
+		}
+
+		display: inline-block;
+		max-width: 40%;
+	}
+}
