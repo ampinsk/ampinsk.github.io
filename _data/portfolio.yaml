@@ -1,3 +1,9 @@
+- title: Retool Agents
+  description: A platform to build your own agents with your own data
+  url: http://retool.com/agents
+  show: true
+  external: true
+  id: agents
 - title: GitHub Desktop
   description: Lowering the barrier of entry to git and software development
   url: http://desktop.github.com

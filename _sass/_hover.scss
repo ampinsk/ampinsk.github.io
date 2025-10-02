@@ -8,7 +8,31 @@ $purple: #5700F3;
 $tan: #F6CB9F;
 $green: #4B8261;
 
+body.agents {
+  $foreground: $true-black;
+  $accent: white;
 
+  background: $yellow;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $accent;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+
+  hr.accent {
+    border-color: $accent;
+  }
+}
 
 body.kleo {
   $foreground: $white;
