@@ -2,7 +2,7 @@ name: Deploy 11ty site to GitHub Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "migrate-to-11ty"]
   workflow_dispatch:
 
 permissions:
