@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }}</title>
+<title>{{ title }}</title>
 <link rel="shortcut icon" href="/favicon.png" >
 <link rel="stylesheet" type="text/css" href="/main.css">
 <link rel="stylesheet" href="https://use.typekit.net/nxa2uwt.css">
@@ -15,7 +15,10 @@
   ga('create', 'UA-68403581-1', 'auto');
   ga('send', 'pageview');
 </script>
-{% if jekyll.environment == 'stage'%}
-  <meta name="robots" content="noindex" />
-{% endif %}
-{% seo %}
+<!-- SEO meta tags - TODO: implement proper SEO plugin for 11ty -->
+<meta name="description" content="{{ description or site.description }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:image" content="{{ image or site.image }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.twitter.username }}">

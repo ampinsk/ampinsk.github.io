@@ -1,0 +1,33 @@
+{
+  "name": "ampinsk.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio site: home of my [past work](http://amandapinsker.com), a current [side project](http://amandapinsker.com/reading), and hopefully future ones.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:sass && npm run build:11ty",
+    "build:sass": "sass --load-path=_sass main.scss _site/main.css --style=compressed",
+    "build:11ty": "eleventy",
+    "start": "npm run build:sass && eleventy --serve",
+    "watch:sass": "sass --load-path=_sass main.scss _site/main.css --watch",
+    "dev": "npm run build:sass && eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampinsk/ampinsk.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ampinsk/ampinsk.github.io/issues"
+  },
+  "homepage": "https://github.com/ampinsk/ampinsk.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "js-yaml": "^4.1.1",
+    "liquidjs": "^10.24.0",
+    "sass": "^1.97.2"
+  }
+}
